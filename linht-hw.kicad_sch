@@ -1,0 +1,986 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "73efc1fc-21f6-4aef-9f73-508fe18fa32e")
+	(paper "A4")
+	(title_block
+		(title "LinHT - Linux-based SDR handheld transceiver")
+		(date "5 June 2025")
+		(rev "A")
+		(company "M17 Foundation")
+		(comment 1 "Author: Wojciech SP5WWP")
+	)
+	(lib_symbols)
+	(sheet
+		(at 114.3 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "058c0cc5-75b0-4494-8e78-217aac2f1bdc")
+		(property "Sheetname" "Keyboard"
+			(at 114.3 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keyboard.kicad_sch"
+			(at 114.3 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "KBD_PWM" input
+			(at 114.3 82.55 180)
+			(uuid "239a8a29-e3b0-440a-9454-3845c5c26fc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC_OUT" output
+			(at 114.3 88.9 180)
+			(uuid "3b9429f1-8be2-447b-9204-4262b533293d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KBD" bidirectional
+			(at 114.3 80.01 180)
+			(uuid "4d07a14a-0133-4926-a7e3-1eb992098f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "396f7379-aa29-4457-8ed7-53dec5fceba4")
+		(property "Sheetname" "RF"
+			(at 76.2 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf.kicad_sch"
+			(at 76.2 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2S_BB_DATA_IN" input
+			(at 76.2 46.99 180)
+			(uuid "86fa3b41-dd82-49f8-b319-a1c17b6508cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_BB_DATA_OUT" output
+			(at 76.2 49.53 180)
+			(uuid "71263233-a976-4dc0-a319-a152595013f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_CLK" output
+			(at 76.2 52.07 180)
+			(uuid "8e20ecd5-9bc6-4582-899b-33baba7b5327")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_WS" output
+			(at 76.2 54.61 180)
+			(uuid "5340a732-9147-406d-82ce-290ad30e972d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 87.63 63.5 270)
+			(uuid "3ff5f665-c7e3-4dbb-b738-42f9df428d1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 90.17 63.5 270)
+			(uuid "207e70cc-1360-4640-9698-23a4563629d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 97.79 63.5 270)
+			(uuid "7d1758e5-37ce-45e8-b172-d86a2c8108f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 92.71 63.5 270)
+			(uuid "0a0158bb-2be0-4c28-8c01-de892e5b47b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CS}" input
+			(at 95.25 63.5 270)
+			(uuid "c170e0f1-7cad-413c-9a09-7eeeed92247b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_CTRL" input
+			(at 76.2 41.91 180)
+			(uuid "a8a0773d-9b2b-4bc8-9c56-8ecec28eb235")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42192b89-bd04-4531-bec0-520394b48a86")
+		(property "Sheetname" "Display"
+			(at 114.3 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 114.3 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DISP_PWM" input
+			(at 114.3 41.91 180)
+			(uuid "bb0b2d61-0c38-4dba-a77c-316259db051e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_CLK" input
+			(at 114.3 44.45 180)
+			(uuid "e3508172-34b8-4984-9c2b-3a87036581ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_CS" input
+			(at 114.3 46.99 180)
+			(uuid "882635bc-8a86-4e52-9dcb-6b2388fa4eb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_RS" input
+			(at 114.3 49.53 180)
+			(uuid "97b3159e-e576-43c3-8f41-9266a9768d78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_SDA" input
+			(at 114.3 52.07 180)
+			(uuid "863ba5c7-c22f-42bf-a4e4-3badcb16964e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASHLIGHT" input
+			(at 114.3 55.88 180)
+			(uuid "b6aa6a10-f3e1-4d3d-9c05-4810ca1b9620")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_A" input
+			(at 114.3 58.42 180)
+			(uuid "850d24d0-aa4f-4a2e-aa73-e26bc3adcd1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_B" input
+			(at 114.3 60.96 180)
+			(uuid "65997081-c943-41a0-a853-3f14f1e1d1b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f168690-b6ac-4b3d-aad0-4e97277dc85d")
+		(property "Sheetname" "Connectors"
+			(at 152.4 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 152.4 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DEBUG_DEV_RX" output
+			(at 152.4 40.64 180)
+			(uuid "2c51395a-956a-4632-bdf6-e1a03d325ac5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DEBUG_DEV_TX" input
+			(at 152.4 43.18 180)
+			(uuid "271f4e21-21e0-44ab-af40-885d83fe456b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_PTT" output
+			(at 152.4 46.99 180)
+			(uuid "5cbb516f-d47a-4284-bc04-10442bc6fcc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC_IN" input
+			(at 152.4 50.8 180)
+			(uuid "68131847-5f40-4637-9d88-9822de70fd7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC_OUT" output
+			(at 152.4 53.34 180)
+			(uuid "4aaba51b-024e-4f33-9d98-8d0e2abf76c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPK_IN" input
+			(at 152.4 55.88 180)
+			(uuid "baa5f972-3377-4fc4-bafb-bfce8302fc29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPK_OUT" output
+			(at 152.4 58.42 180)
+			(uuid "9df3cfff-4142-4309-9b24-efbdabf5c7ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 177.8 50.8 0)
+			(uuid "7a07c932-bb69-4d6c-a7a7-38effb199199")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 177.8 53.34 0)
+			(uuid "a56a6a9a-2d86-4d0c-bb8d-a1f71a4c4a22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 76.2)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9abe50f1-ec7a-4fc8-ad35-6621e4142914")
+		(property "Sheetname" "MUX"
+			(at 152.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mux.kicad_sch"
+			(at 152.4 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2S_BB_DATA_IN" input
+			(at 152.4 82.55 180)
+			(uuid "8ae9678d-99bf-4bba-85da-f41ea0459beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_BB_DATA_OUT" output
+			(at 152.4 85.09 180)
+			(uuid "d6240a82-8c2f-4bf2-bc7d-b65f01ad8139")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_MIC_DATA_IN" input
+			(at 152.4 87.63 180)
+			(uuid "1c593346-ec18-452a-a0fb-9f3b45caa7d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_SOC_DATA_IN" input
+			(at 152.4 90.17 180)
+			(uuid "31b1be38-06d9-417a-a0c3-3753d5ec5fde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_SOC_DATA_OUT" output
+			(at 152.4 92.71 180)
+			(uuid "3604863a-a79c-442f-9a4f-57888d03c6b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_SPK_DATA_OUT" output
+			(at 152.4 95.25 180)
+			(uuid "049d54dc-d313-4cb3-bc65-ce9404046304")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_EN" input
+			(at 190.5 85.09 0)
+			(uuid "f1eda74c-9f2d-4a2a-8096-1aa2b464b156")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX_EN" input
+			(at 190.5 82.55 0)
+			(uuid "81fdd5d9-5094-4c29-89b4-f2e5df8ca481")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 38.1)
+		(size 25.4 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e50fe40-00b4-48a0-8ec6-ce79209e6a2d")
+		(property "Sheetname" "SoC"
+			(at 38.1 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "soc.kicad_sch"
+			(at 38.1 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DBG_UART_RX" input
+			(at 38.1 43.18 180)
+			(uuid "4f8c7b3f-8a0f-4b8f-8477-560d3b2f80e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DBG_UART_TX" output
+			(at 38.1 45.72 180)
+			(uuid "9c44bfb0-79dc-4b13-8b79-97edfc2baf9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 38.1 50.8 180)
+			(uuid "3c53bb20-0395-4383-973d-cf032f35b8fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 38.1 55.88 180)
+			(uuid "173040f1-043f-4859-9ec5-bd88e0870e9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 38.1 58.42 180)
+			(uuid "644e86e4-86e8-4e17-85e5-c50e41b9efaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_CLK" input
+			(at 63.5 90.17 0)
+			(uuid "fd18398d-1dc3-4f76-ae1a-a844ac4713ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_DATA_IN" input
+			(at 63.5 92.71 0)
+			(uuid "1ae7d4bd-22b9-47ea-9880-8964b1d56bb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_DATA_OUT" output
+			(at 63.5 95.25 0)
+			(uuid "5f4ce1de-d3d9-49c5-b552-8bf21d3d2088")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_WS" input
+			(at 63.5 97.79 0)
+			(uuid "6284e742-af12-4860-853e-37acf24980aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KBD" bidirectional
+			(at 38.1 63.5 180)
+			(uuid "e2ecd7a6-0579-4008-bcb1-f30cf6a882e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_CS_LCD" output
+			(at 63.5 63.5 0)
+			(uuid "22ab764c-45ef-4bc1-bbaa-0cbab1d35503")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CS_RF" output
+			(at 63.5 66.04 0)
+			(uuid "37bde74c-d283-4613-ab1e-78c75d8d43bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 63.5 68.58 0)
+			(uuid "3c5c8d06-9493-4160-b67c-be1eece4342b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" output
+			(at 63.5 71.12 0)
+			(uuid "c50c8267-b43f-4f2c-b35a-8b3cb1ab26d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" output
+			(at 63.5 73.66 0)
+			(uuid "4cc2d1c2-7a49-4652-9e4f-c0464664f519")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 114.3)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be402a1e-34f3-489f-9745-963b98ced0ff")
+		(property "Sheetname" "Power"
+			(at 38.1 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 38.1 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "U_BATT_MON" output
+			(at 63.5 127 0)
+			(uuid "29a882d5-a40e-476d-8dde-7afc50b15d76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c40b23ce-765e-4258-88c6-173a78d6d517")
+		(property "Sheetname" "Audio"
+			(at 76.2 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 76.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MIC_GAIN" input
+			(at 76.2 80.01 180)
+			(uuid "2c4da548-12f0-436b-b92d-6e5b76e4f977")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC_IN" input
+			(at 76.2 86.36 180)
+			(uuid "1a881463-4902-44c0-8524-95a166731d8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MIC_MUTE}" input
+			(at 76.2 82.55 180)
+			(uuid "a1ae0d35-02fc-4e73-809c-6d12356d1c01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_CLK_IN" input
+			(at 76.2 90.17 180)
+			(uuid "05441891-3606-4e0d-b20d-9e785ed969a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_DATA_IN" input
+			(at 76.2 92.71 180)
+			(uuid "3a6cf4df-92e0-4c9d-a314-6ec81e9a1f47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_DATA_OUT" output
+			(at 76.2 95.25 180)
+			(uuid "7e6320d8-e8d9-4ae4-aa32-85a01a2f27eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_WS_IN" input
+			(at 76.2 97.79 180)
+			(uuid "1b7918dc-b8d1-4284-b32b-b4c1951735ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 101.6 80.01 0)
+			(uuid "4fa76d9a-4690-4dca-a605-c4d706f1bd8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 101.6 82.55 0)
+			(uuid "c5aff53b-e2ee-4307-8b24-8c6de8aa8180")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
