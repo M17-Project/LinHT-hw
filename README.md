@@ -3,6 +3,9 @@
 # LinHT-hw
 Linux-based, SDR handheld transceiver
 
+## Hardware
+Work in progress. The device will use a System on Module (SoM) running Linux.
+
 ## License
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
