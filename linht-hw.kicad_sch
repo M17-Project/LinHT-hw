@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "5 June 2025")
+		(date "6 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
-		(comment 1 "Author: Wojciech SP5WWP")
+		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC")
 	)
 	(lib_symbols)
 	(sheet
@@ -480,128 +480,6 @@
 		)
 	)
 	(sheet
-		(at 152.4 76.2)
-		(size 38.1 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9abe50f1-ec7a-4fc8-ad35-6621e4142914")
-		(property "Sheetname" "MUX"
-			(at 152.4 75.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mux.kicad_sch"
-			(at 152.4 102.1846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "I2S_BB_DATA_IN" input
-			(at 152.4 82.55 180)
-			(uuid "8ae9678d-99bf-4bba-85da-f41ea0459beb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2S_BB_DATA_OUT" output
-			(at 152.4 85.09 180)
-			(uuid "d6240a82-8c2f-4bf2-bc7d-b65f01ad8139")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2S_MIC_DATA_IN" input
-			(at 152.4 87.63 180)
-			(uuid "1c593346-ec18-452a-a0fb-9f3b45caa7d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2S_SOC_DATA_IN" input
-			(at 152.4 90.17 180)
-			(uuid "31b1be38-06d9-417a-a0c3-3753d5ec5fde")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2S_SOC_DATA_OUT" output
-			(at 152.4 92.71 180)
-			(uuid "3604863a-a79c-442f-9a4f-57888d03c6b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2S_SPK_DATA_OUT" output
-			(at 152.4 95.25 180)
-			(uuid "049d54dc-d313-4cb3-bc65-ce9404046304")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX_EN" input
-			(at 190.5 85.09 0)
-			(uuid "f1eda74c-9f2d-4a2a-8096-1aa2b464b156")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TX_EN" input
-			(at 190.5 82.55 0)
-			(uuid "81fdd5d9-5094-4c29-89b4-f2e5df8ca481")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 38.1 38.1)
 		(size 25.4 63.5)
 		(exclude_from_sim no)
@@ -633,96 +511,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "DBG_UART_RX" input
-			(at 38.1 43.18 180)
-			(uuid "4f8c7b3f-8a0f-4b8f-8477-560d3b2f80e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DBG_UART_TX" output
-			(at 38.1 45.72 180)
-			(uuid "9c44bfb0-79dc-4b13-8b79-97edfc2baf9a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NRST" input
-			(at 38.1 50.8 180)
-			(uuid "3c53bb20-0395-4383-973d-cf032f35b8fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_DN" bidirectional
-			(at 38.1 55.88 180)
-			(uuid "173040f1-043f-4859-9ec5-bd88e0870e9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_DP" bidirectional
-			(at 38.1 58.42 180)
-			(uuid "644e86e4-86e8-4e17-85e5-c50e41b9efaa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2S_CLK" input
-			(at 63.5 90.17 0)
-			(uuid "fd18398d-1dc3-4f76-ae1a-a844ac4713ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2S_DATA_IN" input
-			(at 63.5 92.71 0)
-			(uuid "1ae7d4bd-22b9-47ea-9880-8964b1d56bb9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2S_DATA_OUT" output
-			(at 63.5 95.25 0)
-			(uuid "5f4ce1de-d3d9-49c5-b552-8bf21d3d2088")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2S_WS" input
-			(at 63.5 97.79 0)
-			(uuid "6284e742-af12-4860-853e-37acf24980aa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "KBD" bidirectional

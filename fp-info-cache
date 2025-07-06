@@ -1,4 +1,4 @@
-25691558670351145
+25695067709960159
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103012,12 +103012,19 @@ Varistor VF
 2
 2
 parts
-SOM_HOLE
+QFN-140_hole_large
 
 
 0
-152
-152
+140
+140
+parts
+QFN50P500X500X80-33N-D
+SX1255IWLTRT-1
+Integrated Circuit
+0
+33
+33
 parts
 TSLP-6-4
 
@@ -103025,3 +103032,10 @@ TSLP-6-4
 0
 6
 6
+parts
+VQFN-24
+RGE0024R_2025-11
+Integrated Circuit
+0
+29
+29
