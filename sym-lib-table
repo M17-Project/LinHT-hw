@@ -3,4 +3,5 @@
   (lib (name "SX1255")(type "KiCad")(uri "${KIPRJMOD}/parts/SX1255IWLTRT.kicad_sym")(options "")(descr ""))
   (lib (name "TAC511x")(type "KiCad")(uri "${KIPRJMOD}/parts/TAC5112IRGER.kicad_sym")(options "")(descr ""))
   (lib (name "BGS12P2L6")(type "KiCad")(uri "${KIPRJMOD}/parts/BGS12P2L6.kicad_sym")(options "")(descr ""))
+  (lib (name "MCM-iMX93-SOM")(type "KiCad")(uri "${KIPRJMOD}/parts/MCM-iMX93-SOM.kicad_sym")(options "")(descr ""))
 )
