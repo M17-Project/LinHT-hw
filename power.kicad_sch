@@ -9,7 +9,7 @@
 		(date "9 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
-		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC")
+		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
