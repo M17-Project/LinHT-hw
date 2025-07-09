@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "7 July 2025")
+		(date "9 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC")
@@ -524,7 +524,7 @@
 			)
 		)
 		(pin "SPI_CS_LCD" output
-			(at 63.5 63.5 0)
+			(at 63.5 41.91 0)
 			(uuid "22ab764c-45ef-4bc1-bbaa-0cbab1d35503")
 			(effects
 				(font
@@ -534,7 +534,7 @@
 			)
 		)
 		(pin "SPI_CS_RF" output
-			(at 63.5 66.04 0)
+			(at 63.5 44.45 0)
 			(uuid "37bde74c-d283-4613-ab1e-78c75d8d43bb")
 			(effects
 				(font
@@ -543,9 +543,9 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_MISO" input
-			(at 63.5 68.58 0)
-			(uuid "3c5c8d06-9493-4160-b67c-be1eece4342b")
+		(pin "I2S0_CLK" input
+			(at 63.5 49.53 0)
+			(uuid "ba6f3124-b7fd-4c3d-ba91-79ffe2c80aeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,9 +553,9 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_MOSI" output
-			(at 63.5 71.12 0)
-			(uuid "c50c8267-b43f-4f2c-b35a-8b3cb1ab26d5")
+		(pin "I2S0_DIN" input
+			(at 63.5 52.07 0)
+			(uuid "bb400a6d-6612-45b0-9fea-9a6186c50bbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -563,14 +563,254 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_SCK" output
+		(pin "I2S0_DOUT" output
+			(at 63.5 54.61 0)
+			(uuid "f3fa35b7-f77f-499c-a14b-265342bdc475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S0_WS" input
+			(at 63.5 57.15 0)
+			(uuid "59c0b9e9-75b9-44a4-96f9-c11e908a6c8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S1_CLK" output
+			(at 63.5 62.23 0)
+			(uuid "7443c201-6aa3-4af0-a8bc-11e8d736fd60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S1_DIN" input
+			(at 63.5 64.77 0)
+			(uuid "355f763d-9e0a-4f5d-b6c6-faa96090d0d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S1_DOUT" output
+			(at 63.5 67.31 0)
+			(uuid "db4eaba5-8bb8-4a84-85d6-55148106a396")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S1_WS" output
+			(at 63.5 69.85 0)
+			(uuid "3f9015c0-e703-4d53-a5a5-c392f3c96233")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_A" output
 			(at 63.5 73.66 0)
-			(uuid "4cc2d1c2-7a49-4652-9e4f-c0464664f519")
+			(uuid "d9e90527-6017-46ea-901f-2936fb061d58")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "LED_B" output
+			(at 63.5 76.2 0)
+			(uuid "cac601d0-2b9d-492c-8e1e-3243b76ae2da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ON{slash}OFF" input
+			(at 63.5 80.01 0)
+			(uuid "41445be6-d33e-4ceb-8568-6658613ea39c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PTT" input
+			(at 63.5 82.55 0)
+			(uuid "364fb56d-6d1d-404e-9bb7-29b5542710b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_RST" output
+			(at 63.5 85.09 0)
+			(uuid "63b77381-0859-4cf2-9c0a-dfd8750f1ea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI0_MISO" input
+			(at 63.5 88.9 0)
+			(uuid "83b7f1d1-e5e6-4a31-b5c0-0a77b469a263")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI0_MOSI" output
+			(at 63.5 91.44 0)
+			(uuid "7296f434-81cd-4d69-9807-65a52e6c83f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI0_SCK" output
+			(at 63.5 93.98 0)
+			(uuid "4a133e1f-50c9-4fc6-a794-4e3bc21c1300")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 38.1 88.9 180)
+			(uuid "9c485568-0937-4b0c-976a-13d545e254af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 38.1 91.44 180)
+			(uuid "c3cf24b1-bfa0-4d16-9bcc-7623583f3c6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 38.1 93.98 180)
+			(uuid "47a90083-b237-474c-96d7-c67a3ef6aabe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STBY" output
+			(at 38.1 73.66 180)
+			(uuid "ca791a82-77e4-4658-adda-b26a0837cb57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" input
+			(at 38.1 78.74 180)
+			(uuid "3813c985-34ad-46e7-b7ea-86a055ff9f25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" output
+			(at 38.1 81.28 180)
+			(uuid "2ee38e6a-f0e3-4d83-b614-185d04ebc68b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_BOOT" input
+			(at 38.1 57.15 180)
+			(uuid "faf507e9-04a3-4992-aa82-eda5725be3ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 38.1 41.91 180)
+			(uuid "4824fa13-1f7c-4b9e-9905-f92367fa2658")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 38.1 44.45 180)
+			(uuid "8228ebf3-2d53-487a-8bf5-ec085d726d51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_VSENSE" input
+			(at 38.1 46.99 180)
+			(uuid "409bead1-1816-4a40-871e-eff3baf12bac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 38.1 50.8 180)
+			(uuid "90b32eb2-d7a5-4ddf-9956-7a6b3a6919b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
