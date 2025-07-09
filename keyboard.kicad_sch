@@ -2047,6 +2047,17 @@
 		)
 		(uuid "270fcf4c-f6b9-48f1-89e1-c2a8a8e45e4c")
 	)
+	(hierarchical_label "SIDE_PTT"
+		(shape output)
+		(at 68.58 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92a040c9-cfd7-46fc-8996-5043234dbb67")
+	)
 	(hierarchical_label "MIC_OUT"
 		(shape output)
 		(at 133.35 105.41 0)
@@ -2057,6 +2068,17 @@
 			(justify left)
 		)
 		(uuid "a1141b11-1ed9-4349-9d72-636d66b4de82")
+	)
+	(hierarchical_label "SIDE_BTN"
+		(shape output)
+		(at 68.58 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae9101f6-8046-4193-b280-b7540523b492")
 	)
 	(hierarchical_label "KBD"
 		(shape bidirectional)
@@ -2675,7 +2697,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 41.91 74.93 0)
+		(at 55.88 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2684,7 +2706,7 @@
 		(dnp no)
 		(uuid "eb2f4e85-4b9a-4cfb-b104-bff53ee05b31")
 		(property "Reference" "J6"
-			(at 39.878 73.7178 0)
+			(at 53.848 83.8778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2715,7 @@
 			)
 		)
 		(property "Value" "Side keys"
-			(at 39.878 76.1421 0)
+			(at 53.848 86.3021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 74.93 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 74.93 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2742,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 74.93 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

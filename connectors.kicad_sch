@@ -2410,6 +2410,20 @@
 		(color 0 0 0 0)
 		(uuid "d59138f0-6803-4a4a-92ba-95d0fda04368")
 	)
+	(junction
+		(at 55.88 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c9638f-4231-499a-ae10-5d245d8fb134")
+	)
+	(no_connect
+		(at 179.07 87.63)
+		(uuid "6820beef-84d8-49a4-8819-90827d9680e4")
+	)
+	(no_connect
+		(at 179.07 90.17)
+		(uuid "7bb5085d-e28d-4f41-b05b-ee31bba22fa9")
+	)
 	(no_connect
 		(at 54.61 166.37)
 		(uuid "cf1cdf15-edb8-41c7-938d-7edf103cb9dc")
@@ -2437,6 +2451,16 @@
 			(type solid)
 		)
 		(uuid "007f00f0-de43-4228-a443-34aaefbded13")
+	)
+	(wire
+		(pts
+			(xy 57.15 124.46) (xy 55.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0306040e-2b47-4f3d-93c8-b8c1f63821a2")
 	)
 	(wire
 		(pts
@@ -2570,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 135.89) (xy 57.15 135.89)
+			(xy 54.61 135.89) (xy 55.88 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2710,6 +2734,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 124.46) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1657f7-ee9c-4573-8fdf-f92fa4dc421b")
+	)
+	(wire
+		(pts
 			(xy 57.15 156.21) (xy 73.66 156.21)
 		)
 		(stroke
@@ -2757,6 +2791,16 @@
 			(type default)
 		)
 		(uuid "d70ba9df-2683-4f73-9c0a-e0938ca86687")
+	)
+	(wire
+		(pts
+			(xy 55.88 135.89) (xy 57.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d90bcc53-80a1-4ce7-8cb5-4b7d24ad2af5")
 	)
 	(wire
 		(pts
@@ -2889,6 +2933,17 @@
 			(justify right)
 		)
 		(uuid "3362a2bb-6e49-4a78-9593-ff973c386520")
+	)
+	(hierarchical_label "USB_VSENSE"
+		(shape output)
+		(at 57.15 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43d74bac-9c2e-47b8-a273-8519349aced4")
 	)
 	(hierarchical_label "MIC_IN"
 		(shape input)

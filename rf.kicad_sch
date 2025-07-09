@@ -3436,7 +3436,7 @@
 		)
 		(uuid "e36a32c3-e71c-4342-af23-f448a1133758")
 	)
-	(hierarchical_label "RF_CTRL"
+	(hierarchical_label "RF_SW_CTRL"
 		(shape input)
 		(at 199.39 109.22 180)
 		(effects

@@ -3523,10 +3523,6 @@
 		(at 137.16 171.45)
 		(uuid "fc8ff364-46be-4b6b-9a7a-4067e7609178")
 	)
-	(no_connect
-		(at 104.14 45.72)
-		(uuid "fed6b6ef-30ed-4a1c-99aa-e3546499033a")
-	)
 	(bus_entry
 		(at 223.52 44.45)
 		(size -2.54 2.54)
@@ -3930,13 +3926,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 40.64) (xy 106.68 45.72)
+			(xy 104.14 40.64) (xy 104.14 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "857385f6-33c9-49bb-bf5d-464841c6843b")
+		(uuid "7d38a8b6-2a1d-4d0c-b0da-14150185e1d7")
 	)
 	(wire
 		(pts
@@ -4057,6 +4053,16 @@
 			(type default)
 		)
 		(uuid "ae11d406-bb53-4723-ab10-dc0de0e3bd78")
+	)
+	(wire
+		(pts
+			(xy 106.68 29.21) (xy 106.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b089d16e-fb8b-4ac1-b5db-088924d40413")
 	)
 	(wire
 		(pts
@@ -4527,6 +4533,16 @@
 		)
 		(uuid "7b439456-7835-40de-aae7-ace1c0c43ba9")
 	)
+	(label "PTT"
+		(at 106.68 29.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82373ff6-7545-4cf8-9227-53ec4e97aaae")
+	)
 	(label "D9"
 		(at 217.17 59.69 0)
 		(effects
@@ -4654,6 +4670,17 @@
 		)
 		(uuid "308d4b55-49b1-42a5-878f-2adfaaf3653e")
 	)
+	(hierarchical_label "I2C_SCL"
+		(shape output)
+		(at 151.13 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31187a44-2c2c-44c2-bc88-6ddc3637e6a0")
+	)
 	(hierarchical_label "KBD"
 		(shape bidirectional)
 		(at 226.06 34.29 0)
@@ -4664,6 +4691,17 @@
 			(justify left)
 		)
 		(uuid "32d874db-155a-4923-9732-bfcefeacd071")
+	)
+	(hierarchical_label "KBD_PWM"
+		(shape output)
+		(at 151.13 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3344855d-930a-4192-9d04-c5d20884cab5")
 	)
 	(hierarchical_label "SPI1_MISO"
 		(shape input)
@@ -4698,9 +4736,9 @@
 		)
 		(uuid "442639e3-1925-4eac-8f6f-5a14d3c6cd8f")
 	)
-	(hierarchical_label "PTT"
+	(hierarchical_label "EXT_PTT"
 		(shape input)
-		(at 106.68 40.64 90)
+		(at 139.7 24.13 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4742,6 +4780,28 @@
 		)
 		(uuid "5ec4dd6e-d793-423c-9318-cbea1a316498")
 	)
+	(hierarchical_label "LIGHT"
+		(shape output)
+		(at 151.13 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6328e888-2d41-4c8d-9a7b-db8336dfad63")
+	)
+	(hierarchical_label "INT_PTT"
+		(shape input)
+		(at 142.24 24.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7163af7d-8385-4b43-8051-a0e61b66357f")
+	)
 	(hierarchical_label "UART_TX"
 		(shape output)
 		(at 119.38 177.8 270)
@@ -4752,6 +4812,17 @@
 			(justify right)
 		)
 		(uuid "71ab3f2b-5de7-4e35-8f34-0f80f55f6f15")
+	)
+	(hierarchical_label "~{MIC_MUTE}"
+		(shape output)
+		(at 151.13 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "751def5e-7d72-428a-8a85-c461d4fc5493")
 	)
 	(hierarchical_label "SPI0_MISO"
 		(shape input)
@@ -4786,6 +4857,17 @@
 		)
 		(uuid "9271ea19-4c1b-41b4-a9ca-af22c3ee9321")
 	)
+	(hierarchical_label "LCD_PWM"
+		(shape output)
+		(at 151.13 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "951b66c1-82f2-4a00-b430-b86fc1f77761")
+	)
 	(hierarchical_label "LED_B"
 		(shape output)
 		(at 88.9 40.64 90)
@@ -4796,6 +4878,17 @@
 			(justify left)
 		)
 		(uuid "9cfe2b22-fbe3-4e68-9d3d-b800cb8eb5c4")
+	)
+	(hierarchical_label "SIDE_BTN"
+		(shape input)
+		(at 144.78 24.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e83f590-b020-41ef-bf86-97cb65f3e5a5")
 	)
 	(hierarchical_label "I2S0_WS"
 		(shape input)
@@ -4818,6 +4911,17 @@
 			(justify left)
 		)
 		(uuid "b4bb0fec-af86-482b-a8b1-16e062f3376a")
+	)
+	(hierarchical_label "LCD_RS"
+		(shape output)
+		(at 104.14 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6d18697-77db-42e9-86ab-f1644db40d2a")
 	)
 	(hierarchical_label "I2S0_DOUT"
 		(shape output)
@@ -4852,6 +4956,17 @@
 		)
 		(uuid "c4dd4ff9-cd6e-4e12-ae40-254ac9a6dd8f")
 	)
+	(hierarchical_label "MIC_GAIN"
+		(shape output)
+		(at 151.13 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5ba2b6e-59a0-430f-aa3d-fc9d7d532378")
+	)
 	(hierarchical_label "~{RST}"
 		(shape input)
 		(at 36.83 95.25 180)
@@ -4884,6 +4999,17 @@
 			(justify left)
 		)
 		(uuid "d86f583a-7e8d-47b8-a6ee-489048d5dc48")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 151.13 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc5d86f9-3029-4f46-afbd-3c35d1f96edf")
 	)
 	(hierarchical_label "RF_RST"
 		(shape output)
