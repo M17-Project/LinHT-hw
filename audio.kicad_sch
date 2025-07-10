@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "9 July 2025")
+		(date "10 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -2462,6 +2462,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 54.61) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b80a32e-a234-4652-8936-7711340817c8")
+	)
+	(wire
+		(pts
 			(xy 72.39 162.56) (xy 83.82 162.56)
 		)
 		(stroke
@@ -2522,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 54.61) (xy 133.35 54.61)
+			(xy 116.84 54.61) (xy 121.92 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2679,6 +2689,16 @@
 			(type solid)
 		)
 		(uuid "3ed90281-91bf-4c73-be43-439edff123c1")
+	)
+	(wire
+		(pts
+			(xy 58.42 90.17) (xy 60.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438f3094-07a9-4790-8d5f-9ec8dc3c5af2")
 	)
 	(wire
 		(pts
@@ -2992,6 +3012,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 54.61) (xy 128.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a415e61-66dd-4e84-8634-db2eeb905e16")
+	)
+	(wire
+		(pts
 			(xy 222.25 76.2) (xy 222.25 78.74)
 		)
 		(stroke
@@ -3162,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 90.17) (xy 83.82 90.17)
+			(xy 66.04 90.17) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3639,6 +3669,16 @@
 			(justify right bottom)
 		)
 		(uuid "1b388e11-ec3f-4eca-b274-2d42a935cd83")
+	)
+	(label "MIC_SIG"
+		(at 58.42 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b4acdad-f098-4847-b30a-6c574bcebed9")
 	)
 	(label "MIC_SIG"
 		(at 144.78 165.1 0)
@@ -5359,6 +5399,155 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.27 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6626714a-497b-4959-a0a1-901b377200d9")
+		(property "Reference" "#PWR082"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2027897-db0b-4dfc-ba13-fba8aa7fee67")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.46 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "694aca87-c5bb-4b35-bb0a-540c7d0aacfd")
+		(property "Reference" "C43"
+			(at 124.46 49.0813 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 124.46 51.8564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 124.46 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d3d8b82-bdb6-4f3d-bdb0-16386ba384a7")
+		)
+		(pin "2"
+			(uuid "b4b539c4-cd60-4113-933b-0646aaf37715")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 72.39 177.8 0)
 		(unit 1)
@@ -5960,6 +6149,91 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 63.5 90.17 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87541c92-b19d-4ccb-bd02-8a14f7544d20")
+		(property "Reference" "C42"
+			(at 63.5 95.6987 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 63.5 92.9236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 63.5 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 63.5 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 63.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e19924d5-674c-4090-83f1-e15d80324b49")
+		)
+		(pin "2"
+			(uuid "2a04a2dc-4d6f-443d-9970-0bcccd5f5001")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -6976,7 +7250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 141.605 170.18 0)
 			(effects
 				(font
@@ -7410,7 +7684,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "2k2"
 			(at 134.62 167.64 90)
 			(effects
 				(font
