@@ -2181,7 +2181,7 @@
 				(pin bidirectional line
 					(at 49.53 30.48 180)
 					(length 3.81)
-					(name ""
+					(name "SAI3_MCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3500,10 +3500,6 @@
 		(uuid "e518d808-e89c-4ed4-a035-0494238494b9")
 	)
 	(no_connect
-		(at 143.51 74.93)
-		(uuid "f5431cfa-0ef5-43c7-94fe-da45ba7b85c0")
-	)
-	(no_connect
 		(at 44.45 135.89)
 		(uuid "f7239e86-b65b-41fd-a957-9dbeb5aec351")
 	)
@@ -4113,6 +4109,16 @@
 			(type default)
 		)
 		(uuid "bda439e0-8b11-4ca5-b508-e8b07b418b4b")
+	)
+	(wire
+		(pts
+			(xy 143.51 74.93) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50f558a-e13a-4540-ab37-65f4574bb459")
 	)
 	(wire
 		(pts
@@ -4911,6 +4917,17 @@
 			(justify left)
 		)
 		(uuid "b4bb0fec-af86-482b-a8b1-16e062f3376a")
+	)
+	(hierarchical_label "I2S1_MCLK"
+		(shape output)
+		(at 148.59 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6b7f3e0-8b32-433f-8415-52a5f093c91a")
 	)
 	(hierarchical_label "LCD_RS"
 		(shape output)
