@@ -1,4 +1,4 @@
-# Pinout mcm-imx93
+# Pinout MCM-IMX93
 
 | GPIO            | MCM Ref         | PIN     | LinHT Ref     | VDomain   | imx93-pinfunc.h                       |
 | --------------- | --------------- | ------- | ------------- | --------- | ------------------------------------- |
