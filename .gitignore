@@ -6,15 +6,18 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
 *.kicad_prl
-*.zip
+*.sch-bak
 *~
 _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
 *.lck
+fp-info-cache
+\#auto_saved_files\#
 
 # Netlist files (exported from Eeschema)
 *.net
