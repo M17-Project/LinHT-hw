@@ -149,7 +149,7 @@
 						)
 					)
 				)
-				(alternate "JP2" input line)
+				(alternate "JD2" input line)
 			)
 			(pin input line
 				(at 0 -12.7 0)
@@ -240,7 +240,7 @@
 						)
 					)
 				)
-				(alternate "JP3" input line)
+				(alternate "JD3" input line)
 			)
 			(pin output line
 				(at 0 -30.48 0)
