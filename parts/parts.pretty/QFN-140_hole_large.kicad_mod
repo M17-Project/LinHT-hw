@@ -1127,4 +1127,15 @@
 		(uuid "9ac4edcc-2597-4d46-ac9c-dc9b41e00996")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/parts.3dshapes/mcm-imx93.step"
+		(offset
+			(xyz -15 -15 -2.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
