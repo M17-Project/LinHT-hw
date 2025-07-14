@@ -159,7 +159,7 @@
 					)
 				)
 			)
-			(property "Footprint" "parts:QFN-140_hole_large"
+			(property "Footprint" "parts:MCM-iMX93"
 				(at 0 0 0)
 				(effects
 					(font
@@ -252,7 +252,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -49.53 35.56 0)
 					(length 3.81)
 					(name "V_SOM"
@@ -288,7 +288,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -49.53 30.48 0)
 					(length 3.81)
 					(name "V_SOM"
@@ -378,7 +378,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -49.53 17.78 0)
 					(length 3.81)
 					(name "V_SOM"
@@ -450,7 +450,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -49.53 7.62 0)
 					(length 3.81)
 					(name "V_SOM"
@@ -1044,7 +1044,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at -27.94 59.69 270)
 					(length 3.81)
 					(name "VSD_3V3"
@@ -2628,7 +2628,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 49.53 -33.02 180)
 					(length 3.81)
 					(name "GND"
@@ -2639,6 +2639,462 @@
 						)
 					)
 					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 49.53 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5028,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts:QFN-140_hole_large"
+		(property "Footprint" "parts:MCM-iMX93"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -5474,6 +5930,78 @@
 		)
 		(pin "82"
 			(uuid "d8dde2a8-da57-4d7c-ae9d-8d074a7b2b40")
+		)
+		(pin "G23"
+			(uuid "d04db19f-4bbc-4d0b-8020-d1002fe2f531")
+		)
+		(pin "G15"
+			(uuid "0f57f225-3a6d-49bd-9541-c5ed8cab2250")
+		)
+		(pin "G13"
+			(uuid "354754d7-e874-4432-ab6c-d2c885956424")
+		)
+		(pin "G17"
+			(uuid "fed4904d-0bbd-435a-b294-eb0c876fa6fd")
+		)
+		(pin "G7"
+			(uuid "366f8013-1610-40d6-b42e-96d1c706f726")
+		)
+		(pin "G6"
+			(uuid "784ddbcb-9f9b-41f1-a153-3f155cbbc638")
+		)
+		(pin "G21"
+			(uuid "1e7236ec-190c-4a00-b8db-37a9822516a5")
+		)
+		(pin "G8"
+			(uuid "dd1804ec-8918-4f85-9daf-25e83fa32a54")
+		)
+		(pin "G22"
+			(uuid "7ebe1983-4a29-4574-855b-8d340a304bd3")
+		)
+		(pin "G20"
+			(uuid "913f5080-a8a4-4c93-968e-dbd007588b57")
+		)
+		(pin "G4"
+			(uuid "64a62d2e-5891-44bb-8b14-e30592188822")
+		)
+		(pin "G24"
+			(uuid "b38ffc73-aab9-426f-a797-3e6745baaf69")
+		)
+		(pin "G19"
+			(uuid "0ff1b9a5-daba-4d4b-aaee-820b9a45ff4a")
+		)
+		(pin "G10"
+			(uuid "dfdac7c8-b305-4b3b-b856-e061f08746da")
+		)
+		(pin "G3"
+			(uuid "14eca30a-92ca-42a5-88a4-736bd30d1b99")
+		)
+		(pin "G18"
+			(uuid "f9869d1d-c916-4aa8-a803-18824031daca")
+		)
+		(pin "G12"
+			(uuid "e02ef7b7-678c-4c56-ab24-d1d76b0e9d9a")
+		)
+		(pin "G1"
+			(uuid "4c94a546-3151-4b5f-b905-4a7d29cf454c")
+		)
+		(pin "G9"
+			(uuid "82ce9cc7-63c8-45a2-975a-e58cf8c30853")
+		)
+		(pin "G14"
+			(uuid "eb99e0a6-7358-4be9-a964-85455801dd84")
+		)
+		(pin "G5"
+			(uuid "66471da8-5d60-4906-9482-73d89440c39d")
+		)
+		(pin "G16"
+			(uuid "6cf84c6e-6cc8-4b82-ac57-a7eb9a770939")
+		)
+		(pin "G2"
+			(uuid "099712c0-9765-42b0-b791-36366348a419")
+		)
+		(pin "G11"
+			(uuid "e8d382b2-d0a3-4467-844e-499e50efc82d")
 		)
 		(instances
 			(project ""
