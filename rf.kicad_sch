@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "13 July 2025")
+		(date "15 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -3560,7 +3560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ad39cab-0474-4b60-b354-6a29ef2c879f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 201.93 127 0)
 			(effects
 				(font
@@ -3610,7 +3610,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3801,7 +3801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bf9d3c5-1c66-4b89-864d-3f9d15672c6b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 45.72 88.9 0)
 			(effects
 				(font
@@ -3851,7 +3851,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3867,7 +3867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2468550b-ff7e-4886-9de4-f51c9159948d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 111.76 77.47 0)
 			(effects
 				(font
@@ -3917,7 +3917,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3933,7 +3933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "290d0f28-db9a-4bba-b11b-6bf3bb69fe79")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 76.2 114.3 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4155,7 +4155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39762e32-ba42-44f5-8422-b69d31627cf0")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 118.11 53.34 0)
 			(effects
 				(font
@@ -4205,7 +4205,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4397,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b205ed7-7cd7-4576-91bb-087bae7ef951")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 120.65 69.85 0)
 			(effects
 				(font
@@ -4447,7 +4447,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4893,7 +4893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dde801d-7698-48cf-833c-f9d97ec22c60")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 82.55 146.05 0)
 			(effects
 				(font
@@ -4943,7 +4943,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5044,7 +5044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69d3f869-1cf6-4482-af28-cfa2dbee5595")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 252.73 95.25 0)
 			(effects
 				(font
@@ -5094,7 +5094,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5110,7 +5110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aeadbb8-f859-4226-a133-cee2e70f827d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 38.1 146.05 0)
 			(effects
 				(font
@@ -5160,7 +5160,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5176,7 +5176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6da989b9-f2f1-427e-93db-0ce1800c7179")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 85.09 114.3 0)
 			(effects
 				(font
@@ -5226,7 +5226,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5820,7 +5820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93e9a5f1-7a64-4ee1-b22a-aeb74f4063ef")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -5870,7 +5870,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5886,7 +5886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945eb71d-943a-4136-9843-71319f0d0009")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 57.15 88.9 0)
 			(effects
 				(font
@@ -5936,7 +5936,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5953,7 +5953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94e0fede-ca59-4a1f-b2a3-e2449523f805")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 234.95 102.87 0)
 			(effects
 				(font
@@ -6003,7 +6003,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6019,7 +6019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e958b83-b6c5-4dde-bf13-da1b0001c824")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 107.95 91.44 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6386,7 +6386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b255b782-1330-4158-a706-d88128b0649d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 144.78 130.81 0)
 			(effects
 				(font
@@ -6436,7 +6436,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6631,7 +6631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd761059-abee-4019-9d38-8ec17cb8b074")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 102.87 114.3 0)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6697,7 +6697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be34ee7b-960e-438d-8bc8-fe326f11ee72")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 149.86 82.55 0)
 			(effects
 				(font
@@ -6747,7 +6747,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6850,7 +6850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1075787-0dfe-48ad-b165-65d27d9106d5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 194.31 106.68 0)
 			(effects
 				(font
@@ -6900,7 +6900,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7003,7 +7003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e9900f-ba9a-4708-bd45-791429a4d737")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 73.66 146.05 0)
 			(effects
 				(font
@@ -7053,7 +7053,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7069,7 +7069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d76c9f-4a54-4287-85ff-b63a0d8ebc94")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -7119,7 +7119,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7135,7 +7135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d00deaa6-c834-4120-b47e-c32f56827068")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 46.99 146.05 0)
 			(effects
 				(font
@@ -7185,7 +7185,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7287,7 +7287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d71f3d66-f8b3-4b89-9bd1-2b6c8eab2adf")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 38.1 135.89 0)
 			(effects
 				(font
@@ -7337,7 +7337,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7444,7 +7444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e273eacb-32c9-40ca-b16f-89934e8ed250")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 64.77 146.05 0)
 			(effects
 				(font
@@ -7494,7 +7494,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7595,7 +7595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e65b0ba0-9633-463d-bb8d-4b62da76c068")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 93.98 114.3 0)
 			(effects
 				(font
@@ -7645,7 +7645,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7661,7 +7661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f558d336-a406-4a60-add8-be65eda1e3f8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 55.88 146.05 0)
 			(effects
 				(font
@@ -7711,7 +7711,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7727,7 +7727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd28c07b-046e-4d93-8ad0-c3133a24dd14")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 215.9 100.33 0)
 			(effects
 				(font
@@ -7777,7 +7777,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

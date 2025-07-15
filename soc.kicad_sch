@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "13 July 2025")
+		(date "15 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -6253,7 +6253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9183ec50-abed-47ec-a31d-4898297a92de")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 148.59 160.02 0)
 			(effects
 				(font
@@ -6303,7 +6303,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/9e50fe40-00b4-48a0-8ec6-ce79209e6a2d"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
