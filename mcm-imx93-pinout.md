@@ -100,13 +100,13 @@
 | GPIO2_IO[23]    | GPIO2_IO[23]    | Pin 96  |               | 3.3V      | MX93_PAD_GPIO_IO23__GPIO2_IO23        |
 | I2C3_SCL        | GPIO2_IO[29]    | Pin 97  | I2C_SCL       | 3.3V      | MX93_PAD_GPIO_IO29__LPI2C3_SCL        |
 | I2C3_SDA        | GPIO2_IO[28]    | Pin 98  | I2C_SDA       | 3.3V      | MX93_PAD_GPIO_IO28__LPI2C3_SDA        |
-| GPIO2_IO[24]    | GPIO2_IO[24]    | Pin 99  |               | 3.3V      | MX93_PAD_GPIO_IO24__GPIO2_IO24        |
+| TPM3_CH3        | GPIO2_IO[24]    | Pin 99  | LCD_PWM       | 3.3V      | MX93_PAD_GPIO_IO24__TPM3_CH3          |
 | SAI3_MCLK       | GPIO2_IO[17]    | Pin 100 | SPI1_MCLK     | 3.3V      | MX93_PAD_GPIO_IO17__SAI3_MCLK         |
 | SAI3_TX_BCLK    | GPIO2_IO[16]    | Pin 101 | I2S1_CLK      | 3.3V      | MX93_PAD_GPIO_IO16__SAI3_TX_BCLK      |
 | GPIO2_IO[14]    | GPIO2_IO[14]    | Pin 102 |               | 3.3V      | MX93_PAD_GPIO_IO14__GPIO2_IO14        |
 | GPIO2_IO[15]    | GPIO2_IO[15]    | Pin 103 |               | 3.3V      | MX93_PAD_GPIO_IO15__GPIO2_IO15        |
 | GPIO2_IO[13]    | GPIO2_IO[13]    | Pin 104 |               | 3.3V      | MX93_PAD_GPIO_IO13__GPIO2_IO13        |
-| GPIO2_IO[12]    | GPIO2_IO[12]    | Pin 105 |               | 3.3V      | MX93_PAD_GPIO_IO12__GPIO2_IO12        |
+| TPM3_CH2        | GPIO2_IO[12]    | Pin 105 | KBD_PWM       | 3.3V      | MX93_PAD_GPIO_IO12__TPM3_CH2          |
 | GPIO2_IO[7]     | GPIO2_IO[7]     | Pin 106 |               | 3.3V      | MX93_PAD_GPIO_IO07__GPIO2_IO07        |
 | GPIO2_IO[6]     | GPIO2_IO[6]     | Pin 107 |               | 3.3V      | MX93_PAD_GPIO_IO06__GPIO2_IO06        |
 | SPI6_SCK        | GPIO2_IO[3]     | Pin 108 | SPI1_SCK      | 3.3V      | MX93_PAD_GPIO_IO03__LPSPI6_SCK        |
