@@ -241,7 +241,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x16"
+		(symbol "Connector_Generic_MountingPin:Conn_01x16_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -257,12 +257,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x16"
-				(at 0 -22.86 0)
+			(property "Value" "Conn_01x16_MountingPin"
+				(at 1.27 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -283,7 +284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -301,7 +302,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -310,7 +311,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x16_1_1"
+			(symbol "Conn_01x16_MountingPin_1_1"
 				(rectangle
 					(start -1.27 19.05)
 					(end 1.27 -21.59)
@@ -496,6 +497,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -22.352) (xy 1.016 -22.352)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -21.971 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -779,6 +800,24 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1448,6 +1487,12 @@
 		(uuid "2e9859bf-6af0-41ab-86ea-4839337c3d59")
 	)
 	(junction
+		(at 130.81 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "331fa707-5add-456e-8f81-9f37b2510a0d")
+	)
+	(junction
 		(at 130.81 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1598,6 +1643,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 119.38) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7f6de6-380c-4f6b-a80d-07cd2a5378bf")
+	)
+	(wire
+		(pts
 			(xy 128.27 74.93) (xy 130.81 74.93)
 		)
 		(stroke
@@ -1688,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 113.03) (xy 130.81 115.57)
+			(xy 130.81 113.03) (xy 130.81 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1818,6 +1873,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 118.11) (xy 123.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a022ad87-5ff3-48c9-99ea-1fe20a74c973")
+	)
+	(wire
+		(pts
 			(xy 128.27 85.09) (xy 135.89 85.09)
 		)
 		(stroke
@@ -1825,6 +1890,16 @@
 			(type default)
 		)
 		(uuid "a4feb67c-71fc-4db6-9337-fa4e50633786")
+	)
+	(wire
+		(pts
+			(xy 123.19 119.38) (xy 130.81 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5de6c5f-8824-45fb-92d1-04bb181e81b1")
 	)
 	(wire
 		(pts
@@ -2093,7 +2168,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 115.57 0)
+		(at 130.81 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2102,7 +2177,7 @@
 		(fields_autoplaced yes)
 		(uuid "0aaa140f-47be-4261-9756-b477e63b1b85")
 		(property "Reference" "#PWR071"
-			(at 130.81 121.92 0)
+			(at 130.81 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 119.7031 0)
+			(at 130.81 124.7831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 115.57 0)
+			(at 130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 115.57 0)
+			(at 130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 115.57 0)
+			(at 130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x16")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x16_MountingPin")
 		(at 123.19 92.71 0)
 		(mirror y)
 		(unit 1)
@@ -2578,7 +2653,7 @@
 		(dnp no)
 		(uuid "e2eb4135-bd8c-4676-b57a-ddab2c21cf79")
 		(property "Reference" "J7"
-			(at 123.19 118.4445 0)
+			(at 123.444 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,14 +2661,14 @@
 			)
 		)
 		(property "Value" "Keyboard"
-			(at 123.19 116.0202 0)
+			(at 123.19 71.7437 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:FPC-SMD_P0.50-16P_FGS-XJ-H2.0"
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -2611,7 +2686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -2629,7 +2704,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "AFC01-S16FCA-00"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C262665"
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -2685,6 +2769,9 @@
 		)
 		(pin "5"
 			(uuid "0303e9de-e9de-40dd-bfd1-89b9a12179a1")
+		)
+		(pin "MP"
+			(uuid "39f50f00-3364-4f68-9653-20c76ab2dc9b")
 		)
 		(instances
 			(project ""
