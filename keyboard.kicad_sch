@@ -1364,6 +1364,26 @@
 	(bus_alias "KBD"
 		(members "D1" "D2" "D3" "D4" "D5" "D6" "D7" "D8" "D9")
 	)
+	(text_box "Original C62 keypad connected in matrix.\n* D1-D4 + D9 are rows\n* D5-D8 are columns"
+		(exclude_from_sim no)
+		(at 138.43 60.96 0)
+		(size 26.67 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1be3a37f-3576-4b0a-8a29-573926b4984e")
+	)
 	(text_box "Solder pads for the side keys (buttons). These have their own PCB."
 		(exclude_from_sim no)
 		(at 44.45 86.36 0)

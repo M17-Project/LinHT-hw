@@ -1159,10 +1159,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -10.16 59.69 270)
 				(length 3.81)
-				(name ""
+				(name "VCC_RTC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 			(pin bidirectional line
 				(at -5.08 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[16]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1288,7 +1288,7 @@
 			(pin bidirectional line
 				(at -2.54 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[19]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1324,7 +1324,7 @@
 			(pin bidirectional line
 				(at 0 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[18]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1360,7 +1360,7 @@
 			(pin bidirectional line
 				(at 2.54 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[20]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1396,7 +1396,7 @@
 			(pin bidirectional line
 				(at 5.08 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[17]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1432,7 +1432,7 @@
 			(pin bidirectional line
 				(at 7.62 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[21]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 			(pin bidirectional line
 				(at 10.16 59.69 270)
 				(length 3.81)
-				(name ""
+				(name "GPIO2_IO[19]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1468,7 +1468,7 @@
 			(pin bidirectional line
 				(at 10.16 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[23]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1504,7 +1504,7 @@
 			(pin bidirectional line
 				(at 12.7 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[22]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1540,7 +1540,7 @@
 			(pin bidirectional line
 				(at 15.24 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[24]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1576,7 +1576,7 @@
 			(pin bidirectional line
 				(at 17.78 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[25]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1594,7 +1594,7 @@
 			(pin bidirectional line
 				(at 20.32 59.69 270)
 				(length 3.81)
-				(name ""
+				(name "GPIO2_IO[22]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1612,7 +1612,7 @@
 			(pin bidirectional line
 				(at 20.32 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[26]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 			(pin bidirectional line
 				(at 22.86 59.69 270)
 				(length 3.81)
-				(name ""
+				(name "GPIO3_IO[22]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1644,11 +1644,12 @@
 						)
 					)
 				)
+				(alternate "SDIO3_DATA0" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 22.86 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO4_IO[27]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1666,7 +1667,7 @@
 			(pin bidirectional line
 				(at 25.4 59.69 270)
 				(length 3.81)
-				(name ""
+				(name "GPIO3_IO[21]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1680,6 +1681,7 @@
 						)
 					)
 				)
+				(alternate "SDIO3_CMD" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 25.4 -66.04 90)
@@ -1702,7 +1704,7 @@
 			(pin bidirectional line
 				(at 27.94 59.69 270)
 				(length 3.81)
-				(name ""
+				(name "GPIO3_IO[23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1716,6 +1718,7 @@
 						)
 					)
 				)
+				(alternate "SDIO3_DATA1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 27.94 -66.04 90)
@@ -1828,7 +1831,7 @@
 			(pin bidirectional line
 				(at 35.56 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO3_IO[6]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1864,7 +1867,7 @@
 			(pin bidirectional line
 				(at 38.1 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO3_IO[5]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1900,7 +1903,7 @@
 			(pin bidirectional line
 				(at 40.64 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO3_IO[2]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1936,7 +1939,7 @@
 			(pin bidirectional line
 				(at 43.18 -66.04 90)
 				(length 3.81)
-				(name ""
+				(name "GPIO3_IO[1]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1954,7 +1957,7 @@
 			(pin bidirectional line
 				(at 49.53 43.18 180)
 				(length 3.81)
-				(name ""
+				(name "GPIO2_IO[12]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1972,7 +1975,7 @@
 			(pin bidirectional line
 				(at 49.53 40.64 180)
 				(length 3.81)
-				(name ""
+				(name "GPIO2_IO[13]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2008,7 +2011,7 @@
 			(pin bidirectional line
 				(at 49.53 35.56 180)
 				(length 3.81)
-				(name ""
+				(name "GPIO2_IO[14]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2062,7 +2065,7 @@
 			(pin bidirectional line
 				(at 49.53 27.94 180)
 				(length 3.81)
-				(name ""
+				(name "GPIO2_IO[24]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2080,7 +2083,7 @@
 			(pin bidirectional line
 				(at 49.53 25.4 180)
 				(length 3.81)
-				(name ""
+				(name "GPIO2_IO[28]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2094,11 +2097,12 @@
 						)
 					)
 				)
+				(alternate "I2C3_SDA" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 49.53 22.86 180)
 				(length 3.81)
-				(name ""
+				(name "GPIO2_IO[29]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2112,6 +2116,7 @@
 						)
 					)
 				)
+				(alternate "I2C3_SCL" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 49.53 20.32 180)
@@ -3019,10 +3024,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 49.53 -43.18 180)
 				(length 3.81)
-				(name ""
+				(name "RESERVED"
 					(effects
 						(font
 							(size 1.27 1.27)
