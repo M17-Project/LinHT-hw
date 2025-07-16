@@ -4346,7 +4346,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:Jack_2.5mm_PJ-204_Horizontal"
 			(at 196.85 74.93 0)
 			(effects
 				(font
