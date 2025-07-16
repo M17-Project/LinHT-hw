@@ -1,0 +1,375 @@
+(footprint "Jack_2.5mm_PJ-204_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TRS 2.5mm, horizontal, through-hole, https://www.jbl-ec.com/pj-204-audio-jack-2-5mm-dip-5pin-dc12v-1a-right-angle-stereo-jack-product/")
+	(tags "TRS audio jack stereo horizontal")
+	(property "Reference" "REF**"
+		(at 0 -0.9 0)
+		(layer "F.SilkS")
+		(uuid "1add7dcf-a760-4acf-a8df-7191842316d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_2.5mm_PJ-204_Horizontal"
+		(at 0 -10 0)
+		(layer "F.Fab")
+		(uuid "6612f225-863e-4980-926d-c81f7a4c0ba5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87b43f88-e722-4fe0-a9f0-7872afe98c67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcc3ef8c-8425-4c05-ab28-aa0bbbe4a25a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 0)
+		(end -5 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c78b5373-444d-46df-a7ff-7918695524aa")
+	)
+	(fp_line
+		(start -5 0)
+		(end 5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37df54e5-cc8c-41e4-84e7-55d2f9716bba")
+	)
+	(fp_line
+		(start -5 9.5)
+		(end 5 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c90c2cac-c094-4a44-8573-9eade1ac1d10")
+	)
+	(fp_line
+		(start -2.5 9.5)
+		(end -2.5 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "24e7a552-df83-426c-b60f-fe2f1fbc809e")
+	)
+	(fp_line
+		(start -2.5 12)
+		(end 2.5 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94f970ba-e83e-49a0-b986-74fd1ecd5c78")
+	)
+	(fp_line
+		(start 2.5 12)
+		(end 2.5 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f29f4406-918d-48c2-9b74-351874647dc4")
+	)
+	(fp_line
+		(start 5 0)
+		(end 5 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb781b1e-c884-42ea-9fa8-fe7a1786fd68")
+	)
+	(fp_line
+		(start -5.2 10.2)
+		(end -2.8 10.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f9968e1-0eee-4dd9-9f60-e366337fcb8a")
+	)
+	(fp_line
+		(start -2.8 9.5)
+		(end -2.8 10.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c31c5813-442f-4ad2-960c-3f73d806ce53")
+	)
+	(fp_line
+		(start -2.5 9.2)
+		(end 2.5 9.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dbb57839-1d85-4f3a-9ffc-784b41399dbf")
+	)
+	(fp_line
+		(start 2.8 9.5)
+		(end 2.8 10.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "86375f01-fc12-4053-b820-79f7aa5c8146")
+	)
+	(fp_line
+		(start 2.8 10.2)
+		(end 5.2 10.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "978a124b-c077-4e1d-a7de-ec1e47637e18")
+	)
+	(fp_arc
+		(start -2.8 9.5)
+		(mid -2.712132 9.287868)
+		(end -2.5 9.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dbde7e21-8636-4297-9d29-cd1d0d9efbd0")
+	)
+	(fp_arc
+		(start 2.5 9.2)
+		(mid 2.712132 9.287868)
+		(end 2.8 9.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "65bc386a-a6e4-4a0e-84da-1422f63a936a")
+	)
+	(fp_line
+		(start -5.2 -0.2)
+		(end 5.2 -0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "97966214-2210-4448-a880-744d95a73b87")
+	)
+	(fp_line
+		(start -5.2 9.7)
+		(end -5.2 -0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f6ed11b-79cd-45f6-959e-7f2fbf90f69a")
+	)
+	(fp_line
+		(start -2.7 9.7)
+		(end -5.2 9.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b74f1fa6-5829-409a-b994-da1bf9a13516")
+	)
+	(fp_line
+		(start -2.7 12.2)
+		(end -2.7 9.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3ca5317-fc50-4144-9d59-8647b18b887e")
+	)
+	(fp_line
+		(start 2.7 9.7)
+		(end 2.7 12.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "308ca0d3-88bf-4641-a81c-63b2cb244e99")
+	)
+	(fp_line
+		(start 2.7 12.2)
+		(end -2.7 12.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cdbf1a26-9172-42d0-8e5f-d28b5324d8c7")
+	)
+	(fp_line
+		(start 5.2 -0.2)
+		(end 5.2 9.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e89ed8b8-dbbf-45a7-b867-1502c7286eb3")
+	)
+	(fp_line
+		(start 5.2 9.7)
+		(end 2.7 9.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf50228b-3ef5-443b-87fe-7d588817c57b")
+	)
+	(fp_text user "PCB edge"
+		(at 0 8.2 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "280aa230-a25f-414c-9d84-47f182621149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 0.9 0)
+		(layer "F.Fab")
+		(uuid "085988cb-9879-4ac3-a25a-5a2bd7285627")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.8 2)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "aad37fb3-19ea-4427-841a-5a0a46cc40d6")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.8 6)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "feb3d5a6-05f9-47a2-8c9f-12ce7961e356")
+	)
+	(pad "" np_thru_hole circle
+		(at 2 5)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9bdcf347-6076-4e1b-842a-655c2c3f0f84")
+	)
+	(pad "R" thru_hole oval
+		(at -4 5 90)
+		(size 1.8 1)
+		(drill oval 1.1 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5aecb324-b167-40b9-a41d-67a6469e1fa6")
+	)
+	(pad "RN" thru_hole circle
+		(at -4 7)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "565d8018-5776-4af4-939a-4fc9b4a6d31a")
+	)
+	(pad "S" thru_hole oval
+		(at 2 7.1 90)
+		(size 1.8 1)
+		(drill oval 1.1 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a9c9215-8df3-4b75-b688-d6e63cc11eab")
+	)
+	(pad "T" thru_hole oval
+		(at 4 6 90)
+		(size 1.8 1)
+		(drill oval 1.1 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "90bc0af0-53b1-40e6-82a5-896c9d0526e7")
+	)
+	(pad "TN" thru_hole circle
+		(at 4 4)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a3cd8fb-44ec-4d5b-9655-c80e908a60e3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/parts.3dshapes/PJ-204.STEP"
+		(offset
+			(xyz 0 -4.7 2.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
