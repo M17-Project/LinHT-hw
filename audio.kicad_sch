@@ -6655,7 +6655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a0fef84-a945-4c41-b93b-13f5e25e6699")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 69.342 94.234 0)
 			(effects
 				(font
@@ -6724,7 +6724,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7082,7 +7082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b40bb0-006f-4e0f-8058-b2cd9016ad0e")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 213.5887 80.3715 0)
 			(effects
 				(font
@@ -7153,7 +7153,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -7930,7 +7930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "584ac812-e62f-48a8-a5a1-44377c8cf890")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 75.692 94.234 0)
 			(effects
 				(font
@@ -7999,7 +7999,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -8143,7 +8143,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "6907cbc6-38b6-4a02-a016-4d1e6c143c79")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 98.552 86.36 90)
 			(effects
 				(font
@@ -8212,7 +8212,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -8990,7 +8990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a83af196-e3d6-40f4-8874-c2affaa037f9")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 124.46 138.8068 90)
 			(effects
 				(font
@@ -9059,7 +9059,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9075,7 +9075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac16cd3b-96fc-457e-a623-d8261a784f50")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 120.8787 156.5715 0)
 			(effects
 				(font
@@ -9146,7 +9146,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -9790,7 +9790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d866a807-68a1-4a81-b99f-e2c03b58015e")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 96.7487 138.7915 0)
 			(effects
 				(font
@@ -9861,7 +9861,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -9965,7 +9965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbc4ced1-43c4-4cb0-8fc1-6595b5132fd0")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 191.77 142.24 90)
 			(effects
 				(font
@@ -10035,7 +10035,7 @@
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
