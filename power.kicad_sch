@@ -6899,7 +6899,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:Connector_01x03_BT-003E"
 			(at 49.53 55.88 0)
 			(effects
 				(font
