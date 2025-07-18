@@ -1,0 +1,240 @@
+(footprint "Connector_01x03_BT-003E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.55 -5.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a24c9b7-dd86-46c0-8405-a0462944bc3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Connector_01x03_BT-003E"
+		(at 0 5.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34b5c268-1c5d-4b2f-a310-15714d3b18cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.jbl-ec.com/uploads/BT-003E-Model-1_1.png"
+		(at 1.05 6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "086c167e-8e3b-4a72-a323-ff2f380094a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "BT-003E 4.1mm Pitch Spring Battery Connector 3 Way"
+		(at 1.05 6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e01100c6-aefb-4f02-a5a6-ddabbee4e9ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.45 -4.95)
+		(end -6.45 4.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8cd2fdcc-e2fb-4d4f-9530-986f8980cd6c")
+	)
+	(fp_line
+		(start -6.45 4.65)
+		(end -5.55 4.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58a7ed2d-4da1-40ac-b1ac-b5aa87049c16")
+	)
+	(fp_line
+		(start -1.45 4.65)
+		(end -2.65 4.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c6d1db0-84ea-4eb7-9ab5-b3a5a71f7d8d")
+	)
+	(fp_line
+		(start 2.65 4.65)
+		(end 1.45 4.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dfdd6823-6b34-4d72-bb72-262d3416f5de")
+	)
+	(fp_line
+		(start 6.45 -4.95)
+		(end -6.45 -4.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bd485abd-1c82-49f1-a030-476369eecbc2")
+	)
+	(fp_line
+		(start 6.45 4.65)
+		(end 5.55 4.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dee4c502-f7ce-497e-af35-535e3fd2e387")
+	)
+	(fp_line
+		(start 6.45 4.65)
+		(end 6.45 -4.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8fc275c4-c771-406e-b9c9-c04a09067bd8")
+	)
+	(fp_circle
+		(center -6.05 -4.55)
+		(end -5.85 -4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9e2c2d01-67c4-4460-a692-09fdb0b3068f")
+	)
+	(fp_line
+		(start -6.55 -5.05)
+		(end -6.55 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa1b366a-07af-45ae-872f-df02c605d296")
+	)
+	(fp_line
+		(start -6.55 4.75)
+		(end 6.55 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "31f0f352-6846-4401-9a7c-3f0637d8abea")
+	)
+	(fp_line
+		(start 6.55 -5.05)
+		(end -6.55 -5.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "36a29dad-27b1-4a6d-b6fa-b7d8b3f7a521")
+	)
+	(fp_line
+		(start 6.55 4.75)
+		(end 6.55 -5.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a01c5e7-0401-4414-9d25-6a179e53ec78")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75b1152b-cf71-4895-b93a-fee5e29bbe90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.1 0.15)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0da79f11-5806-4125-bef3-2ff7001761c8")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.1 0.15)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "491ead3d-26f5-4b51-8881-935491f83d19")
+	)
+	(pad "1" smd roundrect
+		(at -4.1 0)
+		(size 2.9 9.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05172413793)
+		(thermal_bridge_angle 45)
+		(uuid "35ee2611-866a-4fe1-a736-24735be9173f")
+	)
+	(pad "2" smd roundrect
+		(at 0 0)
+		(size 2.9 9.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05172413793)
+		(thermal_bridge_angle 45)
+		(uuid "db9bcfb9-e7f6-41ed-bfde-93d1defd50cc")
+	)
+	(pad "3" smd roundrect
+		(at 4.1 0)
+		(size 2.9 9.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05172413793)
+		(thermal_bridge_angle 45)
+		(uuid "f25cc422-5aa3-415f-ab86-1ef8ab50a348")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/parts.3dshapes/BT-003E.step"
+		(offset
+			(xyz 0 0 4.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
