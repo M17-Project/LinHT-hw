@@ -4,14 +4,14 @@
 | --------------- | --------------- | ------- | ------------- | --------- | ------------------------------------- |
 |                 | USB1_ID         | Pin 1   |               |           |                                       |
 |                 | USB1_VBUS_3V3   | Pin 2   | USB_VSENSE    |           |                                       |
-|                 | ONOFF           | Pin 3   | ON/OF         |           |                                       |
+|                 | ONOFF           | Pin 3   | ON/OFF        |           |                                       |
 |                 | V_SOM           | Pin 4   | 5V            |           |                                       |
 |                 | ALT_BOOT_USB    | Pin 5   | USB_BOOT      |           |                                       |
 |                 | V_SOM           | Pin 6   | 5V            |           |                                       |
 |                 | ADC_IN3         | Pin 7   |               |           |                                       |
 |                 | ADC_IN2         | Pin 8   |               |           |                                       |
 |                 | ADC_IN1         | Pin 9   |               |           |                                       |
-|                 | ADC_IN0         | Pin 10  |               |           |                                       |
+|                 | ADC_IN0         | Pin 10  | VOL_ADC       |           |                                       |
 |                 | V_SOM           | Pin 11  | 5V            |           |                                       |
 |                 | TAMPER0         | Pin 12  |               |           |                                       |
 |                 | TAMPER1         | Pin 13  |               |           |                                       |
@@ -103,7 +103,7 @@
 | TPM3_CH3        | GPIO2_IO[24]    | Pin 99  | LCD_PWM       | 3.3V      | MX93_PAD_GPIO_IO24__TPM3_CH3          |
 | SAI3_MCLK       | GPIO2_IO[17]    | Pin 100 | SPI1_MCLK     | 3.3V      | MX93_PAD_GPIO_IO17__SAI3_MCLK         |
 | SAI3_TX_BCLK    | GPIO2_IO[16]    | Pin 101 | I2S1_CLK      | 3.3V      | MX93_PAD_GPIO_IO16__SAI3_TX_BCLK      |
-| GPIO2_IO[14]    | GPIO2_IO[14]    | Pin 102 |               | 3.3V      | MX93_PAD_GPIO_IO14__GPIO2_IO14        |
+| GPIO2_IO[14]    | GPIO2_IO[14]    | Pin 102 | ON/OFF_SW     | 3.3V      | MX93_PAD_GPIO_IO14__GPIO2_IO14        |
 | GPIO2_IO[15]    | GPIO2_IO[15]    | Pin 103 |               | 3.3V      | MX93_PAD_GPIO_IO15__GPIO2_IO15        |
 | GPIO2_IO[13]    | GPIO2_IO[13]    | Pin 104 |               | 3.3V      | MX93_PAD_GPIO_IO13__GPIO2_IO13        |
 | TPM3_CH2        | GPIO2_IO[12]    | Pin 105 | KBD_PWM       | 3.3V      | MX93_PAD_GPIO_IO12__TPM3_CH2          |
