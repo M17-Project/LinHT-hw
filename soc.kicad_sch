@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "17 July 2025")
+		(date "20 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -363,7 +363,7 @@
 				(pin bidirectional line
 					(at -49.53 20.32 0)
 					(length 3.81)
-					(name ""
+					(name "VOL_ADC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3426,10 +3426,10 @@
 		(uuid "11195358-af52-44b2-9742-d1a1453645b4")
 	)
 	(junction
-		(at 41.91 85.09)
+		(at 41.91 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "517b4100-261a-481f-a6fb-792cab0789df")
+		(uuid "4e3c7927-f9f4-4f23-a192-94839a586814")
 	)
 	(junction
 		(at 41.91 87.63)
@@ -3708,10 +3708,6 @@
 		(uuid "b67be4b3-dfe7-4eca-a4e4-daf56fa22bf8")
 	)
 	(no_connect
-		(at 44.45 85.09)
-		(uuid "bccaf4f5-0864-47be-af96-f4b29795f54c")
-	)
-	(no_connect
 		(at 60.96 171.45)
 		(uuid "c90c6a43-1708-4913-bf93-ce397105d78b")
 	)
@@ -3750,10 +3746,6 @@
 	(no_connect
 		(at 44.45 148.59)
 		(uuid "dce744c8-872b-4b3e-9db7-e750f5d344a9")
-	)
-	(no_connect
-		(at 143.51 69.85)
-		(uuid "dd5def12-1c39-4200-b957-639a837d2941")
 	)
 	(no_connect
 		(at 44.45 77.47)
@@ -3950,7 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 85.09) (xy 41.91 85.09)
+			(xy 36.83 81.28) (xy 41.91 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4108,6 +4100,16 @@
 		)
 		(uuid "3a8d3272-c6bb-40a3-9f74-1eb2a1599b98")
 	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 148.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4cb247-535b-4f42-9ed0-ffbec851ba4f")
+	)
 	(bus
 		(pts
 			(xy 114.3 180.34) (xy 114.3 177.8)
@@ -4137,16 +4139,6 @@
 			(type default)
 		)
 		(uuid "4334e8a2-77c7-48d4-bdf7-1363bb4cd785")
-	)
-	(wire
-		(pts
-			(xy 41.91 87.63) (xy 41.91 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fa4bdb6-cb69-4490-95f8-47c81aab13c7")
 	)
 	(wire
 		(pts
@@ -4207,6 +4199,26 @@
 			(type default)
 		)
 		(uuid "698d8e17-7d64-473c-9dc4-08cf3d622746")
+	)
+	(wire
+		(pts
+			(xy 36.83 85.09) (xy 44.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c26386b-b22a-4316-a676-b9b029ddf8db")
+	)
+	(wire
+		(pts
+			(xy 41.91 81.28) (xy 41.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d00f92c-7b44-418e-84fb-06575c028709")
 	)
 	(wire
 		(pts
@@ -4440,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 82.55) (xy 36.83 85.09)
+			(xy 36.83 78.74) (xy 36.83 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4460,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 85.09) (xy 41.91 74.93)
+			(xy 41.91 81.28) (xy 41.91 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5157,6 +5169,17 @@
 		)
 		(uuid "71ab3f2b-5de7-4e35-8f34-0f80f55f6f15")
 	)
+	(hierarchical_label "VOL_POT"
+		(shape input)
+		(at 36.83 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71dac513-31b5-4b4a-aae7-1ed21e47f820")
+	)
 	(hierarchical_label "~{MIC_MUTE}"
 		(shape output)
 		(at 132.08 177.8 270)
@@ -5189,6 +5212,17 @@
 			(justify left)
 		)
 		(uuid "87001f43-ca87-4599-a541-3bf0301a400b")
+	)
+	(hierarchical_label "ON{slash}OFF_SW"
+		(shape input)
+		(at 148.59 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8877827d-0a14-407f-ac58-08dee30b7956")
 	)
 	(hierarchical_label "I2S1_WS"
 		(shape output)
@@ -5742,7 +5776,6 @@
 		)
 		(pin "98"
 			(uuid "fd02fd88-cb5c-476d-9111-27c395bdae00")
-			(alternate "I2C3_SDA")
 		)
 		(pin "60"
 			(uuid "34505f92-a58f-4b6f-b28a-d54d70833542")
@@ -5869,7 +5902,6 @@
 		)
 		(pin "97"
 			(uuid "cb79a0c4-d2d9-4e83-b604-3ede0248cca8")
-			(alternate "I2C3_SCL")
 		)
 		(pin "96"
 			(uuid "a4ccf5e7-efaf-4449-9f4b-144dc9d91912")
@@ -6029,7 +6061,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 36.83 82.55 0)
+		(at 36.83 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6038,7 +6070,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b07fd2-9d15-4c97-81a9-66d15a567bac")
 		(property "Reference" "#PWR01"
-			(at 36.83 86.36 0)
+			(at 36.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +6079,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 36.83 78.4169 0)
+			(at 36.83 74.6069 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 82.55 0)
+			(at 36.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 82.55 0)
+			(at 36.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 82.55 0)
+			(at 36.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
