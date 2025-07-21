@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "20 July 2025")
+		(date "21 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -42,7 +42,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 134.62) (xy 176.53 134.62)
+			(xy 113.03 134.62) (xy 176.53 134.62)
 		)
 		(stroke
 			(width 0)
@@ -52,7 +52,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 127 107.95)
+			(xy 113.03 107.95) (xy 127 107.95)
 		)
 		(stroke
 			(width 0)
@@ -82,7 +82,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 127 88.9)
+			(xy 113.03 88.9) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -122,7 +122,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 119.38) (xy 127 119.38)
+			(xy 113.03 119.38) (xy 127 119.38)
 		)
 		(stroke
 			(width 0)
@@ -152,7 +152,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 156.21) (xy 176.53 156.21)
+			(xy 77.47 156.21) (xy 176.53 156.21)
 		)
 		(stroke
 			(width 0)
@@ -172,7 +172,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 121.92 86.36)
+			(xy 113.03 86.36) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -182,7 +182,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 116.84) (xy 127 116.84)
+			(xy 113.03 116.84) (xy 127 116.84)
 		)
 		(stroke
 			(width 0)
@@ -202,7 +202,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 99.06) (xy 127 99.06)
+			(xy 113.03 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -222,7 +222,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 114.3) (xy 127 114.3)
+			(xy 113.03 114.3) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
@@ -252,7 +252,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 80.01) (xy 48.26 80.01)
+			(xy 87.63 80.01) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
@@ -282,7 +282,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 137.16) (xy 176.53 137.16)
+			(xy 113.03 137.16) (xy 176.53 137.16)
 		)
 		(stroke
 			(width 0)
@@ -292,7 +292,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 105.41) (xy 127 105.41)
+			(xy 113.03 105.41) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -312,7 +312,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 111.76) (xy 127 111.76)
+			(xy 113.03 111.76) (xy 127 111.76)
 		)
 		(stroke
 			(width 0)
@@ -332,7 +332,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 139.7) (xy 176.53 139.7)
+			(xy 113.03 139.7) (xy 176.53 139.7)
 		)
 		(stroke
 			(width 0)
@@ -372,7 +372,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 125.73) (xy 127 125.73)
+			(xy 113.03 125.73) (xy 127 125.73)
 		)
 		(stroke
 			(width 0)
@@ -392,7 +392,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 80.01) (xy 48.26 156.21)
+			(xy 77.47 80.01) (xy 77.47 156.21)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 82.55) (xy 127 82.55)
+			(xy 113.03 82.55) (xy 127 82.55)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +432,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 121.92) (xy 127 121.92)
+			(xy 113.03 121.92) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
@@ -442,7 +442,7 @@
 	)
 	(bus
 		(pts
-			(xy 83.82 80.01) (xy 127 80.01)
+			(xy 113.03 80.01) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -482,7 +482,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 101.6) (xy 127 101.6)
+			(xy 113.03 101.6) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
@@ -511,7 +511,7 @@
 		(uuid "fc087734-3735-4de9-90de-c63f393b7213")
 	)
 	(sheet
-		(at 58.42 77.47)
+		(at 87.63 77.47)
 		(size 25.4 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -527,7 +527,7 @@
 		)
 		(uuid "058c0cc5-75b0-4494-8e78-217aac2f1bdc")
 		(property "Sheetname" "Keyboard"
-			(at 58.42 76.7584 0)
+			(at 87.63 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,7 +536,7 @@
 			)
 		)
 		(property "Sheetfile" "keyboard.kicad_sch"
-			(at 58.42 92.0246 0)
+			(at 87.63 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +545,7 @@
 			)
 		)
 		(pin "KBD_PWM" input
-			(at 83.82 82.55 0)
+			(at 113.03 82.55 0)
 			(uuid "239a8a29-e3b0-440a-9454-3845c5c26fc9")
 			(effects
 				(font
@@ -555,7 +555,7 @@
 			)
 		)
 		(pin "MIC_OUT" output
-			(at 58.42 80.01 180)
+			(at 87.63 80.01 180)
 			(uuid "3b9429f1-8be2-447b-9204-4262b533293d")
 			(effects
 				(font
@@ -565,7 +565,7 @@
 			)
 		)
 		(pin "KBD" bidirectional
-			(at 83.82 80.01 0)
+			(at 113.03 80.01 0)
 			(uuid "4d07a14a-0133-4926-a7e3-1eb992098f67")
 			(effects
 				(font
@@ -575,7 +575,7 @@
 			)
 		)
 		(pin "SIDE_BTN" output
-			(at 83.82 86.36 0)
+			(at 113.03 86.36 0)
 			(uuid "308e02c4-81eb-4086-9173-2fb1b235e6ac")
 			(effects
 				(font
@@ -585,7 +585,7 @@
 			)
 		)
 		(pin "SIDE_PTT" output
-			(at 83.82 88.9 0)
+			(at 113.03 88.9 0)
 			(uuid "8949db2e-48ff-4488-b2df-b7d756a1ec64")
 			(effects
 				(font
@@ -1480,8 +1480,8 @@
 		)
 	)
 	(sheet
-		(at 212.09 62.23)
-		(size 25.4 25.4)
+		(at 212.09 74.93)
+		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1496,7 +1496,7 @@
 		)
 		(uuid "be402a1e-34f3-489f-9745-963b98ced0ff")
 		(property "Sheetname" "Power"
-			(at 212.09 61.5184 0)
+			(at 212.09 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1552,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 96.52)
+		(at 87.63 96.52)
 		(size 25.4 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1567,7 +1567,7 @@
 		)
 		(uuid "c40b23ce-765e-4258-88c6-173a78d6d517")
 		(property "Sheetname" "Audio"
-			(at 58.674 96.266 0)
+			(at 87.884 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1576,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 58.42 144.272 0)
+			(at 87.63 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +1585,7 @@
 			)
 		)
 		(pin "MIC_GAIN" input
-			(at 83.82 99.06 0)
+			(at 113.03 99.06 0)
 			(uuid "2c4da548-12f0-436b-b92d-6e5b76e4f977")
 			(effects
 				(font
@@ -1595,7 +1595,7 @@
 			)
 		)
 		(pin "MIC_IN" input
-			(at 83.82 139.7 0)
+			(at 113.03 139.7 0)
 			(uuid "1a881463-4902-44c0-8524-95a166731d8b")
 			(effects
 				(font
@@ -1605,7 +1605,7 @@
 			)
 		)
 		(pin "~{MIC_MUTE}" input
-			(at 83.82 101.6 0)
+			(at 113.03 101.6 0)
 			(uuid "a1ae0d35-02fc-4e73-809c-6d12356d1c01")
 			(effects
 				(font
@@ -1615,7 +1615,7 @@
 			)
 		)
 		(pin "I2S_CLK_IN" input
-			(at 83.82 116.84 0)
+			(at 113.03 116.84 0)
 			(uuid "05441891-3606-4e0d-b20d-9e785ed969a8")
 			(effects
 				(font
@@ -1625,7 +1625,7 @@
 			)
 		)
 		(pin "I2S_DATA_IN" input
-			(at 83.82 121.92 0)
+			(at 113.03 121.92 0)
 			(uuid "3a6cf4df-92e0-4c9d-a314-6ec81e9a1f47")
 			(effects
 				(font
@@ -1635,7 +1635,7 @@
 			)
 		)
 		(pin "I2S_DATA_OUT" output
-			(at 83.82 119.38 0)
+			(at 113.03 119.38 0)
 			(uuid "7e6320d8-e8d9-4ae4-aa32-85a01a2f27eb")
 			(effects
 				(font
@@ -1645,7 +1645,7 @@
 			)
 		)
 		(pin "I2S_WS_IN" input
-			(at 83.82 111.76 0)
+			(at 113.03 111.76 0)
 			(uuid "1b7918dc-b8d1-4284-b32b-b4c1951735ff")
 			(effects
 				(font
@@ -1655,7 +1655,7 @@
 			)
 		)
 		(pin "I2C_SCL" input
-			(at 83.82 105.41 0)
+			(at 113.03 105.41 0)
 			(uuid "4fa76d9a-4690-4dca-a605-c4d706f1bd8b")
 			(effects
 				(font
@@ -1665,7 +1665,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 83.82 107.95 0)
+			(at 113.03 107.95 0)
 			(uuid "c5aff53b-e2ee-4307-8b24-8c6de8aa8180")
 			(effects
 				(font
@@ -1675,7 +1675,7 @@
 			)
 		)
 		(pin "I2S_MCLK_IN" input
-			(at 83.82 114.3 0)
+			(at 113.03 114.3 0)
 			(uuid "5fa5bce4-062a-4bd6-b62d-95468db61785")
 			(effects
 				(font
@@ -1685,7 +1685,7 @@
 			)
 		)
 		(pin "JACK_DETECT" input
-			(at 83.82 134.62 0)
+			(at 113.03 134.62 0)
 			(uuid "5fc1da5e-b87e-40b7-990c-1454f9b4a623")
 			(effects
 				(font
@@ -1695,7 +1695,7 @@
 			)
 		)
 		(pin "SPK_OUT" output
-			(at 83.82 137.16 0)
+			(at 113.03 137.16 0)
 			(uuid "beda13dc-04fd-488a-9f7f-f3f6c232098f")
 			(effects
 				(font
@@ -1705,7 +1705,7 @@
 			)
 		)
 		(pin "VOL_POT" output
-			(at 83.82 125.73 0)
+			(at 113.03 125.73 0)
 			(uuid "e7d7e688-e833-4a33-88d2-b83089609fd1")
 			(effects
 				(font
