@@ -5837,7 +5837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:Connector_SMA_4x10mm"
 			(at 252.73 83.82 0)
 			(effects
 				(font

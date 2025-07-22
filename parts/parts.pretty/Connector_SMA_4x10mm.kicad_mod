@@ -1,0 +1,197 @@
+(footprint "Connector_SMA_4x10mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMA THT connector used in the Retevis C62 radio")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9af3315f-3760-4431-a6d3-c961daf93e0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMA 4x10mm"
+		(at 0 2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9d3c0d20-9c00-4712-8c97-a71c278c659a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c28d025e-402e-4cd7-87a2-b885ccf131d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e4892f0-6178-4cfa-9179-fe538b4e4f39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5 -8.1)
+		(end 5 -4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "1ff807b3-8eae-4b5a-8e89-e82ec4751ea9")
+	)
+	(fp_rect
+		(start -5 -8.1)
+		(end 5 -4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "57a24409-9f7c-4928-9e1a-216ce6332f1e")
+	)
+	(fp_line
+		(start -4.5 -13.2)
+		(end 4.5 -13.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "badf7925-5582-499b-9c06-d9bc6933b1fc")
+	)
+	(fp_line
+		(start -4.5 -8.3)
+		(end -4.5 -13.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27cdc8fc-256e-4503-a5d1-d81e2654d22c")
+	)
+	(fp_line
+		(start -4.5 -3.9)
+		(end -4.5 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "957f27b0-d499-4157-a0c2-493d05066f58")
+	)
+	(fp_line
+		(start -4.5 -2.1)
+		(end 4.5 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9dba7657-71b2-4a08-baa6-15373c45aee6")
+	)
+	(fp_line
+		(start -1.3 -0.4)
+		(end -1.3 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "669a12b8-52ee-481c-9e87-5e167ef06e28")
+	)
+	(fp_line
+		(start 1.3 -0.4)
+		(end 1.3 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "433ca06d-cd4f-40a0-9f39-38c104bc18b2")
+	)
+	(fp_line
+		(start 4.5 -13.2)
+		(end 4.5 -8.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "abb8244f-ffa0-46ce-8187-a7e74a5c6a09")
+	)
+	(fp_line
+		(start 4.5 -2.1)
+		(end 4.5 -3.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b506e301-9ea3-460a-beda-b6c8179b844e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a9b10697-3ad2-4023-8a79-ffea0bd057da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f2a2976-cd88-4bc1-adce-86ec51a01457")
+	)
+	(pad "2" thru_hole circle
+		(at -3.75 -5.3)
+		(size 2.54 2.54)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c109aca4-9b17-4cf4-8b80-1351643c20e9")
+	)
+	(pad "2" thru_hole circle
+		(at 3.75 -5.3)
+		(size 2.54 2.54)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f95e716f-1f15-4a03-b50c-54d6f9b32a3b")
+	)
+	(embedded_fonts no)
+)
