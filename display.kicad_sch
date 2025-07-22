@@ -2927,7 +2927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_Rectangular_W3.0mm_H2.0mm"
 			(at 209.55 90.17 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 209.55 68.58 0)
 			(effects
 				(font
@@ -3691,7 +3691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 209.55 80.01 0)
 			(effects
 				(font
