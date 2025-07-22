@@ -138,9 +138,9 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
-        "use_height_for_length_calcs": true
+        "use_height_for_length_calcs": false
       },
       "teardrop_options": [
         {
@@ -485,13 +485,72 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "name": "RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(132, 0, 132)",
+        "track_width": 0.234,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.165,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.165,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Connectors/USB_DN": [
+        "USB"
+      ],
+      "/Connectors/USB_DP": [
+        "USB"
+      ],
+      "/Connectors/xUDN": [
+        "USB"
+      ],
+      "/Connectors/xUDP": [
+        "USB"
+      ],
+      "/RF/RF_IN": [
+        "RF"
+      ],
+      "/RF/RF_OUT": [
+        "RF"
+      ],
+      "Net-(FL1-IN)": [
+        "RF"
+      ],
+      "Net-(FL1-OUT)": [
+        "RF"
+      ],
+      "Net-(IC1-RFI)": [
+        "RF"
+      ],
+      "Net-(IC1-RFO_P)": [
+        "RF"
+      ],
+      "Net-(U2-RF_IN)": [
+        "RF"
+      ],
+      "Net-(U2-RF_OUT_2)": [
+        "RF"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
