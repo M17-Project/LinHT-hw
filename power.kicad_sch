@@ -1507,142 +1507,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(offset 0)
@@ -2405,17 +2269,6 @@
 		)
 		(uuid "307e0072-932d-4c87-aee7-4baa3a9c737e")
 	)
-	(text "Power switch\n(volume knob)"
-		(exclude_from_sim no)
-		(at 66.04 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5c42abd-fdea-4ced-a446-575312a10b7d")
-	)
 	(text "V_{FB} = 600 mV"
 		(exclude_from_sim no)
 		(at 134.112 108.458 0)
@@ -3148,6 +3001,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 179.07) (xy 69.85 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44526c98-06e3-41fc-955f-c3dc3e5e6a96")
+	)
+	(wire
+		(pts
 			(xy 97.79 173.99) (xy 109.22 173.99)
 		)
 		(stroke
@@ -3196,16 +3059,6 @@
 		)
 		(uuid "48a1f4ee-0375-4574-8b1c-fd7325580b26")
 	)
-	(polyline
-		(pts
-			(xy 64.77 171.45) (xy 64.77 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48c7189c-0e43-4077-bbc4-83769611d94e")
-	)
 	(wire
 		(pts
 			(xy 73.66 93.98) (xy 86.36 93.98)
@@ -3248,16 +3101,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 165.1) (xy 69.85 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb6fc54-846a-4441-9497-016df156f5d7")
-	)
-	(wire
-		(pts
 			(xy 214.63 53.34) (xy 207.01 53.34)
 		)
 		(stroke
@@ -3285,6 +3128,16 @@
 			(type default)
 		)
 		(uuid "53b4e428-9943-4e27-b577-969367c729d9")
+	)
+	(wire
+		(pts
+			(xy 69.85 165.1) (xy 69.85 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0aec7d-e25a-42d3-a51d-49d79605eed2")
 	)
 	(wire
 		(pts
@@ -3325,16 +3178,6 @@
 			(type default)
 		)
 		(uuid "615bb6bd-e013-4967-9d18-7a8377fc5716")
-	)
-	(polyline
-		(pts
-			(xy 67.31 171.45) (xy 64.77 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62a3bbf8-e44e-440d-8208-2cf25ddf1cbd")
 	)
 	(wire
 		(pts
@@ -4308,6 +4151,17 @@
 		)
 		(uuid "4c30d28f-0514-4081-83d5-914817aaf7bc")
 	)
+	(hierarchical_label "SWITCH_ON_OFF"
+		(shape input)
+		(at 59.69 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0dd1c5c-0410-4858-9add-b1b48780ded9")
+	)
 	(hierarchical_label "ON{slash}OFF"
 		(shape output)
 		(at 158.75 154.94 0)
@@ -5041,77 +4895,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 69.85 171.45 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f65c5cc-7689-405a-8b59-f7a93ba59a0c")
-		(property "Reference" "SW1"
-			(at 74.93 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 68.707 172.6621 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 69.85 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ab9c063-e274-4253-9159-a43bf06e52c5")
-		)
-		(pin "2"
-			(uuid "7f111654-372b-4bb8-8b9c-0ef0a530465f")
-		)
-		(instances
-			(project ""
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -8240,72 +8023,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b06a2cf7-772d-445c-8fb4-7a209ce11968")
-		(property "Reference" "#PWR034"
-			(at 69.85 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 180.6631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2fab53e-e9cf-4a33-9bb4-eeb8fa118c69")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
