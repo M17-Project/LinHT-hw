@@ -1,0 +1,191 @@
+(footprint "Connector_08x09mm_pot_switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer with a switch in a 8x9 mm")
+	(property "Reference" "REF**"
+		(at -11.5 -15.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9890e7ca-94a3-4cb1-a47a-734e178fac27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Connector_08x09mm_pot_switch"
+		(at -11.5 -13.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bc4b000c-e3f6-4aeb-8981-1db6062542d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6584efde-a6e1-403e-a565-ec335061a40b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b307d16c-d3d6-4c2a-9e5d-0bad8a6ff7df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.85 -3.35)
+		(end 3.85 -3.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc84ac40-080b-43d2-9715-1bd9875eca83")
+	)
+	(fp_line
+		(start -3.85 -3.05)
+		(end 3.85 -3.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "85eaa734-a14c-4e33-9618-82c226625e70")
+	)
+	(fp_line
+		(start -3.85 5.95)
+		(end -3.85 -3.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2ff05fc7-531c-4d49-b7cb-12645a948121")
+	)
+	(fp_line
+		(start -2.9 -3.95)
+		(end 2.9 -3.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "23fbb450-9e8e-4cf8-b785-1800873b3fbf")
+	)
+	(fp_line
+		(start -2.9 -3.35)
+		(end -2.9 -3.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "00ab1fb3-0bb4-4934-b234-b4f1e7012109")
+	)
+	(fp_line
+		(start 2.9 -3.95)
+		(end 2.9 -3.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "877bfa50-5346-4dc1-ac5d-b70861709953")
+	)
+	(fp_line
+		(start 3.85 -3.35)
+		(end 3.85 5.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5370b49c-176e-41a3-84b6-35015172f9a6")
+	)
+	(fp_line
+		(start 3.85 5.95)
+		(end -3.85 5.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cfbe9542-44cb-41ca-a26f-af6bd3975c12")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -11.5 -12.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9fed22c-ce47-4a3a-9580-5556a7ab479b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6dbe38a-a48d-4ae1-8c50-6edfb5b2312c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fae44cd1-7aa1-462f-b213-f05372bedfc6")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f742af84-ad9e-42d8-82c5-a2e5d625d3aa")
+	)
+	(pad "S1" thru_hole circle
+		(at -2 5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f5598bd-ba7f-46b9-814c-1f582cda068d")
+	)
+	(pad "S2" thru_hole circle
+		(at 2 5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28a0fe90-74a3-4961-b284-24937c1247a6")
+	)
+	(embedded_fonts no)
+)
