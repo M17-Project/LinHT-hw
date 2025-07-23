@@ -23,6 +23,10 @@
 		(uuid "37e20892-c453-478f-94d7-f772c4094133")
 	)
 	(no_connect
+		(at 208.28 78.74)
+		(uuid "419fb1a9-8923-4c74-813a-3c3fd8cb6535")
+	)
+	(no_connect
 		(at 127 52.07)
 		(uuid "694ff94e-0d28-4648-ac51-82340dc7e608")
 	)
@@ -69,6 +73,36 @@
 			(type default)
 		)
 		(uuid "073ef491-1cf2-4be3-9a24-f2ae1b0aa4e4")
+	)
+	(wire
+		(pts
+			(xy 208.28 78.74) (xy 212.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d61b46-15fe-489d-aaa3-41298e372aee")
+	)
+	(wire
+		(pts
+			(xy 205.74 119.38) (xy 201.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aab4f06-34e8-479e-8025-ba8885f38311")
+	)
+	(wire
+		(pts
+			(xy 212.09 86.36) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d52a09b-c148-413f-a2e8-d45c3e9fcd08")
 	)
 	(wire
 		(pts
@@ -222,6 +256,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 121.92) (xy 176.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58cc5eab-d63f-470a-a3ad-3272e22db80f")
+	)
+	(wire
+		(pts
 			(xy 113.03 114.3) (xy 127 114.3)
 		)
 		(stroke
@@ -249,6 +293,16 @@
 			(type default)
 		)
 		(uuid "5d2dfba8-01e8-49d9-aebf-5b567ffd9be6")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b395b3-b74d-4ec0-8a09-78b654048ab1")
 	)
 	(wire
 		(pts
@@ -369,16 +423,6 @@
 			(type default)
 		)
 		(uuid "a6208f18-7813-481f-bee2-329eccf56b9f")
-	)
-	(wire
-		(pts
-			(xy 113.03 125.73) (xy 127 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d986d5-96c9-44da-b87e-a9352ce46745")
 	)
 	(wire
 		(pts
@@ -999,6 +1043,26 @@
 				(justify left)
 			)
 		)
+		(pin "VOL_POT" output
+			(at 176.53 121.92 180)
+			(uuid "25e55ec1-2954-4697-9c42-046cdb5ab9ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWITCH_ON_OFF" output
+			(at 201.93 119.38 0)
+			(uuid "308af20a-4d30-418d-bc2c-3b10d2582e75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
@@ -1462,13 +1526,13 @@
 			)
 		)
 		(pin "VOL_POT" input
-			(at 127 125.73 180)
+			(at 163.83 121.92 0)
 			(uuid "e9a7b272-a8ec-4f17-8d38-db57bf792a77")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1536,6 +1600,16 @@
 		(pin "PWR_SW" output
 			(at 212.09 83.82 180)
 			(uuid "e16d1f08-7032-433d-abf1-5028bde84d98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWITCH_ON_OFF" input
+			(at 212.09 86.36 180)
+			(uuid "68ba3aca-b26e-4906-9bbb-3a1d0b7c7e26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,16 +1771,6 @@
 		(pin "SPK_OUT" output
 			(at 113.03 137.16 0)
 			(uuid "beda13dc-04fd-488a-9f7f-f3f6c232098f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VOL_POT" output
-			(at 113.03 125.73 0)
-			(uuid "e7d7e688-e833-4a33-88d2-b83089609fd1")
 			(effects
 				(font
 					(size 1.27 1.27)
