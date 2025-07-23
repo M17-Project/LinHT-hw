@@ -3006,7 +3006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:Connector_FFC_01x20_P0.75mm"
 			(at 119.38 85.09 0)
 			(effects
 				(font
