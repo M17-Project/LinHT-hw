@@ -23,7 +23,7 @@
 		(uuid "37e20892-c453-478f-94d7-f772c4094133")
 	)
 	(no_connect
-		(at 208.28 78.74)
+		(at 212.09 78.74)
 		(uuid "419fb1a9-8923-4c74-813a-3c3fd8cb6535")
 	)
 	(no_connect
@@ -73,16 +73,6 @@
 			(type default)
 		)
 		(uuid "073ef491-1cf2-4be3-9a24-f2ae1b0aa4e4")
-	)
-	(wire
-		(pts
-			(xy 208.28 78.74) (xy 212.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09d61b46-15fe-489d-aaa3-41298e372aee")
 	)
 	(wire
 		(pts
@@ -608,16 +598,6 @@
 				(justify left)
 			)
 		)
-		(pin "KBD" bidirectional
-			(at 113.03 80.01 0)
-			(uuid "4d07a14a-0133-4926-a7e3-1eb992098f67")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SIDE_BTN" output
 			(at 113.03 86.36 0)
 			(uuid "308e02c4-81eb-4086-9173-2fb1b235e6ac")
@@ -631,6 +611,16 @@
 		(pin "SIDE_PTT" output
 			(at 113.03 88.9 0)
 			(uuid "8949db2e-48ff-4488-b2df-b7d756a1ec64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{KBD}" bidirectional
+			(at 113.03 80.01 0)
+			(uuid "c79fb498-9bb3-421e-9cbf-a5bcbeca4a77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,16 +1095,6 @@
 				(justify left top)
 			)
 		)
-		(pin "KBD" bidirectional
-			(at 127 80.01 180)
-			(uuid "e2ecd7a6-0579-4008-bcb1-f30cf6a882e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SPI_CS_LCD" output
 			(at 127 49.53 180)
 			(uuid "22ab764c-45ef-4bc1-bbaa-0cbab1d35503")
@@ -1533,6 +1513,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{KBD}" bidirectional
+			(at 127 80.01 180)
+			(uuid "8f5edeb8-4459-4a36-8572-9282d3664c24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -24,21 +24,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -3190,6 +3188,25 @@
 							)
 						)
 					)
+					(number "G28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 49.53 -46.99 180)
+					(length 3.81)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "G25"
 						(effects
 							(font
@@ -3199,7 +3216,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 49.53 -45.72 180)
+					(at 49.53 -48.26 180)
 					(length 3.81)
 					(hide yes)
 					(name "NC"
@@ -3218,7 +3235,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 49.53 -45.72 180)
+					(at 49.53 -49.53 180)
 					(length 3.81)
 					(hide yes)
 					(name "NC"
@@ -3229,25 +3246,6 @@
 						)
 					)
 					(number "G27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 49.53 -45.72 180)
-					(length 3.81)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3985,6 +3983,16 @@
 			(type default)
 		)
 		(uuid "0eed6f9d-bab5-4ccf-8de3-4958fc04611f")
+	)
+	(wire
+		(pts
+			(xy 38.1 46.99) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1091cb07-aad4-4127-95ad-a8784e33fb27")
 	)
 	(wire
 		(pts
@@ -4995,16 +5003,6 @@
 		)
 		(uuid "c466ccd4-190d-4a61-a72a-d2a55297f5e2")
 	)
-	(label "{KBD}"
-		(at 114.3 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c810d008-ac4c-4f4b-a8e7-632daccd6feb")
-	)
 	(label "D1"
 		(at 88.9 171.45 270)
 		(effects
@@ -5113,7 +5111,7 @@
 		)
 		(uuid "31187a44-2c2c-44c2-bc88-6ddc3637e6a0")
 	)
-	(hierarchical_label "KBD"
+	(hierarchical_label "{KBD}"
 		(shape bidirectional)
 		(at 114.3 180.34 270)
 		(effects
@@ -5541,12 +5539,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 36.83 0)
+		(property "Description" "Resistor, small symbol"
+			(at 38.1 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PN" ""
@@ -6256,12 +6255,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 38.1 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PN" ""
@@ -6299,7 +6299,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 46.99 0)
+		(at 38.1 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6308,7 +6308,7 @@
 		(fields_autoplaced yes)
 		(uuid "7376653b-8dea-41bd-bcb9-6f4d276e33c8")
 		(property "Reference" "#PWR02"
-			(at 38.1 53.34 0)
+			(at 38.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6317,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 51.1231 0)
+			(at 38.1 52.3931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 46.99 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 46.99 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +6343,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 46.99 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,12 +6472,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 38.1 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PN" ""
@@ -6556,12 +6557,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 36.83 0)
+		(property "Description" "Resistor, small symbol"
+			(at 40.64 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PN" ""

@@ -12,7 +12,7 @@
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -20,21 +20,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -55,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,7 +80,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -194,7 +192,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -395,7 +393,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -1403,21 +1401,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -4185,7 +4181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -4193,7 +4189,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -4269,7 +4265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 59.69 140.97 0)
 			(effects
 				(font
@@ -4277,7 +4273,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 59.69 140.97 0)
 			(effects
 				(font
@@ -4353,7 +4349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 59.69 143.51 0)
 			(effects
 				(font
@@ -4361,7 +4357,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 59.69 143.51 0)
 			(effects
 				(font
@@ -6024,7 +6020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -6332,7 +6328,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 39.37 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6374,7 +6370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 39.37 151.13 0)
 			(effects
 				(font
