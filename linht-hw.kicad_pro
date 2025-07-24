@@ -544,6 +544,12 @@
       "Net-(IC1-RFO_P)": [
         "RF"
       ],
+      "Net-(U1-USB1_DN)": [
+        "USB"
+      ],
+      "Net-(U1-USB1_DP)": [
+        "USB"
+      ],
       "Net-(U2-RF_IN)": [
         "RF"
       ],

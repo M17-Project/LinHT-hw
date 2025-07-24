@@ -5496,6 +5496,66 @@
 		)
 		(uuid "fe826b86-abd5-485c-92de-6c263636f5dc")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 53.34 41.91 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aad59738-2d81-422d-ab32-e25fdeab4fc6")
+		(property "Netclass" "USB"
+			(at 56.896 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 5.08 -104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 50.8 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b63994ba-b420-453f-8c78-5852a207bf22")
+		(property "Netclass" "USB"
+			(at 47.244 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 99.06 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 50.8 36.83 180)
