@@ -1063,21 +1063,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1245,7 +1243,7 @@
 			(symbol "WM8960_1_1"
 				(rectangle
 					(start 2.54 1.905)
-					(end 26.035 -48.26)
+					(end 26.67 -48.26)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1325,7 +1323,7 @@
 							)
 						)
 					)
-					(alternate "JP2" input line)
+					(alternate "JD2" input line)
 				)
 				(pin input line
 					(at 0 -12.7 0)
@@ -1416,7 +1414,7 @@
 							)
 						)
 					)
-					(alternate "JP3" input line)
+					(alternate "JD3" input line)
 				)
 				(pin output line
 					(at 0 -30.48 0)
@@ -2907,10 +2905,115 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
+		(symbol "power:PWR_FLAG"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2925,7 +3028,7 @@
 				)
 			)
 			(property "Value" "VDD"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2959,7 +3062,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3010,8 +3113,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "VDD"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3263,6 +3365,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e620f361-7c54-4d35-a51c-435f39d28bfe")
+	)
+	(junction
+		(at 54.61 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e81ec773-0c33-4765-96d3-82fb9ed38fdf")
 	)
 	(junction
 		(at 149.86 57.15)
@@ -3535,6 +3643,16 @@
 			(type default)
 		)
 		(uuid "263250f2-2de7-443f-9f7b-d1ce2951d9b7")
+	)
+	(wire
+		(pts
+			(xy 54.61 40.64) (xy 54.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2900c11e-3c86-4112-b374-1928d78d1906")
 	)
 	(wire
 		(pts
@@ -4158,6 +4276,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 45.72) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7e59be-471a-4820-94c8-f3198718e861")
+	)
+	(wire
+		(pts
 			(xy 119.38 142.24) (xy 121.92 142.24)
 		)
 		(stroke
@@ -4678,7 +4806,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 45.72) (xy 58.42 45.72)
+			(xy 52.07 45.72) (xy 54.61 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6193,7 +6321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 149.86 52.07 0)
 			(effects
 				(font
@@ -6509,7 +6637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 72.39 95.25 0)
 			(effects
 				(font
@@ -6517,7 +6645,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 72.39 95.25 0)
 			(effects
 				(font
@@ -6938,7 +7066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 212.09 81.28 0)
 			(effects
 				(font
@@ -6946,7 +7074,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 212.09 81.28 0)
 			(effects
 				(font
@@ -7751,6 +7879,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 190.5 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54f8e932-a8a9-44d5-a263-4b068b38a87c")
+		(property "Reference" "#FLG05"
+			(at 190.5 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 190.5 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eed1fb4-94a5-4368-8f56-6ed483c97119")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 78.74 95.25 0)
 		(unit 1)
@@ -7784,7 +7977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 78.74 95.25 0)
 			(effects
 				(font
@@ -7792,7 +7985,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 78.74 95.25 0)
 			(effects
 				(font
@@ -7997,7 +8190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 93.98 87.63 0)
 			(effects
 				(font
@@ -8005,7 +8198,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 93.98 87.63 0)
 			(effects
 				(font
@@ -8354,6 +8547,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80cbd681-5f1b-44ab-8f70-c9f019fa33de")
+		(property "Reference" "#FLG07"
+			(at 54.61 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.61 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1726e2cd-2dfa-48f5-b4c8-8949af12f1e2")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 71.12 44.45 0)
 		(unit 1)
@@ -8398,7 +8656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 71.12 44.45 0)
 			(effects
 				(font
@@ -8463,7 +8721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -8528,7 +8786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 58.42 44.45 0)
 			(effects
 				(font
@@ -8659,7 +8917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 163.83 121.92 0)
 			(effects
 				(font
@@ -8844,7 +9102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 124.46 142.24 0)
 			(effects
 				(font
@@ -8852,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 124.46 142.24 0)
 			(effects
 				(font
@@ -8931,7 +9189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 119.38 157.48 0)
 			(effects
 				(font
@@ -8939,7 +9197,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 119.38 157.48 0)
 			(effects
 				(font
@@ -9262,7 +9520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 194.31 123.19 0)
 			(effects
 				(font
@@ -9646,7 +9904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 95.25 139.7 0)
 			(effects
 				(font
@@ -9654,7 +9912,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 95.25 139.7 0)
 			(effects
 				(font
@@ -10649,7 +10907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -10865,7 +11123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 204.47 123.19 0)
 			(effects
 				(font
@@ -10930,7 +11188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 72.39 88.9 0)
 			(effects
 				(font

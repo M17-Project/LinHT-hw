@@ -838,6 +838,7 @@
 		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1053,7 +1054,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1468,6 +1469,15 @@
 		(uuid "3d61a873-7837-4c5d-a885-5b7af28670ff")
 	)
 	(bus_entry
+		(at 138.43 80.01)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ce0292-28c0-492d-863e-f0ed99bdf8ac")
+	)
+	(bus_entry
 		(at 138.43 82.55)
 		(size -2.54 2.54)
 		(stroke
@@ -1484,15 +1494,6 @@
 			(type default)
 		)
 		(uuid "4e3833e6-475a-48f6-8dbb-046f0fa6eb97")
-	)
-	(bus_entry
-		(at 138.43 80.01)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c54284-2c21-4bed-8a2d-234efdb6a7e8")
 	)
 	(bus_entry
 		(at 138.43 92.71)
@@ -1580,16 +1581,6 @@
 			(type default)
 		)
 		(uuid "122819c6-f57d-42e4-abbf-51c0e86e55d1")
-	)
-	(bus
-		(pts
-			(xy 138.43 82.55) (xy 138.43 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16b6d971-e8fc-4b46-8c01-e6df6ca94ae8")
 	)
 	(wire
 		(pts
@@ -1743,6 +1734,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 82.55) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5654ea1f-bb19-4afd-8697-62de48a4be10")
+	)
+	(wire
+		(pts
 			(xy 60.96 100.33) (xy 63.5 100.33)
 		)
 		(stroke
@@ -1810,16 +1811,6 @@
 			(type default)
 		)
 		(uuid "83ed8917-06db-485c-b66f-1a27951f2443")
-	)
-	(wire
-		(pts
-			(xy 128.27 82.55) (xy 135.89 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8641ccf9-16fb-4d97-a919-b7db1190b882")
 	)
 	(bus
 		(pts
@@ -1961,6 +1952,16 @@
 		)
 		(uuid "e69e6356-8827-4a13-b56f-a122a8b708c2")
 	)
+	(bus
+		(pts
+			(xy 138.43 82.55) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb86925e-d28a-4d79-926d-4d94499805b7")
+	)
 	(wire
 		(pts
 			(xy 154.94 77.47) (xy 154.94 80.01)
@@ -2041,15 +2042,15 @@
 		)
 		(uuid "38fb9ac0-7ee6-471f-9128-5926bf8601e8")
 	)
-	(label "{KBD}"
-		(at 138.43 82.55 0)
+	(label "D9"
+		(at 132.08 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "442dae26-0518-449c-aa02-1b0930091367")
+		(uuid "5d6fd1a5-7fc0-4ccb-9b8b-2ae728bc66a6")
 	)
 	(label "D8"
 		(at 132.08 85.09 0)
@@ -2080,16 +2081,6 @@
 			(justify left bottom)
 		)
 		(uuid "c96bc0d3-abe1-4c8e-a405-dfea01741ef8")
-	)
-	(label "D9"
-		(at 132.08 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cdcf4a88-e9eb-437d-ad97-9fed97db680f")
 	)
 	(label "D3"
 		(at 132.08 97.79 0)
@@ -2155,7 +2146,7 @@
 		)
 		(uuid "ae9101f6-8046-4193-b280-b7540523b492")
 	)
-	(hierarchical_label "KBD"
+	(hierarchical_label "{KBD}"
 		(shape bidirectional)
 		(at 140.97 102.87 0)
 		(effects
