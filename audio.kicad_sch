@@ -9799,7 +9799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 106.4768 50.673 0)
 			(effects
 				(font
