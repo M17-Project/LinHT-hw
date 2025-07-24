@@ -4096,16 +4096,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 128.27) (xy 59.69 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d7b4818-8689-4086-8918-57bebaed75a9")
-	)
-	(wire
-		(pts
 			(xy 196.85 144.78) (xy 196.85 146.05)
 		)
 		(stroke
@@ -5013,16 +5003,6 @@
 			(type default)
 		)
 		(uuid "ff8b1335-8e3a-45ec-95bc-e571b138795f")
-	)
-	(wire
-		(pts
-			(xy 62.23 128.27) (xy 59.69 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffedd49b-6f16-4ebb-a9dd-7148b10f5f46")
 	)
 	(label "MIC_SIG"
 		(at 134.62 74.93 0)
@@ -6643,6 +6623,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
@@ -7072,6 +7053,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
@@ -7983,6 +7965,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
@@ -9108,6 +9091,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
@@ -9195,6 +9179,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
@@ -9542,72 +9527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 130.81 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c77deaad-b217-4915-82c3-c191991bbe5e")
-		(property "Reference" "#PWR055"
-			(at 59.69 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08c0898f-6ab3-4e92-9b5c-be926c778805")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 138.43 157.48 0)
 		(unit 1)
@@ -9910,6 +9829,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
@@ -10791,72 +10711,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 67.31 128.27 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efd5df56-e1f6-4f01-aea0-af7da66ee0ce")
-		(property "Reference" "J3"
-			(at 67.31 122.8555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND spring"
-			(at 67.31 125.2798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
-			(at 67.31 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 67.31 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79a71394-e625-43b0-9c14-5e01a45a0161")
-		)
-		(instances
-			(project ""
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "J3")
 					(unit 1)
 				)
 			)
