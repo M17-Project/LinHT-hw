@@ -364,7 +364,7 @@
 		(uuid "c41c7820-e06b-4bea-a2f0-b70a6e5c02bd")
 	)
 	(embedded_fonts no)
-	(model "SX1255IWLTRT.stp"
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
