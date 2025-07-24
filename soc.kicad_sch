@@ -3179,6 +3179,82 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 49.53 -45.72 180)
+					(length 3.81)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 49.53 -45.72 180)
+					(length 3.81)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 49.53 -45.72 180)
+					(length 3.81)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 49.53 -45.72 180)
+					(length 3.81)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -6049,6 +6125,18 @@
 		)
 		(pin "G11"
 			(uuid "e8d382b2-d0a3-4467-844e-499e50efc82d")
+		)
+		(pin "G25"
+			(uuid "26e7f221-da0f-4d26-9f57-4a0a1f137e8b")
+		)
+		(pin "G26"
+			(uuid "0a0ba732-b3d2-4d5d-9ef5-7634b3300da8")
+		)
+		(pin "G27"
+			(uuid "95dc53ce-98d3-44a6-9b76-5b86913370e2")
+		)
+		(pin "G28"
+			(uuid "acf0af18-e079-4ebc-9210-54d4f419c996")
 		)
 		(instances
 			(project ""
