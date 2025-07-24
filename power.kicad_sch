@@ -8563,7 +8563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 133.35 162.56 0)
 			(effects
 				(font
