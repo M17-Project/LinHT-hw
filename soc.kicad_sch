@@ -3838,10 +3838,6 @@
 		(uuid "f7239e86-b65b-41fd-a957-9dbeb5aec351")
 	)
 	(no_connect
-		(at 143.51 64.77)
-		(uuid "f73e6439-c192-440b-8991-7fa12abc4ec3")
-	)
-	(no_connect
 		(at 143.51 67.31)
 		(uuid "f82ccaa6-3c78-4347-bea6-c95f3b97a649")
 	)
@@ -4353,6 +4349,16 @@
 			(type default)
 		)
 		(uuid "89c77a8f-9e99-4917-ba01-d0154233a274")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 148.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a24f339-8ff7-4849-853a-9212a05af8bc")
 	)
 	(wire
 		(pts
@@ -5033,6 +5039,17 @@
 			(justify left)
 		)
 		(uuid "07567b29-3125-46d0-83c4-b6d1a40eee73")
+	)
+	(hierarchical_label "RF_SW_CTRL"
+		(shape output)
+		(at 148.59 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "128ed98e-dd8f-414e-9aff-34b02a07e9f4")
 	)
 	(hierarchical_label "I2S0_DIN"
 		(shape input)

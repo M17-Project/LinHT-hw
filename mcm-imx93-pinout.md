@@ -105,7 +105,7 @@
 | SAI3_TX_BCLK    | GPIO2_IO[16]    | Pin 101 | I2S1_CLK      | 3.3V      | MX93_PAD_GPIO_IO16__SAI3_TX_BCLK      |
 | GPIO2_IO[14]    | GPIO2_IO[14]    | Pin 102 | ON/OFF_SW     | 3.3V      | MX93_PAD_GPIO_IO14__GPIO2_IO14        |
 | GPIO2_IO[15]    | GPIO2_IO[15]    | Pin 103 |               | 3.3V      | MX93_PAD_GPIO_IO15__GPIO2_IO15        |
-| GPIO2_IO[13]    | GPIO2_IO[13]    | Pin 104 |               | 3.3V      | MX93_PAD_GPIO_IO13__GPIO2_IO13        |
+| GPIO2_IO[13]    | GPIO2_IO[13]    | Pin 104 | RF_SW_CTRL    | 3.3V      | MX93_PAD_GPIO_IO13__GPIO2_IO13        |
 | TPM3_CH2        | GPIO2_IO[12]    | Pin 105 | KBD_PWM       | 3.3V      | MX93_PAD_GPIO_IO12__TPM3_CH2          |
 | GPIO2_IO[7]     | GPIO2_IO[7]     | Pin 106 |               | 3.3V      | MX93_PAD_GPIO_IO07__GPIO2_IO07        |
 | GPIO2_IO[6]     | GPIO2_IO[6]     | Pin 107 |               | 3.3V      | MX93_PAD_GPIO_IO06__GPIO2_IO06        |
