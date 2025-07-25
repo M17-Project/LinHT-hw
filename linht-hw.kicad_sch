@@ -176,6 +176,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 69.85) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391a7b82-e1bd-44e2-b2b6-17336200451d")
+	)
+	(wire
+		(pts
 			(xy 77.47 156.21) (xy 176.53 156.21)
 		)
 		(stroke
@@ -761,7 +771,7 @@
 			)
 		)
 		(pin "RF_SW_CTRL" input
-			(at 176.53 54.61 180)
+			(at 176.53 69.85 180)
 			(uuid "12f00fe3-bd46-478f-a45b-f0e9bb689456")
 			(effects
 				(font
@@ -1523,6 +1533,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RF_SW_CTRL" output
+			(at 163.83 69.85 0)
+			(uuid "60da5c19-68f9-4f73-862b-20ba031911c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
