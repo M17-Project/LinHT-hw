@@ -3058,10 +3058,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "TODO: The value of the potentiometer is 10 kOhm. Set the value of the resistor above accordingly."
+	(text_box "ADC V_{ref} = 1.8 V\nWith 10 kΩ potentiometer and\n15 kΩ resistor this means a\nrange of 0-1.32 V."
 		(exclude_from_sim no)
-		(at 102.235 90.805 0)
-		(size 29.21 8.89)
+		(at 102.235 86.36 0)
+		(size 32.385 13.335)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3074,7 +3074,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left)
 		)
 		(uuid "73793596-47e8-4b3b-b9e5-5426287d2c3d")
 	)
@@ -4297,7 +4297,7 @@
 				)
 			)
 		)
-		(property "Value" "?R"
+		(property "Value" "15k"
 			(at 93.472 103.886 0)
 			(effects
 				(font
