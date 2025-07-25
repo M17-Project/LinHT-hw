@@ -1783,16 +1783,6 @@
 		)
 		(uuid "77af219d-21e0-4886-9649-12ebb81f559f")
 	)
-	(text "TODO: Confirm resistor values"
-		(exclude_from_sim no)
-		(at 242.57 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9c673e70-5437-4733-84e8-00d92e96363f")
-	)
 	(junction
 		(at 110.49 90.17)
 		(diameter 0)
@@ -1876,12 +1866,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4166017-df8b-49c1-b157-71f73419ffa4")
-	)
-	(junction
-		(at 226.06 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e041d4f4-ce2a-470d-a43b-8181c82d5122")
 	)
 	(junction
 		(at 110.49 87.63)
@@ -2107,6 +2091,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 88.9) (xy 226.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4332d6c0-c7ba-49a3-8f2f-355c2dd4ecb2")
+	)
+	(wire
+		(pts
 			(xy 223.52 68.58) (xy 226.06 68.58)
 		)
 		(stroke
@@ -2324,16 +2318,6 @@
 			(type default)
 		)
 		(uuid "a8f46a6b-5682-4ff0-b7ce-1adc9b44d91a")
-	)
-	(wire
-		(pts
-			(xy 226.06 90.17) (xy 226.06 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa6b4383-bd45-476c-8850-9f5c23d5ea29")
 	)
 	(wire
 		(pts
@@ -2681,7 +2665,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220R"
 			(at 219.71 71.3162 90)
 			(effects
 				(font
@@ -2792,6 +2776,72 @@
 			(project ""
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/42192b89-bd04-4531-bec0-520394b48a86"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 226.06 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3322f4a2-49e9-445c-8329-100d4e2c3525")
+		(property "Reference" "#PWR034"
+			(at 226.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 226.06 61.9069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcef2bc9-7242-4f5e-ad8b-83ac56d2c3d9")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/42192b89-bd04-4531-bec0-520394b48a86"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4254,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220R"
 			(at 219.71 82.7462 90)
 			(effects
 				(font
@@ -4392,7 +4442,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 66.04 0)
+		(at 226.06 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4401,7 +4451,7 @@
 		(fields_autoplaced yes)
 		(uuid "f49546d8-1929-459d-bfb0-d491e35fab5f")
 		(property "Reference" "#PWR089"
-			(at 226.06 69.85 0)
+			(at 226.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4460,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 61.9069 0)
+			(at 226.06 84.7669 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 66.04 0)
+			(at 226.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 66.04 0)
+			(at 226.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 66.04 0)
+			(at 226.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
