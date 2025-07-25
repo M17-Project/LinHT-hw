@@ -553,6 +553,9 @@
       "Net-(U2-RF_IN)": [
         "RF"
       ],
+      "Net-(U2-RF_OUT_1)": [
+        "RF"
+      ],
       "Net-(U2-RF_OUT_2)": [
         "RF"
       ]
