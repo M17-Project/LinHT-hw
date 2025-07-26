@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "21 July 2025")
+		(date "26 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -76,7 +76,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 119.38) (xy 201.93 119.38)
+			(xy 207.01 102.87) (xy 201.93 102.87)
 		)
 		(stroke
 			(width 0)
@@ -86,7 +86,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 86.36) (xy 205.74 86.36)
+			(xy 212.09 86.36) (xy 207.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -296,7 +296,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 86.36) (xy 205.74 119.38)
+			(xy 207.01 86.36) (xy 207.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1054,7 +1054,7 @@
 			)
 		)
 		(pin "SWITCH_ON_OFF" output
-			(at 201.93 119.38 0)
+			(at 201.93 102.87 0)
 			(uuid "308af20a-4d30-418d-bc2c-3b10d2582e75")
 			(effects
 				(font
@@ -1555,7 +1555,7 @@
 	)
 	(sheet
 		(at 212.09 74.93)
-		(size 25.4 12.7)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1579,7 +1579,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 212.09 88.2146 0)
+			(at 212.09 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
