@@ -3538,10 +3538,6 @@
 		(uuid "0678ea0a-c96a-4e16-9533-b89ab98031d8")
 	)
 	(no_connect
-		(at 44.45 82.55)
-		(uuid "07699102-51cc-4ed6-806b-5c00161a2eeb")
-	)
-	(no_connect
 		(at 68.58 171.45)
 		(uuid "08068d43-da86-4637-89ad-67515fdeb70c")
 	)
@@ -4039,6 +4035,16 @@
 			(type default)
 		)
 		(uuid "19b775bb-f19f-44c5-83d4-1a0b114f8e6f")
+	)
+	(wire
+		(pts
+			(xy 36.83 82.55) (xy 44.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2caba3-ae36-4504-96b1-9fa3515f16bf")
 	)
 	(wire
 		(pts
@@ -5226,6 +5232,17 @@
 			(justify right)
 		)
 		(uuid "5ec4dd6e-d793-423c-9318-cbea1a316498")
+	)
+	(hierarchical_label "VOL_BATT"
+		(shape input)
+		(at 36.83 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "601adc7b-befb-4560-b3a4-d04ec1f9cfef")
 	)
 	(hierarchical_label "LIGHT"
 		(shape output)
