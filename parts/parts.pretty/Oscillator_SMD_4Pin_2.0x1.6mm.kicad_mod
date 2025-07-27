@@ -1,0 +1,148 @@
+(footprint "Oscillator_SMD_4Pin_2.0x1.6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1.62V~3.63V ±10ppm 10mA ±30ppm CMOS 12.288MHz SMD2016-4P Crystal Oscillators ROHS")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "be437e0f-012f-4cd0-b200-efba2be11bc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_4Pin_2.0x1.6mm"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "5a4d1c47-94e0-4472-9436-43d086d9727d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afd46d69-e97e-40cf-8b4f-e83a242c837a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ac4c4fc-6be2-4a2b-b015-95d5e8962218")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.95)
+		(end -1.25 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c8be53e-a263-47d0-8958-b0ad65c6eb12")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.2 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92d1fa7b-d138-475e-8f88-7fa8b97547fa")
+	)
+	(fp_rect
+		(start -1.4 -1.15)
+		(end 1.35 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5a34ab9d-0b94-47b8-b867-15b39ed84b71")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.8) (xy -1 0.4) (xy -0.6 0.8) (xy 1 0.8) (xy 1 -0.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "429f6141-b0dd-468d-9e46-2e1c5734b7e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "35134a7d-cc6c-464d-a050-fcfcaf01825e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7 0.5)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0625)
+		(uuid "83ab7010-03bf-4222-b550-6f6692623073")
+	)
+	(pad "2" smd roundrect
+		(at 0.7 0.5)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0625)
+		(uuid "90fe8ac0-6adc-4b84-8d6d-146b040d96fe")
+	)
+	(pad "3" smd roundrect
+		(at 0.7 -0.5)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0625)
+		(uuid "4f56af08-021f-4f20-a6ed-a35f8c445ca9")
+	)
+	(pad "4" smd roundrect
+		(at -0.7 -0.5)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0625)
+		(uuid "4a766761-b248-48f9-abe0-e5134f3e09de")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
