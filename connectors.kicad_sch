@@ -3286,6 +3286,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 101.6) (xy 191.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c343ba2-bb45-4ecf-be38-626866ed28bd")
+	)
+	(wire
+		(pts
 			(xy 189.23 109.22) (xy 191.77 109.22)
 		)
 		(stroke
@@ -3726,16 +3736,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 74.93) (xy 191.77 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba096f14-a819-4905-95dd-f8c12c480f9d")
-	)
-	(wire
-		(pts
 			(xy 124.46 113.03) (xy 124.46 114.3)
 		)
 		(stroke
@@ -3776,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 101.6) (xy 191.77 101.6)
+			(xy 179.07 101.6) (xy 180.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3833,6 +3833,16 @@
 			(type solid)
 		)
 		(uuid "dafbfd5b-6876-4509-bd68-6d12cf6006da")
+	)
+	(wire
+		(pts
+			(xy 185.42 74.93) (xy 191.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded4e6ae-98f3-48e7-bb99-defdced78022")
 	)
 	(wire
 		(pts
@@ -3933,6 +3943,16 @@
 			(type solid)
 		)
 		(uuid "eee6dbf7-c979-46b3-8716-d9494d8878ff")
+	)
+	(wire
+		(pts
+			(xy 179.07 74.93) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c759c1-cf01-4731-9074-d25d3bdebb18")
 	)
 	(wire
 		(pts
@@ -5178,6 +5198,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 182.88 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85caa361-8ada-4d52-8e87-55dcaa92682a")
+		(property "Reference" "R51"
+			(at 180.594 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 185.928 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "283a7edd-a48f-437b-8bc1-71a76d65cf0c")
+		)
+		(pin "2"
+			(uuid "2c216c81-c771-4a81-9cb4-2ff384867165")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 81.28 76.2 180)
 		(unit 1)
@@ -5612,6 +5717,91 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 182.88 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b35638a2-9176-4c56-b5cc-32aecd3cfc6a")
+		(property "Reference" "R50"
+			(at 180.594 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 185.928 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfbc32d8-9b40-4719-97a9-87bb22efdaa3")
+		)
+		(pin "2"
+			(uuid "ccd18130-b139-4640-af8f-8f62fb6f74c4")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
+					(reference "R50")
 					(unit 1)
 				)
 			)
