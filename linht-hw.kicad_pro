@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,80 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|108775500|119310000|02a1131b-98f8-4e77-8f06-f91a9c7aba4e|17b7483f-1cbe-4de4-ba83-99e1a907f329",
+          "Issue on the SoM pads. Cannot  be changed."
+        ],
+        [
+          "clearance|108775500|147150000|875a586a-b6f8-446d-92be-309cbf386f2b|4640940c-4b09-4b89-a059-588f57d65d4c",
+          "Issue on the SoM pads. Cannot  be changed."
+        ],
+        [
+          "clearance|109655000|119230500|074758df-e958-4e73-be7f-4dfd6804f3ff|17b7483f-1cbe-4de4-ba83-99e1a907f329",
+          "Issue on the SoM pads. Cannot  be changed."
+        ],
+        [
+          "clearance|110455000|119230500|74cf3d9e-d74b-46d4-83e5-241b865105e9|074758df-e958-4e73-be7f-4dfd6804f3ff",
+          "Issue on the SoM pads. Cannot  be changed."
+        ],
+        [
+          "clearance|136695000|147230500|6889461f-d423-48e6-8283-8de91e37efdc|207471ee-754b-404a-8b96-396a39adc988",
+          "Issue on the SoM pads. Cannot  be changed."
+        ],
+        [
+          "clearance|136775500|119310000|d6b7ecae-dd7a-4ec0-a319-0f117f19c4c5|9b81ce62-143f-4658-9bb9-668591ad0a1c",
+          "Issue on the SoM pads. Cannot  be changed."
+        ],
+        [
+          "copper_edge_clearance|112509209|58949920|03d19b7e-9558-4124-a267-234a8f0ace49|9b260ba5-f26e-48f4-9ea4-04358fa6e982",
+          "The position is based on Retevis C62 PCB. Cannot be fixed."
+        ],
+        [
+          "copper_edge_clearance|129790791|58949920|0d5b0537-8fe6-47f6-9503-be269d94b127|922fe643-095a-4cd2-9172-72199f43c5bb",
+          "The position is based on Retevis C62 PCB. Cannot be fixed."
+        ],
+        [
+          "copper_edge_clearance|144461667|104586667|b422425c-0c90-4b54-842e-7b420b48375d|cc164661-e2f4-4504-ac01-434a0bed9f26",
+          "The position is based on Retevis C62 PCB. Cannot be fixed."
+        ],
+        [
+          "copper_edge_clearance|144461667|106936667|b422425c-0c90-4b54-842e-7b420b48375d|423c32fc-85d1-46fa-bcc2-eb5f4e13210d",
+          "Issue on the SoM pads. Cannot  be changed."
+        ],
+        [
+          "copper_edge_clearance|144461667|109911667|b422425c-0c90-4b54-842e-7b420b48375d|e00e4eb5-1851-4420-9c95-9dfcd0d05258",
+          "The position is based on Retevis C62 PCB. Cannot be fixed."
+        ],
+        [
+          "copper_edge_clearance|144461667|77711667|4747d55e-dc7b-403d-a56b-37e5f739398f|950e3813-2f64-4fd1-9a21-de77ee11ae8b",
+          "Issue on the SoM pads. Cannot  be changed."
+        ],
+        [
+          "copper_edge_clearance|144461667|81661667|4747d55e-dc7b-403d-a56b-37e5f739398f|b06f97e2-981b-48f8-99e4-2db9d51b107e",
+          "Issue on the SoM pads. Cannot  be changed."
+        ],
+        [
+          "copper_edge_clearance|145500000|139800000|1151be58-d470-4469-a797-27dfea5d2c12|1aace2c9-1106-4343-a0d8-822e8f701172",
+          "The position is based on Retevis C62 PCB. Cannot be fixed."
+        ],
+        [
+          "hole_clearance|120380172|113050000|98cd3cc8-2d84-43f9-984e-8b7ef3a2b545|399e6287-2303-4313-8030-2400bf21b165",
+          "Battery connector BT-003 has hole near pads."
+        ],
+        [
+          "hole_clearance|121925000|113050000|98cd3cc8-2d84-43f9-984e-8b7ef3a2b545|56ca1394-1396-441a-a7d3-21273f9847eb",
+          "Battery connector BT-003 has hole near pads."
+        ],
+        [
+          "hole_clearance|124525000|113050000|dcce17cc-1795-475e-a72b-90d607241fe3|56ca1394-1396-441a-a7d3-21273f9847eb",
+          "Battery connector BT-003 has hole near pads."
+        ],
+        [
+          "hole_clearance|126069828|113050000|dcce17cc-1795-475e-a72b-90d607241fe3|5d78c74e-cc0d-4c8e-bdb9-ab1a815128e9",
+          "Battery connector BT-003 has hole near pads."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -470,7 +543,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
