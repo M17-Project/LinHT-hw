@@ -3159,28 +3159,12 @@
 		(uuid "f2c9638f-4231-499a-ae10-5d245d8fb134")
 	)
 	(no_connect
-		(at 189.23 67.31)
-		(uuid "0ec396ea-0686-4b08-b205-f996f7aff815")
-	)
-	(no_connect
-		(at 189.23 69.85)
-		(uuid "1115129a-1d5c-4973-a58f-8279ae4d72c7")
-	)
-	(no_connect
-		(at 179.07 87.63)
-		(uuid "6820beef-84d8-49a4-8819-90827d9680e4")
-	)
-	(no_connect
-		(at 179.07 90.17)
-		(uuid "7bb5085d-e28d-4f41-b05b-ee31bba22fa9")
+		(at 189.23 72.39)
+		(uuid "6847f0c8-c0db-4bae-bdad-d40e72c64804")
 	)
 	(no_connect
 		(at 189.23 99.06)
 		(uuid "8d230e08-d902-44f6-94c9-26f43fdd675d")
-	)
-	(no_connect
-		(at 189.23 101.6)
-		(uuid "94f907bb-6f85-4efb-8241-f1a26bd8d68b")
 	)
 	(no_connect
 		(at 54.61 166.37)
@@ -3272,16 +3256,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 69.85) (xy 191.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21833316-d0fb-4661-82f1-30d538e6860a")
-	)
-	(wire
-		(pts
 			(xy 107.95 113.03) (xy 105.41 113.03)
 		)
 		(stroke
@@ -3309,16 +3283,6 @@
 			(type solid)
 		)
 		(uuid "2f05aada-361e-4726-aaf0-f0b08dd183bc")
-	)
-	(wire
-		(pts
-			(xy 189.23 101.6) (xy 191.77 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b812556-d01e-4766-9ddf-d5d604cc2305")
 	)
 	(wire
 		(pts
@@ -3452,7 +3416,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 72.39) (xy 191.77 72.39)
+			(xy 179.07 67.31) (xy 191.77 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3532,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 67.31) (xy 191.77 67.31)
+			(xy 189.23 72.39) (xy 191.77 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3762,6 +3726,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 74.93) (xy 191.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba096f14-a819-4905-95dd-f8c12c480f9d")
+	)
+	(wire
+		(pts
 			(xy 124.46 113.03) (xy 124.46 114.3)
 		)
 		(stroke
@@ -3802,6 +3776,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 101.6) (xy 191.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9408190-d4e2-4530-93fa-d683cfa3e612")
+	)
+	(wire
+		(pts
 			(xy 45.72 72.39) (xy 54.61 72.39)
 		)
 		(stroke
@@ -3812,7 +3796,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 74.93) (xy 191.77 74.93)
+			(xy 179.07 69.85) (xy 191.77 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4002,7 +3986,7 @@
 	)
 	(hierarchical_label "SPK_IN"
 		(shape input)
-		(at 179.07 74.93 180)
+		(at 179.07 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4068,7 +4052,7 @@
 	)
 	(hierarchical_label "SPK_OUT"
 		(shape output)
-		(at 179.07 72.39 180)
+		(at 179.07 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4079,7 +4063,7 @@
 	)
 	(hierarchical_label "DEBUG_DEV_TX"
 		(shape input)
-		(at 179.07 90.17 180)
+		(at 179.07 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4123,7 +4107,7 @@
 	)
 	(hierarchical_label "DEBUG_DEV_RX"
 		(shape output)
-		(at 179.07 87.63 180)
+		(at 179.07 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
