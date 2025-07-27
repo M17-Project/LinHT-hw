@@ -19,12 +19,8 @@
 		(uuid "9e13e272-260f-41e4-bde6-9d04184eccb9")
 	)
 	(no_connect
-		(at 163.83 78.74)
+		(at 163.83 74.93)
 		(uuid "37e20892-c453-478f-94d7-f772c4094133")
-	)
-	(no_connect
-		(at 212.09 78.74)
-		(uuid "419fb1a9-8923-4c74-813a-3c3fd8cb6535")
 	)
 	(no_connect
 		(at 127 52.07)
@@ -443,6 +439,16 @@
 			(type default)
 		)
 		(uuid "b2fc58d0-fa76-475a-a952-aa419d8ba842")
+	)
+	(wire
+		(pts
+			(xy 163.83 78.74) (xy 212.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66e3d7b-5528-4c7d-9c98-05ee7c18070d")
 	)
 	(wire
 		(pts
@@ -1306,7 +1312,7 @@
 			)
 		)
 		(pin "STBY" output
-			(at 163.83 78.74 0)
+			(at 163.83 74.93 0)
 			(uuid "ca791a82-77e4-4658-adda-b26a0837cb57")
 			(effects
 				(font
@@ -1538,6 +1544,16 @@
 		(pin "RF_SW_CTRL" output
 			(at 163.83 69.85 0)
 			(uuid "60da5c19-68f9-4f73-862b-20ba031911c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOL_BATT" input
+			(at 163.83 78.74 0)
+			(uuid "4d814c8e-d19c-4016-8376-45e596026aef")
 			(effects
 				(font
 					(size 1.27 1.27)

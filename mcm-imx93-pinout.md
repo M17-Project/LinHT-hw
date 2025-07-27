@@ -10,7 +10,7 @@
 |                 | V_SOM           | Pin 6   | 5V            |           |                                       |
 |                 | ADC_IN3         | Pin 7   |               |           |                                       |
 |                 | ADC_IN2         | Pin 8   |               |           |                                       |
-|                 | ADC_IN1         | Pin 9   |               |           |                                       |
+|                 | ADC_IN1         | Pin 9   | U_BATT_MON    |           |                                       |
 |                 | ADC_IN0         | Pin 10  | VOL_ADC       |           |                                       |
 |                 | V_SOM           | Pin 11  | 5V            |           |                                       |
 |                 | TAMPER0         | Pin 12  |               |           |                                       |
