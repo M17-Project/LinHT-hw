@@ -488,9 +488,19 @@
       },
       {
         "clearance": 0.1,
-        "name": "RF",
+        "name": "Narrow",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "name": "RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.234,
         "via_diameter": 0.6,
@@ -502,7 +512,7 @@
         "diff_pair_width": 0.165,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.165,
         "via_diameter": 0.6,
@@ -560,7 +570,12 @@
         "RF"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Narrow",
+        "pattern": "/Keyboard/D."
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
