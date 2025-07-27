@@ -3099,12 +3099,6 @@
 		(uuid "deebe5be-7ed6-4292-a7b0-6080755f2aa2")
 	)
 	(junction
-		(at 45.72 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0289ee5a-1acc-40c2-af36-1cdb6f74bd15")
-	)
-	(junction
 		(at 63.5 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3648,16 +3642,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 71.12) (xy 45.72 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf93ee5-786e-4e5d-8789-1b25aae2dc65")
-	)
-	(wire
-		(pts
 			(xy 123.19 113.03) (xy 124.46 113.03)
 		)
 		(stroke
@@ -3865,16 +3849,6 @@
 			(type solid)
 		)
 		(uuid "dafbfd5b-6876-4509-bd68-6d12cf6006da")
-	)
-	(wire
-		(pts
-			(xy 54.61 71.12) (xy 54.61 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe44e2d-3e54-484b-a79e-c92b8de05c1e")
 	)
 	(wire
 		(pts
@@ -4662,74 +4636,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 45.72 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "243f6119-c0e6-4c88-9f2e-d5f910f4fbd3")
-		(property "Reference" "H1"
-			(at 48.26 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 48.26 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 45.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 45.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b15226c0-5c1e-443d-8cff-7844509608e8")
-		)
-		(instances
-			(project ""
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6457,74 +6363,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 54.61 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7ed46b6-cad5-4119-9f1a-fc9cb6141481")
-		(property "Reference" "H3"
-			(at 57.15 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 57.15 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 54.61 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 54.61 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03f859b5-811f-4825-9ff9-5c9f43304e85")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
-					(reference "H3")
 					(unit 1)
 				)
 			)
