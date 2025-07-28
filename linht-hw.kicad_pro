@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 1.4,
+          "height": 2.54,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -130,6 +130,10 @@
         [
           "hole_clearance|126069828|113050000|dcce17cc-1795-475e-a72b-90d607241fe3|5d78c74e-cc0d-4c8e-bdb9-ab1a815128e9",
           "Battery connector BT-003 has hole near pads."
+        ],
+        [
+          "silk_over_copper|112375000|84421207|e02e2e65-14dc-4431-ab1f-5253741275b0|00000000-0000-0000-0000-000000000000",
+          "Position based on the original C62 PCB, cannot be fixed"
         ]
       ],
       "meta": {
