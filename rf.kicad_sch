@@ -3293,7 +3293,7 @@
 		(uuid "ff74c156-9736-4949-a7cf-7a1e08a6ff03")
 	)
 	(label "RF_IN"
-		(at 177.8 87.63 180)
+		(at 177.8 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3323,7 +3323,7 @@
 		(uuid "637c2d36-a196-41a2-bda7-26a87081e69f")
 	)
 	(label "RF_OUT"
-		(at 177.8 80.01 180)
+		(at 177.8 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3333,22 +3333,22 @@
 		(uuid "727c182d-fde7-4759-8af8-df3709323bd6")
 	)
 	(label "RF_IN"
-		(at 110.49 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a6a0e94-7b5a-412c-93a9-6e2a8df0cf6a")
-	)
-	(label "RF_OUT"
 		(at 151.13 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "9a6a0e94-7b5a-412c-93a9-6e2a8df0cf6a")
+	)
+	(label "RF_OUT"
+		(at 110.49 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "bd505065-182c-4f2e-883a-7f96abee1532")
 	)
