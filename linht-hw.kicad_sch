@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "26 July 2025")
+		(date "28 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -82,7 +82,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 86.36) (xy 207.01 86.36)
+			(xy 212.09 87.63) (xy 207.01 87.63)
 		)
 		(stroke
 			(width 0)
@@ -92,7 +92,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 83.82) (xy 212.09 83.82)
+			(xy 163.83 85.09) (xy 212.09 85.09)
 		)
 		(stroke
 			(width 0)
@@ -292,7 +292,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 86.36) (xy 207.01 102.87)
+			(xy 207.01 87.63) (xy 207.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 212.09 81.28)
+			(xy 163.83 82.55) (xy 212.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -442,7 +442,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 78.74) (xy 212.09 78.74)
+			(xy 163.83 80.01) (xy 212.09 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1232,7 +1232,7 @@
 			)
 		)
 		(pin "ON{slash}OFF" input
-			(at 163.83 81.28 0)
+			(at 163.83 82.55 0)
 			(uuid "41445be6-d33e-4ceb-8568-6658613ea39c")
 			(effects
 				(font
@@ -1512,7 +1512,7 @@
 			)
 		)
 		(pin "ON{slash}OFF_SW" input
-			(at 163.83 83.82 0)
+			(at 163.83 85.09 0)
 			(uuid "e7511da3-4c45-4edc-a4cb-145c9c49b7df")
 			(effects
 				(font
@@ -1552,7 +1552,7 @@
 			)
 		)
 		(pin "VOL_BATT" input
-			(at 163.83 78.74 0)
+			(at 163.83 80.01 0)
 			(uuid "4d814c8e-d19c-4016-8376-45e596026aef")
 			(effects
 				(font
@@ -1570,7 +1570,7 @@
 		)
 	)
 	(sheet
-		(at 212.09 74.93)
+		(at 212.09 76.2)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1586,7 +1586,7 @@
 		)
 		(uuid "be402a1e-34f3-489f-9745-963b98ced0ff")
 		(property "Sheetname" "Power"
-			(at 212.09 74.2184 0)
+			(at 212.09 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1595,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 212.09 90.7546 0)
+			(at 212.09 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1604,7 @@
 			)
 		)
 		(pin "U_BATT_MON" output
-			(at 212.09 78.74 180)
+			(at 212.09 80.01 180)
 			(uuid "29a882d5-a40e-476d-8dde-7afc50b15d76")
 			(effects
 				(font
@@ -1614,7 +1614,7 @@
 			)
 		)
 		(pin "ON{slash}OFF" output
-			(at 212.09 81.28 180)
+			(at 212.09 82.55 180)
 			(uuid "0441f964-f817-4afe-bef5-93b5a038f52c")
 			(effects
 				(font
@@ -1624,7 +1624,7 @@
 			)
 		)
 		(pin "PWR_SW" output
-			(at 212.09 83.82 180)
+			(at 212.09 85.09 180)
 			(uuid "e16d1f08-7032-433d-abf1-5028bde84d98")
 			(effects
 				(font
@@ -1634,7 +1634,7 @@
 			)
 		)
 		(pin "SWITCH_ON_OFF" input
-			(at 212.09 86.36 180)
+			(at 212.09 87.63 180)
 			(uuid "68ba3aca-b26e-4906-9bbb-3a1d0b7c7e26")
 			(effects
 				(font
