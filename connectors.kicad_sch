@@ -3078,10 +3078,10 @@
 		)
 		(uuid "73793596-47e8-4b3b-b9e5-5426287d2c3d")
 	)
-	(text_box "2× M2.5\n8× M2"
+	(text_box "Original Retevis C62 PCB has these mounting holes:\n  8× M2\n  2× M2.5\n\nOur new PCB will have:\n  8× M2\n\nTwo M2.5 were removed due to conflict with the SoM."
 		(exclude_from_sim no)
-		(at 44.45 57.15 0)
-		(size 11.43 5.08)
+		(at 44.45 36.195 0)
+		(size 29.21 26.035)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
