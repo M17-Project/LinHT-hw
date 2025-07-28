@@ -6708,7 +6708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3525N_Horizontal"
+		(property "Footprint" "parts:Jack_3.5mm_CUI_SJ1-3525N_Modified"
 			(at 196.85 106.68 0)
 			(effects
 				(font
