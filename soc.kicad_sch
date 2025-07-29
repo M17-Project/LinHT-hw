@@ -5642,7 +5642,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGJ0220TCE"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -5653,6 +5653,15 @@
 		)
 		(property "MPN" ""
 			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25152"
+			(at 50.8 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5689,7 @@
 		(at 93.98 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3216a3c1-3801-4d78-b78d-46bfd311e540")
@@ -6358,7 +6367,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF2202TCE"
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -6369,6 +6378,15 @@
 		)
 		(property "MPN" ""
 			(at 38.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25768"
+			(at 38.1 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +6593,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1202TCE"
 			(at 38.1 36.83 0)
 			(effects
 				(font
@@ -6586,6 +6604,15 @@
 		)
 		(property "MPN" ""
 			(at 38.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25752"
+			(at 38.1 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6687,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGJ0220TCE"
 			(at 53.34 36.83 0)
 			(effects
 				(font
@@ -6671,6 +6698,15 @@
 		)
 		(property "MPN" ""
 			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25152"
+			(at 53.34 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
