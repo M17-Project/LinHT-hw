@@ -4186,7 +4186,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1502TCE"
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -4196,6 +4196,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25756"
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -4271,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF5101TCE"
 			(at 59.69 140.97 90)
 			(effects
 				(font
@@ -4282,6 +4291,15 @@
 		)
 		(property "MPN" ""
 			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 59.69 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +4374,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF5101TCE"
 			(at 59.69 143.51 90)
 			(effects
 				(font
@@ -4367,6 +4385,15 @@
 		)
 		(property "MPN" ""
 			(at 59.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 59.69 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +4942,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "Slkor BAT60A"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5355496"
 			(at 60.96 135.89 0)
 			(effects
 				(font
@@ -5125,7 +5161,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1000TCE"
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -5136,6 +5172,15 @@
 		)
 		(property "MPN" ""
 			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 182.88 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5389,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1001TCE"
 			(at 185.42 109.22 90)
 			(effects
 				(font
@@ -5354,6 +5399,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 185.42 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "0402"
 			(at 185.42 109.22 90)
 			(effects
 				(font
@@ -5382,7 +5436,7 @@
 		(at 107.95 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a2f039ae-b8a7-405c-afa1-f0b0112f2fa0")
@@ -5526,7 +5580,7 @@
 		(at 196.85 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5650,7 +5704,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1000TCE"
 			(at 182.88 74.93 0)
 			(effects
 				(font
@@ -5661,6 +5715,15 @@
 		)
 		(property "MPN" ""
 			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 182.88 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 81-BLM21P221SG "
 			(at 71.12 135.89 0)
 			(effects
 				(font
@@ -5745,8 +5808,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BLM21PG221SN1D"
 			(at 71.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85840"
+			(at 71.12 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,7 +5903,16 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "C7519"
+		(property "PN" " 511-USBLC6-2SC6 "
+			(at 83.82 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7519"
 			(at 83.82 153.67 90)
 			(effects
 				(font
@@ -6319,7 +6400,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 88.9 102.87 0)
 			(effects
 				(font
@@ -6328,7 +6409,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 88.9 102.87 0)
 			(effects
 				(font
@@ -6470,7 +6560,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "C165948"
+		(property "PN" ""
 			(at 39.37 151.13 0)
 			(effects
 				(font
@@ -6480,6 +6570,15 @@
 			)
 		)
 		(property "MPN" "TYPE-C-31-M-12"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 39.37 151.13 0)
 			(effects
 				(font
@@ -6622,7 +6721,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6687,7 +6786,7 @@
 		(at 196.85 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

@@ -3757,7 +3757,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -3766,7 +3766,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -3911,7 +3920,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B103KO5NNNC "
 			(at 38.1 137.16 0)
 			(effects
 				(font
@@ -3920,7 +3929,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B103KO5NNNC"
+			(at 38.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318577"
 			(at 38.1 137.16 0)
 			(effects
 				(font
@@ -3999,7 +4017,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 149.86 73.66 0)
 			(effects
 				(font
@@ -4008,7 +4026,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 149.86 73.66 0)
 			(effects
 				(font
@@ -4285,6 +4312,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF1003TCE"
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dd3941d-ebba-4985-95b9-621777dc2ba3")
 		)
@@ -4364,6 +4409,15 @@
 		)
 		(property "PN" "815-AISC-0603-R039-J"
 			(at 144.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C186893"
+			(at 144.78 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4561,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 82.55 137.16 0)
 			(effects
 				(font
@@ -4516,7 +4570,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 82.55 137.16 0)
 			(effects
 				(font
@@ -4595,7 +4658,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -4604,7 +4667,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -4749,7 +4821,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -4758,7 +4830,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -4834,7 +4915,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1000TCE"
 			(at 151.13 93.98 0)
 			(effects
 				(font
@@ -4845,6 +4926,15 @@
 		)
 		(property "MPN" ""
 			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 151.13 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +5010,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 603-CC402JRNPO9BN270 "
 			(at 123.19 45.72 0)
 			(effects
 				(font
@@ -4929,8 +5019,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0402JRNPO9BN270"
 			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107002"
+			(at 123.19 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5105,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 603-CC402JRNPO9BN330 "
 			(at 115.57 55.88 0)
 			(effects
 				(font
@@ -5015,8 +5114,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0402JRNPO9BN330"
 			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107005"
+			(at 115.57 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5199,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B103KO5NNNC "
 			(at 50.8 62.23 0)
 			(effects
 				(font
@@ -5100,8 +5208,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B103KO5NNNC"
 			(at 50.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318577"
+			(at 50.8 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5359,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1000TCE"
 			(at 151.13 109.22 0)
 			(effects
 				(font
@@ -5253,6 +5370,15 @@
 		)
 		(property "MPN" ""
 			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 151.13 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5651,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1000TCE"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -5535,6 +5661,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -5603,6 +5738,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3312945"
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BGS12P2L6E6327"
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 726-BGS12P2L6E6327XT "
 			(at 201.93 86.36 0)
 			(effects
 				(font
@@ -5692,7 +5854,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B103KO5NNNC "
 			(at 55.88 137.16 0)
 			(effects
 				(font
@@ -5701,7 +5863,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B103KO5NNNC"
+			(at 55.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318577"
 			(at 55.88 137.16 0)
 			(effects
 				(font
@@ -5777,7 +5948,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1000TCE"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -5788,6 +5959,15 @@
 		)
 		(property "MPN" ""
 			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 151.13 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5995,7 @@
 		(at 252.73 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5932,7 +6112,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1000TCE"
 			(at 128.27 130.81 0)
 			(effects
 				(font
@@ -5942,6 +6122,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 128.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
 			(at 128.27 130.81 0)
 			(effects
 				(font
@@ -6018,7 +6207,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 603-CC402JRNPO9BN102 "
 			(at 184.15 80.01 0)
 			(effects
 				(font
@@ -6027,8 +6216,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0402JRNPO9BN102"
 			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C113780"
+			(at 184.15 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6569,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 64.77 137.16 0)
 			(effects
 				(font
@@ -6380,7 +6578,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 64.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 64.77 137.16 0)
 			(effects
 				(font
@@ -6506,6 +6713,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C89372"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SX1255IWLTRT"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 947-SX1255IWLTRT "
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6753,6 +6987,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19858587"
+			(at 57.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2232d4ce-1979-41a1-826f-61926f913757")
 		)
@@ -6829,7 +7072,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -6838,7 +7081,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 85.09 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -7065,6 +7317,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C186899"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fedfbb86-1642-4b37-bf58-2f5a2faf24a0")
 		)
@@ -7201,7 +7462,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 187-CL05B103KO5NNNC "
 			(at 46.99 137.16 0)
 			(effects
 				(font
@@ -7210,7 +7471,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05B103KO5NNNC"
+			(at 46.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318577"
 			(at 46.99 137.16 0)
 			(effects
 				(font
@@ -7485,7 +7755,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" " 603-CC402JRNPO9BN102 "
 			(at 219.71 83.82 0)
 			(effects
 				(font
@@ -7494,8 +7764,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0402JRNPO9BN102"
 			(at 219.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C113780"
+			(at 219.71 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7924,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "139-LFCN-490"
+		(property "MPN" "LFCN-490+"
+			(at 234.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3008205"
 			(at 234.95 83.82 0)
 			(effects
 				(font
@@ -7793,7 +8081,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1000TCE"
 			(at 120.65 130.81 0)
 			(effects
 				(font
@@ -7803,6 +8091,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
 			(at 120.65 130.81 0)
 			(effects
 				(font
@@ -8076,7 +8373,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "0402WGF1000TCE"
 			(at 151.13 106.68 0)
 			(effects
 				(font
@@ -8087,6 +8384,15 @@
 		)
 		(property "MPN" ""
 			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 151.13 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)

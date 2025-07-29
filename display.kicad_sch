@@ -2700,6 +2700,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25091"
+			(at 219.71 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF2200TCE"
+			(at 219.71 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bbb4d23-f1fc-4866-a9b1-143e90b71d22")
 		)
@@ -2894,6 +2912,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF1002TCE"
 			(at 101.6 82.55 0)
 			(effects
 				(font
@@ -3107,6 +3143,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C40912"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSS138-7-F"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 621-BSS138-7-F "
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0a917df0-9299-45f7-ae9e-f72ca7d9c80f")
 		)
@@ -3130,7 +3193,7 @@
 		(at 209.55 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3207,7 +3270,7 @@
 		(at 119.38 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3381,6 +3444,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25792"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF4702TCE"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f483c974-11a2-47b6-a4cc-9dd3a076901e")
 		)
@@ -3443,6 +3524,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -3585,6 +3693,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF1000TCE"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad6c253e-c7f8-4df2-82aa-c33ec8ccc222")
 		)
@@ -3650,6 +3776,33 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C40912"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSS138-7-F"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 621-BSS138-7-F "
 			(at 199.39 99.06 0)
 			(effects
 				(font
@@ -3731,6 +3884,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25077"
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF100JTCE"
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04da3803-7cea-4efb-84d0-a06e26074b95")
 		)
@@ -3800,6 +3971,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25503345"
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1005SURC"
 			(at 209.55 68.58 0)
 			(effects
 				(font
@@ -3943,6 +4132,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965793"
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1005UGC"
 			(at 209.55 80.01 0)
 			(effects
 				(font
@@ -4153,6 +4360,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25792"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF4702TCE"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dfde15b1-dfe1-4438-b940-1880772a0526")
 		)
@@ -4214,6 +4439,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 219.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25082"
+			(at 219.71 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF1500TCE"
+			(at 219.71 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,6 +4532,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25091"
+			(at 219.71 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF2200TCE"
+			(at 219.71 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d2eee4a-3f34-4cd9-801a-f9b9b6f0d56a")
 		)
@@ -4357,6 +4618,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 102.87 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF1002TCE"
+			(at 102.87 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a074cf4e-adca-47b6-b17d-a40c88706fa9")
 		)
@@ -4418,6 +4697,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 95.25 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF1000TCE"
+			(at 95.25 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
