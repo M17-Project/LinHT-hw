@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "28 July 2025")
+		(date "29 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -2040,7 +2040,7 @@
 		)
 		(uuid "d420396b-bb29-4e87-bd46-98e5aff3b91f")
 	)
-	(text_box "Expected Parameters:\n  V_{in} = 6.0 - 8.4 V\n  V_{out} = 3.3 V ± 2.42%\n  I_{out} = 0.5 A\n  η = 95.6 %\n  Duty = 40 %\n  f_{SW} = 614 kHz"
+	(text_box "Expected Parameters:\n  V_{in} = 6.0 - 8.4 V\n  V_{out} = 3.26 V ± 2.42%\n  I_{out} = 0.5 A\n  η = 95.6 %\n  Duty = 40 %\n  f_{SW} = 614 kHz"
 		(exclude_from_sim no)
 		(at 220.98 92.71 0)
 		(size 26.67 16.51)
@@ -4202,7 +4202,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Slkor BAT60A"
+		(property "MPN" "BAT60A"
 			(at 104.14 165.1 0)
 			(effects
 				(font
@@ -4764,7 +4764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "135k/1%"
+		(property "Value" "133k/1%"
 			(at 144.78 101.5999 0)
 			(effects
 				(font
@@ -4800,7 +4800,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2998045"
+			(at 147.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "FRC0402F1333TS"
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -5848,7 +5857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Slkor BAT60A"
+		(property "MPN" "BAT60A"
 			(at 59.69 157.48 0)
 			(effects
 				(font
@@ -8813,7 +8822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C842264"
+		(property "LCSC" "C460494"
 			(at 133.35 162.56 0)
 			(effects
 				(font
@@ -8822,7 +8831,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "74AHC1G86W5-7"
+		(property "MPN" "74AHC1G86SE-7"
 			(at 133.35 162.56 0)
 			(effects
 				(font
@@ -8831,7 +8840,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 621-74AHC1G86W5-7 "
+		(property "PN" "621-74AHC1G86SE-7"
 			(at 133.35 162.56 0)
 			(effects
 				(font
@@ -9186,7 +9195,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Slkor BAT60A"
+		(property "MPN" "BAT60A"
 			(at 198.12 53.34 0)
 			(effects
 				(font

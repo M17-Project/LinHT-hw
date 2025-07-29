@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "28 July 2025")
+		(date "29 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -4942,7 +4942,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Slkor BAT60A"
+		(property "MPN" "BAT60A"
 			(at 60.96 135.89 0)
 			(effects
 				(font
@@ -5407,7 +5407,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "0402"
+		(property "LCSC" "C11702"
 			(at 185.42 109.22 90)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LinHT - Linux-based SDR handheld transceiver")
-		(date "28 July 2025")
+		(date "29 July 2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
@@ -11351,6 +11351,15 @@
 			)
 		)
 		(property "PN" "700-MAX9814ETDT"
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41714"
 			(at 163.83 142.24 0)
 			(effects
 				(font
