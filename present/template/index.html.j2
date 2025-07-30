@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="M17 Foundation">
+    <title>{{ name }}</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="imgs/favicon.png">
+
+    <style>
+        .render-row {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .render-col {
+          flex: 50%;
+          max-width: 50%;
+          padding: 0 4px;
+        }
+
+        .render-col img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .render-col {
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
+
+        .img-rounded {
+          border-radius:10% !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="py-1 text-center container">
+    <div class="row py-2 py-lg-3 mx-auto">
+      <div class="col-lg-4 col-md-4 ">
+        <img class="img-rounded" src="imgs/m17-logo.svg" alt="Logo M17 Foundation" width="200px">
+      </div>
+      <div class="col-lg-6 col-md-6 pt-2">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+      </div>
+    </div>
+    </section>
+
+
+    <div class="py-5 bg-body-tertiary">
+    <div class="container">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                {% include 'README.html' %}
+              </div>
+            </div>
+            <div class="col-md-4">
+              {% for r in renders %}
+                {% if loop.first %}
+                  <a href="imgs/{{ name }}-{{ r.suffix }}.png">
+                    <img src="imgs/{{ name }}-{{ r.suffix }}.png" class="img-fluid rounded-start mb-2" alt="3D render PCB {{ name }}, {{ r.alt }}.">
+                  </a>
+                  <div class="render-row">
+                {% else %}
+                  <div class="render-col">
+                    <a href="imgs/{{ name }}-{{ r.suffix }}.png">
+                      <img src="imgs/{{ name }}-{{ r.suffix }}.png" class="img-fluid rounded-start" alt="3D render PCB {{ name }}, {{ r.alt }}.">
+                    </a>
+                  </div>
+                {% endif %}
+                {% if loop.last %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+
+              <div class="">
+              <h3>Files:</h3>
+                <ul>
+                  {% for item in files %}
+                    <li>
+                      <a href="files/{{ item.file }}">{{ item.description }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <footer class="text-body-secondary py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1"><a href="https://m17foundation.org/">m17foundation.org</a>, last update: {{ datetime }}.</p>
+  </div>
+</footer>
+        <div class="w-full mt-16 mb-1 p-2 bg-gray-200 text-center txt-xs rounded">
+
+        </div>
+
+    </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
