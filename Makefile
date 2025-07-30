@@ -38,9 +38,12 @@ fabrication: $(BOARD).kicad_pcb $(BOARD).kicad_sch $(GERBER_ZIPS)
 	#
 	kicad-cli pcb export pos $< --side front --format csv --units mm -o $(TEMPLATE_FAB_DIR)/$(BOARD)_top_pos.csv
 	sed -e '1 s/Ref/Designator/' -e '1 s/PosX/Mid X/' -e '1 s/PosY/Mid Y/' -e '1 s/Rot/Rotation/' -e '1 s/Side/Layer/' $(TEMPLATE_FAB_DIR)/$(BOARD)_top_pos.csv > $(TEMPLATE_FAB_DIR)/$(BOARD)_pos_jlcpcb.csv
-	kicad-cli pcb export step --subst-models $< -o $(TEMPLATE_FAB_DIR)/$(BOARD)_model.step
-	xz -f $(TEMPLATE_FAB_DIR)/$(BOARD)_model.step
-	touch $(TEMPLATE_FAB_DIR)
+	kicad-cli pcb export step --subst-models $< -o $(TEMPLATE_FAB_DIR)/$(BOARD)_model.step ; \
+		rc=$$?; if [ $$rc -ne 0 ] && [ $$rc -ne 2 ]; then exit $$rc; fi
+	kicad-cli pcb export vrml $< -o $(TEMPLATE_FAB_DIR)/$(BOARD)_model.vrml
+	@xz -f $(TEMPLATE_FAB_DIR)/$(BOARD)_model.step
+	@xz -f $(TEMPLATE_FAB_DIR)/$(BOARD)_model.vrml
+	@touch $(TEMPLATE_FAB_DIR)
 
 render: $(BOARD).kicad_pcb
 	@mkdir -p $(TEMPLATE_RENDER_DIR)
@@ -61,10 +64,10 @@ build/%.html: %.md
 
 build/%.html.j2: present/template/%.html.j2
 	@mkdir -p build
-	cp $< $@
+	@cp $< $@
 
 build/%.json: present/template/%.json
-	cp $< $@
+	@cp $< $@
 
 build/web/%.html: build/%.html.j2 build/%.json build/README.html
 	@mkdir -p build/web

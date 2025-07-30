@@ -11,7 +11,8 @@
     {"file": "linht-hw_bom.xml", "description": "Bill of Materials (XML)"},
     {"file": "linht-hw_schematic.pdf", "description": "Schematic (PDF)"},
     {"file": "linht-hw_schematic_bw.pdf", "description": "Schematic without Colors (PDF)"},
-    {"file": "linht-hw_model.step.xz", "description": "3D Model (STEP.XZ)"}
+    {"file": "linht-hw_model.step.xz", "description": "3D Model (STEP.XZ)"},
+    {"file": "linht-hw_model.vrml.xz", "description": "3D Model (VRML.XZ)"}
   ],
   "renders": [
     {"suffix": "preview", "alt": "Isometric view of the PCB"},

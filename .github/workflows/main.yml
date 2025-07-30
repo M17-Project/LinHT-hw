@@ -1,0 +1,62 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build-web:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/slintak/kicad-builder:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Everything
+        run: make
+
+      - name: Upload Fabrication Files
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-fabrication
+          path: build/web/files/
+          if-no-files-found: error
+
+      - name: Upload Web Files
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-web
+          path: build/web/
+          if-no-files-found: error
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: [build-web]
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Web Files
+        uses: actions/download-artifact@v4
+        with:
+          name: build-web
+          path: build/
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
