@@ -9,17 +9,17 @@ The device uses an [MCM-iMX93](https://www.compulab.com/products/computer-on-mod
 
 ### Resources
 **CPU:**
-- Dual-core ARM Cortex-A55 @ 1.7GHz
-- ARM Cortex-M33 coprocessor @ 250MHz
-- Floating Point Unit
-- ARM Ethos U-65 microNPU (Neural Processing Unit with Tensor Flow Lite support)
+* Dual-core ARM Cortex-A55 @ 1.7GHz
+* ARM Cortex-M33 coprocessor @ 250MHz
+* Floating Point Unit
+* ARM Ethos U-65 microNPU (Neural Processing Unit with Tensor Flow Lite support)
 
 **Memory:**
-- 2GB LPDDR4
-- 64GB eMMC
+* 2GB LPDDR4
+* 64GB eMMC
 
 **RF:**
-- 500kHz bandwidth complete IQ transceiver
+* 500kHz bandwidth complete IQ transceiver
 
 ## Software
 Developers can use C/C++/Python as well as (or in conjunction with) GNU Radio flowgraphs. Tools such as gcc are built-in. The Linux image will be published later.
