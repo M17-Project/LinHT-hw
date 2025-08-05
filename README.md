@@ -25,15 +25,17 @@ The device uses an [MCM-iMX93](https://www.compulab.com/products/computer-on-mod
 * 500kHz bandwidth complete IQ transceiver
 
 ## Software
-Developers can use C/C++/Python as well as (or in conjunction with) GNU Radio flowgraphs. Tools such as gcc are built-in. The Linux image will be published later.
+Developers can use C/C++/Python as well as (or in conjunction with) GNU Radio flowgraphs. Tools such as gcc are built-in. The experimental Linux image is available [here](https://m17project.org/linht/).
 
 ### Supported modes (so far):
 
+* FM transmission and reception with pre-/de-emphasis and CTCSS,
+* SSB transmission and reception,
 * M17 - transmission and reception,
 * TETRA - reception only,
 * Demo 64QAM transmission at 2Mbps
 
-Other modes can be added later (analog FM/AM/SSB, FreeDV, APRS, etc.).
+Other modes can be added later (FreeDV, APRS, etc.).
 
 ## License
 This work is licensed under a
