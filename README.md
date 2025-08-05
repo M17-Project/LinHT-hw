@@ -18,7 +18,7 @@ The device uses an [MCM-iMX93](https://www.compulab.com/products/computer-on-mod
 **Memory:**
 
 * 2GB LPDDR4
-* 64GB eMMC
+* 32GB eMMC
 
 **RF:**
 
