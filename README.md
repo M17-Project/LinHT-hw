@@ -27,6 +27,14 @@ The device uses an [MCM-iMX93](https://www.compulab.com/products/computer-on-mod
 ## Software
 Developers can use C/C++/Python as well as (or in conjunction with) GNU Radio flowgraphs. Tools such as gcc are built-in. The experimental Linux image is available [here](https://m17project.org/linht/).
 
+Instructions for setting up the Yocto build environment can be found in the [M17 Wiki](https://wiki.m17foundation.org/index.php?title=LinHT_Image_Build).
+
+All layers required to build the image are located in the M17 Project GitHub:
+
+- [meta-linht-hardware](https://github.com/M17-Project/meta-linht-hardware): Provides machine configuration and hardware support for the LinHT hardware.
+- [meta-linht-software](https://github.com/M17-Project/meta-linht-software): Provides application software, libraries, and system configuration for digital radio communication and M17 protocol support.
+- [meta-linht-sdr](https://github.com/M17-Project/meta-linht-sdr): A modified version of [meta-sdr](https://github.com/balister/meta-sdr), providing the GNU Radio package.
+
 ### Supported modes (so far):
 
 * FM transmission and reception with pre-/de-emphasis and CTCSS,
