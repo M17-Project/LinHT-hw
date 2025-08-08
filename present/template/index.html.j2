@@ -84,9 +84,7 @@
                   </div>
                 {% endif %}
               {% endfor %}
-              <div class="render-col">
                 <vrml-viewer class="responsive-viewer" src="files/{{ name }}_model.wrl.gz" background-color="#2a2a2a" autoload="false" model-size="1.2" responsive="true"></vrml-viewer>
-              </div>
               <div class="">
               <h3>Files:</h3>
                 <ul>
@@ -119,6 +117,16 @@
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.1/examples/jsm/"
+        }
+    }
+    </script>
+    
+    <script type="module" src="js/vrml-viewer.js"></script>
 </body>
 
 </html>
