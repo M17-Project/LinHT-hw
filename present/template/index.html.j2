@@ -84,7 +84,6 @@
                   </div>
                 {% endif %}
               {% endfor %}
-                <vrml-viewer class="responsive-viewer" src="files/{{ name }}_model.wrl.gz" background-color="#2a2a2a" autoload="false" model-size="1.2" responsive="true"></vrml-viewer>
               <div class="">
               <h3>Files:</h3>
                 <ul>
@@ -95,6 +94,7 @@
                   {% endfor %}
                 </ul>
               </div>
+              <vrml-viewer src="files/{{ name }}_model.vrml.gz" autoload="false" model-size="1.2" responsive="true"></vrml-viewer>
             </div>
 
           </div>
