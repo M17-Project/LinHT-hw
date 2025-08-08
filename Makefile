@@ -41,9 +41,9 @@ fabrication: $(BOARD).kicad_pcb $(BOARD).kicad_sch $(GERBER_ZIPS)
 	kicad-cli pcb export step --subst-models $< -o $(TEMPLATE_FAB_DIR)/$(BOARD)_model.step ; \
 		rc=$$?; if [ $$rc -ne 0 ] && [ $$rc -ne 2 ]; then exit $$rc; fi
 	kicad-cli pcb export vrml $< -o $(TEMPLATE_FAB_DIR)/$(BOARD)_model.vrml
+	@gzip -c $(TEMPLATE_FAB_DIR)/$(BOARD)_model.vrml > $(TEMPLATE_FAB_DIR)/$(BOARD)_model.vrml.gz
 	@xz -f $(TEMPLATE_FAB_DIR)/$(BOARD)_model.step
 	@xz -f $(TEMPLATE_FAB_DIR)/$(BOARD)_model.vrml
-	@gzip -c $(TEMPLATE_FAB_DIR)/$(BOARD)_model.vrml > $(TEMPLATE_FAB_DIR)/$(BOARD)_model.vrml.gz
 	@touch $(TEMPLATE_FAB_DIR)
 
 render: $(BOARD).kicad_pcb
