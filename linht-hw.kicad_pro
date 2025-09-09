@@ -568,6 +568,12 @@
       ],
       "Net-(U2-RF_OUT_2)": [
         "RF"
+      ],
+      "unconnected-(R3-Pad1)": [
+        "USB"
+      ],
+      "unconnected-(R4-Pad1)": [
+        "USB"
       ]
     },
     "netclass_patterns": [
