@@ -13,7 +13,7 @@ The device uses an [MCM-iMX93](https://www.compulab.com/products/computer-on-mod
 * Dual-core ARM Cortex-A55 @ 1.7GHz
 * ARM Cortex-M33 coprocessor @ 250MHz
 * Floating Point Unit
-* ARM Ethos U-65 microNPU (Neural Processing Unit with Tensor Flow Lite support)
+* ARM Ethos U-65 microNPU (Neural Processing Unit with TensorFlow Lite support)
 
 **Memory:**
 
