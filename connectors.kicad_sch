@@ -1229,6 +1229,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -3017,6 +3167,12 @@
 		(uuid "91b9e5c2-869c-4881-9865-e28e6c9673bc")
 	)
 	(junction
+		(at 184.15 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba864fd3-cac9-4913-8aea-e3135cf4da59")
+	)
+	(junction
 		(at 54.61 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3050,6 +3206,10 @@
 		(at 54.61 163.83)
 		(uuid "d66d52a4-7baa-4770-ae85-60520ff6c71c")
 	)
+	(no_connect
+		(at 189.23 101.6)
+		(uuid "e29ab28e-24b1-4700-9d70-c5cca2d147b9")
+	)
 	(wire
 		(pts
 			(xy 57.15 153.67) (xy 57.15 156.21)
@@ -3072,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 109.22) (xy 191.77 109.22)
+			(xy 190.5 109.22) (xy 191.77 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3112,6 +3272,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 109.22) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12911abf-f243-47c4-b751-d15f7e39ebf2")
+	)
+	(wire
+		(pts
 			(xy 31.75 173.99) (xy 31.75 175.26)
 		)
 		(stroke
@@ -3119,6 +3289,16 @@
 			(type solid)
 		)
 		(uuid "12b97b0f-f54a-4006-a9d8-c5198647529f")
+	)
+	(wire
+		(pts
+			(xy 179.07 116.84) (xy 184.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1501b092-7fc9-4102-89a0-143784f97654")
 	)
 	(wire
 		(pts
@@ -3172,16 +3352,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 191.77 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c343ba2-bb45-4ecf-be38-626866ed28bd")
-	)
-	(wire
-		(pts
 			(xy 73.66 142.24) (xy 73.66 151.13)
 		)
 		(stroke
@@ -3199,6 +3369,16 @@
 			(type solid)
 		)
 		(uuid "46c0e64f-0903-4264-8d45-3dafe2546376")
+	)
+	(wire
+		(pts
+			(xy 184.15 109.22) (xy 184.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fcc9d1-6158-4356-a000-91fa4a7b11fb")
 	)
 	(wire
 		(pts
@@ -3282,6 +3462,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 101.6) (xy 191.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5619011d-1ccf-441a-b06d-97e4ba044d2c")
+	)
+	(wire
+		(pts
 			(xy 191.77 77.47) (xy 189.23 77.47)
 		)
 		(stroke
@@ -3319,6 +3509,16 @@
 			(type solid)
 		)
 		(uuid "64cab035-9230-411a-934e-5f9d4bbdbb8e")
+	)
+	(wire
+		(pts
+			(xy 173.99 109.22) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7509128f-8ee3-4bf3-b8d1-973d2a944a8a")
 	)
 	(wire
 		(pts
@@ -3642,23 +3842,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 109.22) (xy 182.88 109.22)
+			(xy 182.88 109.22) (xy 184.15 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7b0ecc0-b389-4405-9033-9fd9f3861b1e")
-	)
-	(wire
-		(pts
-			(xy 179.07 101.6) (xy 180.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9408190-d4e2-4530-93fa-d683cfa3e612")
 	)
 	(wire
 		(pts
@@ -3822,6 +4012,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 109.22) (xy 168.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a5a827-9378-4092-af46-be282eb9d43c")
+	)
+	(wire
+		(pts
 			(xy 179.07 74.93) (xy 180.34 74.93)
 		)
 		(stroke
@@ -3981,7 +4181,7 @@
 	)
 	(hierarchical_label "EXT_PTT"
 		(shape output)
-		(at 179.07 109.22 180)
+		(at 166.37 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4003,7 +4203,7 @@
 	)
 	(hierarchical_label "DEBUG_DEV_RX"
 		(shape output)
-		(at 179.07 101.6 180)
+		(at 179.07 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4543,6 +4743,118 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 179.07 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "272a1435-b033-4922-b4f9-44330f4829bf")
+		(property "Reference" "D8"
+			(at 178.816 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB751S40"
+			(at 178.816 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5178963"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RB751S40T1G"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 863-RB751S40T1G"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f03833c4-4c82-4b47-ae98-830615ed7161")
+		)
+		(pin "1"
+			(uuid "66f35cc5-a9a3-478d-be4d-8a02c18d2d1e")
+		)
+		(instances
+			(project ""
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5111,7 +5423,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 182.88 101.6 270)
+		(at 187.96 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5119,7 +5431,7 @@
 		(dnp no)
 		(uuid "85caa361-8ada-4d52-8e87-55dcaa92682a")
 		(property "Reference" "R51"
-			(at 180.594 99.568 90)
+			(at 187.96 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5439,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 185.928 99.568 90)
+			(at 187.96 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5447,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.88 101.6 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 101.6 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5465,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 182.88 101.6 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5474,7 @@
 			)
 		)
 		(property "PN" "0402WGF1000TCE"
-			(at 182.88 101.6 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5483,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 182.88 101.6 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5492,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 182.88 101.6 90)
+			(at 187.96 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +5651,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 185.42 109.22 90)
+		(at 171.45 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5347,7 +5659,7 @@
 		(dnp no)
 		(uuid "a17f1943-1de6-4d13-810e-5f37a8425c6d")
 		(property "Reference" "R48"
-			(at 185.42 111.76 90)
+			(at 171.45 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5667,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 114.3 90)
+			(at 171.45 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5675,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 185.42 109.22 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 109.22 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +5693,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 185.42 109.22 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5702,7 @@
 			)
 		)
 		(property "PN" "0402WGF1001TCE"
-			(at 185.42 109.22 90)
+			(at 171.45 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5711,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 185.42 109.22 90)
+			(at 171.45 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5720,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 185.42 109.22 90)
+			(at 171.45 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
