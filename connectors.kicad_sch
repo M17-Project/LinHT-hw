@@ -2732,6 +2732,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V8"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3149,6 +3274,12 @@
 		(uuid "385d69c3-6085-48ad-b521-849e9bcb4da4")
 	)
 	(junction
+		(at 186.69 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42911946-9549-46d2-90e1-a980933aa649")
+	)
+	(junction
 		(at 57.15 156.21)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3195,8 +3326,8 @@
 		(uuid "6847f0c8-c0db-4bae-bdad-d40e72c64804")
 	)
 	(no_connect
-		(at 189.23 99.06)
-		(uuid "8d230e08-d902-44f6-94c9-26f43fdd675d")
+		(at 189.23 67.31)
+		(uuid "ce343790-b777-437a-be0d-51f2fac3c020")
 	)
 	(no_connect
 		(at 54.61 166.37)
@@ -3207,8 +3338,8 @@
 		(uuid "d66d52a4-7baa-4770-ae85-60520ff6c71c")
 	)
 	(no_connect
-		(at 189.23 101.6)
-		(uuid "e29ab28e-24b1-4700-9d70-c5cca2d147b9")
+		(at 187.96 104.14)
+		(uuid "f949db53-537b-49b7-95ff-459aff3177f0")
 	)
 	(wire
 		(pts
@@ -3292,23 +3423,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 116.84) (xy 184.15 116.84)
+			(xy 166.37 116.84) (xy 184.15 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1501b092-7fc9-4102-89a0-143784f97654")
-	)
-	(wire
-		(pts
-			(xy 189.23 99.06) (xy 191.77 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc2d006-6400-49c0-9a70-3ef3232dfcd0")
 	)
 	(wire
 		(pts
@@ -3329,6 +3450,16 @@
 			(type default)
 		)
 		(uuid "22bbf560-284d-4cae-a4a5-81e095a5258b")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 186.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a8c6e8-df78-43a9-8e3e-915f581a3da3")
 	)
 	(wire
 		(pts
@@ -3402,6 +3533,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 99.06) (xy 186.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab6d4bb-ccbb-456d-98bc-61598264795b")
+	)
+	(wire
+		(pts
 			(xy 54.61 72.39) (xy 54.61 73.66)
 		)
 		(stroke
@@ -3462,16 +3603,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 101.6) (xy 191.77 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5619011d-1ccf-441a-b06d-97e4ba044d2c")
-	)
-	(wire
-		(pts
 			(xy 191.77 77.47) (xy 189.23 77.47)
 		)
 		(stroke
@@ -3482,6 +3613,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 99.06) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa43bdc-5f79-4a7c-b901-b9c7ea048add")
+	)
+	(wire
+		(pts
 			(xy 54.61 148.59) (xy 57.15 148.59)
 		)
 		(stroke
@@ -3489,16 +3630,6 @@
 			(type solid)
 		)
 		(uuid "5be08d43-7020-4320-a36d-aebe364bd129")
-	)
-	(wire
-		(pts
-			(xy 179.07 67.31) (xy 191.77 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639101fd-382d-41a6-bc1e-bdc04d96c0af")
 	)
 	(wire
 		(pts
@@ -3582,6 +3713,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 104.14) (xy 191.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cbe2de-b30e-4800-a890-80de06d15fbe")
+	)
+	(wire
+		(pts
 			(xy 189.23 72.39) (xy 191.77 72.39)
 		)
 		(stroke
@@ -3589,6 +3730,26 @@
 			(type default)
 		)
 		(uuid "85872b4a-e539-4dfd-9cde-0ca2625bf028")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 191.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88baeed7-257d-4e90-8140-214830958a56")
+	)
+	(wire
+		(pts
+			(xy 186.69 91.44) (xy 186.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b70e636-a9ca-4051-946f-d8aed8ef3ec0")
 	)
 	(wire
 		(pts
@@ -3619,16 +3780,6 @@
 			(type solid)
 		)
 		(uuid "9189d395-1ad3-4460-baf5-fdb75ec453ce")
-	)
-	(wire
-		(pts
-			(xy 179.07 104.14) (xy 191.77 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91cf132b-9cde-4e78-9966-ab6f30b610a2")
 	)
 	(wire
 		(pts
@@ -3672,7 +3823,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 106.68) (xy 191.77 106.68)
+			(xy 166.37 106.68) (xy 191.77 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4032,6 +4183,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 67.31) (xy 191.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f0922d-00ce-423b-b4b3-1f1307f7dfab")
+	)
+	(wire
+		(pts
 			(xy 63.5 142.24) (xy 63.5 143.51)
 		)
 		(stroke
@@ -4104,7 +4265,7 @@
 	)
 	(hierarchical_label "MIC_OUT"
 		(shape output)
-		(at 179.07 106.68 180)
+		(at 166.37 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4112,6 +4273,17 @@
 			(justify right)
 		)
 		(uuid "3362a2bb-6e49-4a78-9593-ff973c386520")
+	)
+	(hierarchical_label "JACK_DETECT"
+		(shape output)
+		(at 166.37 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ef110a7-2954-48fe-9cdc-e37fb68010d4")
 	)
 	(hierarchical_label "SWITCH_ON_OFF"
 		(shape output)
@@ -4134,28 +4306,6 @@
 			(justify left)
 		)
 		(uuid "43d74bac-9c2e-47b8-a273-8519349aced4")
-	)
-	(hierarchical_label "MIC_IN"
-		(shape input)
-		(at 179.07 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4daa71dc-f600-460c-89c1-e9e48a598ce3")
-	)
-	(hierarchical_label "SPK_OUT"
-		(shape output)
-		(at 179.07 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "717377c3-10e6-49cf-a3e6-c8da6026fce1")
 	)
 	(hierarchical_label "DEBUG_DEV_TX"
 		(shape input)
@@ -4203,7 +4353,7 @@
 	)
 	(hierarchical_label "DEBUG_DEV_RX"
 		(shape output)
-		(at 179.07 116.84 180)
+		(at 166.37 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4413,6 +4563,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49dca360-bf0c-4fe1-b62c-327e6df8d769")
 		)
@@ -4507,6 +4666,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 59.69 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a9a3314-d404-4eb8-87f1-01c8de884af7")
 		)
@@ -4593,6 +4761,15 @@
 			)
 		)
 		(property "LCSC" "C25905"
+			(at 59.69 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 59.69 143.51 90)
 			(effects
 				(font
@@ -4749,6 +4926,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 186.69 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "221758e2-2ed7-4d3e-a226-0114d91bdfad")
+		(property "Reference" "#PWR064"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 186.69 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a23b520-9eb7-44f3-b746-6cb045c5dea0")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 179.07 109.22 180)
 		(unit 1)
@@ -4837,6 +5079,15 @@
 			)
 		)
 		(property "PN" " 863-RB751S40T1G"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 179.07 109.22 0)
 			(effects
 				(font
@@ -4981,6 +5232,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ce04a8f-b274-44b4-b611-3964b4024c03")
 		)
@@ -5114,6 +5374,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61314b0c-92ee-432d-bb99-0e41d3382fea")
 		)
@@ -5193,6 +5462,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 184.15 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5178b41e-7e83-435b-a0a4-6ad46ff9d759")
+		(property "Reference" "#PWR065"
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5d895ca-a9e1-44d8-ad65-00a35da69a17")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT60A")
 		(at 60.96 135.89 180)
 		(unit 1)
@@ -5264,6 +5600,15 @@
 			)
 		)
 		(property "LCSC" "C5355496"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 60.96 135.89 0)
 			(effects
 				(font
@@ -5409,6 +5754,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d26fb9d-df9f-4af8-97e9-2b03b94fecb4")
 		)
@@ -5500,6 +5854,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 187.96 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "283a7edd-a48f-437b-8bc1-71a76d65cf0c")
 		)
@@ -5563,6 +5926,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 81.28 76.2 0)
 			(effects
 				(font
@@ -5728,6 +6100,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 171.45 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96477a6c-42f1-4d19-a8fd-91b005c8384f")
 		)
@@ -5795,6 +6176,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c030d657-0171-42af-a59a-9599bdba6ba5")
 		)
@@ -5814,6 +6204,112 @@
 			(project ""
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 186.69 95.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a812fc2d-c416-48a4-8871-988f7c3d7c3a")
+		(property "Reference" "R3"
+			(at 188.1887 96.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 188.1887 93.3834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "0402WGF1003TCE"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "006cf032-6edd-4310-b7a3-bc7d75840b30")
+		)
+		(pin "2"
+			(uuid "2a066e99-0f0b-41c7-b367-a0f7086ffad3")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5867,6 +6363,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -5932,6 +6437,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -6043,6 +6557,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 182.88 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfbc32d8-9b40-4719-97a9-87bb22efdaa3")
 		)
@@ -6138,6 +6661,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 71.12 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a7a5b81-a3d5-4e7c-a754-0ef31517dcb4")
 		)
@@ -6225,6 +6757,15 @@
 			)
 		)
 		(property "LCSC" "C7519"
+			(at 83.82 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 83.82 153.67 90)
 			(effects
 				(font
@@ -6381,6 +6922,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4320f1e7-4305-4c9a-bd14-9b7db59848c0")
 		)
@@ -6441,6 +6991,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 81.28 68.58 0)
 			(effects
 				(font
@@ -6739,6 +7298,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b34bae24-12e4-47eb-bbd1-0e52251c4a5d")
 		)
@@ -6899,6 +7467,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "4d84a55c-7c93-49ab-9938-936db0142b92")
 		)
@@ -7015,6 +7592,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "028a6c0a-d54a-45d3-9a13-e7ebdaa7db67")
 		)
@@ -7081,6 +7667,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79a71394-e625-43b0-9c14-5e01a45a0161")
 		)
@@ -7138,6 +7733,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 196.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 196.85 106.68 0)
 			(effects
 				(font
