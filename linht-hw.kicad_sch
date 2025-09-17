@@ -102,7 +102,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 137.16) (xy 87.63 137.16)
+			(xy 77.47 139.7) (xy 87.63 139.7)
 		)
 		(stroke
 			(width 0)
@@ -422,7 +422,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 80.01) (xy 77.47 137.16)
+			(xy 77.47 80.01) (xy 77.47 139.7)
 		)
 		(stroke
 			(width 0)
@@ -553,7 +553,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "058c0cc5-75b0-4494-8e78-217aac2f1bdc")
 		(property "Sheetname" "Keyboard"
@@ -645,7 +645,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "396f7379-aa29-4457-8ed7-53dec5fceba4")
 		(property "Sheetname" "RF"
@@ -786,7 +786,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "42192b89-bd04-4531-bec0-520394b48a86")
 		(property "Sheetname" "Display"
@@ -908,7 +908,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "5f168690-b6ac-4b3d-aad0-4e97277dc85d")
 		(property "Sheetname" "Connectors"
@@ -1060,7 +1060,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "9e50fe40-00b4-48a0-8ec6-ce79209e6a2d")
 		(property "Sheetname" "SoC"
@@ -1542,7 +1542,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "be402a1e-34f3-489f-9745-963b98ced0ff")
 		(property "Sheetname" "Power"
@@ -1623,7 +1623,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "c40b23ce-765e-4258-88c6-173a78d6d517")
 		(property "Sheetname" "Audio"
@@ -1644,8 +1644,8 @@
 				(justify left top)
 			)
 		)
-		(pin "MIC_IN" input
-			(at 87.63 137.16 180)
+		(pin "MIC_INT" input
+			(at 87.63 139.7 180)
 			(uuid "1a881463-4902-44c0-8524-95a166731d8b")
 			(effects
 				(font

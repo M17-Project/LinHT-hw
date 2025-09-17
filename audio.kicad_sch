@@ -3961,7 +3961,7 @@
 		)
 		(uuid "27da14b9-a61e-4c58-a7b8-40037620f903")
 	)
-	(hierarchical_label "MIC_IN"
+	(hierarchical_label "MIC_INT"
 		(shape input)
 		(at 175.26 129.54 180)
 		(effects
