@@ -2363,7 +2363,7 @@
 		)
 		(uuid "d490f7f7-45fe-4b80-a337-dd8e88d8d574")
 	)
-	(text_box "Expected Parameters:\n  V_{in} = 6.0 - 8.4 V\n  V_{out} = 5 V ± 3.3%\n  I_{out} = 1 A\n  η = 96 %\n  Duty = 61 %\n  f_{SW} = 553 kHz"
+	(text_box "Expected Parameters:\n  V_{in} = 6.0 - 8.4 V\n  V_{out} = 5 V ± 3.3%\n  I_{out} = 2 A\n  η = 93.7 %\n  Duty = 62 %\n  f_{SW} = 547 kHz"
 		(exclude_from_sim no)
 		(at 220.98 52.07 0)
 		(size 26.67 16.51)
