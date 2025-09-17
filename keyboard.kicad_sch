@@ -2297,6 +2297,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac3ca4e9-33e3-4e9a-8e7e-f234f122d2ae")
 		)
@@ -2432,6 +2441,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27a69361-e298-497b-b45d-512bd0954e22")
 		)
@@ -2489,6 +2507,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 55.88 118.11 0)
 			(effects
 				(font
@@ -2574,6 +2601,15 @@
 			)
 		)
 		(property "PN" "ERJPA2F1500X"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 154.94 83.82 0)
 			(effects
 				(font
@@ -2870,6 +2906,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 171.45 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48d5333e-0bea-4f19-a512-ffff28461cbf")
 		)
@@ -3004,6 +3049,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "527fae63-5afd-4eea-88b1-a2254f7f0b8a")
 		)
@@ -3061,6 +3115,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 55.88 100.33 0)
 			(effects
 				(font
@@ -3153,6 +3216,15 @@
 			)
 		)
 		(property "LCSC" "C262665"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -3274,6 +3346,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 55.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac7ce14b-8f85-48be-aa3f-eaf8bbadfb50")
 		)
@@ -3363,6 +3444,15 @@
 			)
 		)
 		(property "PN" " 621-BSS138-7-F "
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 157.48 95.25 0)
 			(effects
 				(font
