@@ -537,7 +537,13 @@
       "/Connectors/xUDP": [
         "USB"
       ],
+      "/RF/ATT_IN_OUT": [
+        "RF"
+      ],
       "/RF/RF_IN": [
+        "RF"
+      ],
+      "/RF/RF_IN_ATT": [
         "RF"
       ],
       "/RF/RF_OUT": [
@@ -583,6 +589,9 @@
         "RF"
       ],
       "Net-(U9-RF1)": [
+        "RF"
+      ],
+      "Net-(U9-RF2)": [
         "RF"
       ],
       "Net-(U9-RF3)": [
