@@ -2558,6 +2558,12 @@
 		(uuid "9cc15fdc-8c88-49c6-85bb-c78acdab3edc")
 	)
 	(junction
+		(at 232.41 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae4b0d80-0032-4990-b2b4-b21e1ae47ae5")
+	)
+	(junction
 		(at 254 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3012,6 +3018,16 @@
 			(type default)
 		)
 		(uuid "37076d86-fa92-439a-a591-285f3d229463")
+	)
+	(wire
+		(pts
+			(xy 219.71 128.27) (xy 232.41 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c515d8a-373c-49fd-894d-4dd8dfc62b5c")
 	)
 	(wire
 		(pts
@@ -3595,7 +3611,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 128.27) (xy 219.71 128.27)
+			(xy 234.95 128.27) (xy 232.41 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3735,7 +3751,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 130.81) (xy 234.95 130.81)
+			(xy 232.41 130.81) (xy 234.95 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4145,6 +4161,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 128.27) (xy 232.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea127b1d-533e-404b-ab13-3eabaafa59eb")
+	)
+	(wire
+		(pts
 			(xy 264.16 128.27) (xy 264.16 129.54)
 		)
 		(stroke
@@ -4312,16 +4338,6 @@
 			(type default)
 		)
 		(uuid "ff7ba9a6-0bc8-4014-bba5-3f685b75770d")
-	)
-	(label "3V3_EN"
-		(at 226.06 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58744b07-0836-4dd5-9ec4-0952a2c29ede")
 	)
 	(label "3V3_EN"
 		(at 50.8 143.51 0)
@@ -6774,7 +6790,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 595-TLV74018PDBVR"
+		(property "PN" "595-TLV74018PDBVR"
 			(at 242.57 130.81 0)
 			(effects
 				(font
@@ -7494,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 595-TPS562203DRLR "
+		(property "PN" "595-TPS562203DRLR "
 			(at 113.03 55.88 0)
 			(effects
 				(font
@@ -10833,7 +10849,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 595-TPS562203DRLR "
+		(property "PN" "595-TPS562203DRLR "
 			(at 113.03 96.52 0)
 			(effects
 				(font

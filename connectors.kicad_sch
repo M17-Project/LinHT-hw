@@ -6747,7 +6747,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 511-USBLC6-2SC6 "
+		(property "PN" "511-USBLC6-2SC6 "
 			(at 83.82 153.67 90)
 			(effects
 				(font
