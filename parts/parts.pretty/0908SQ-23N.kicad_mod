@@ -1,0 +1,97 @@
+(footprint "0908SQ-23N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ff5069db-971e-4012-a8fe-79a0beeecba2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0908SQ-23N"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c788aafb-994d-4f0d-a772-19139ed4b02a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/getmedia/b4a6ff85-4c1f-448e-aea7-541369538706/sq_spring.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69f6b539-b4d8-480f-bee6-8714df5845b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Square Air Core Inductor 24 nH, Q>120, I_rms=4.4 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbff2ecb-ae54-4bf8-ad5c-7f89f71cb09b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d81c5e90-a27e-4bbc-94be-a0bf45dfe818")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 0.64 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "1835b1b7-3832-4dc2-9517-716f0ba370c6")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 0.64 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "cf1fda8d-d25a-4927-a438-7274d4ea4823")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Parts.3dshapes/Coilcraft-0908SQ-23N.step"
+		(offset
+			(xyz -1 -0.9 0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
