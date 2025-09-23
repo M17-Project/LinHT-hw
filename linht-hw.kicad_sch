@@ -776,6 +776,46 @@
 				(justify left)
 			)
 		)
+		(pin "RF_ATT_CLK" input
+			(at 201.93 59.69 0)
+			(uuid "69fc6a75-4555-46d0-adb2-31e7dd894a22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_ATT_DATA" input
+			(at 201.93 62.23 0)
+			(uuid "f7d3325c-126b-4587-9f04-cd158231022e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_ATT_LE1" input
+			(at 201.93 64.77 0)
+			(uuid "40b040cf-bc0e-4a27-8dea-ff89d0da58ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_ATT_LE2" input
+			(at 201.93 67.31 0)
+			(uuid "99a4b280-ac6e-408d-a8f2-ea88c1952624")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
