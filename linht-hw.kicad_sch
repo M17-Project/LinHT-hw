@@ -766,6 +766,16 @@
 				(justify left)
 			)
 		)
+		(pin "RF_PA_SHUTDOWN" input
+			(at 176.53 54.61 180)
+			(uuid "12415f57-17c8-44b2-b74c-e1f75d28801a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
