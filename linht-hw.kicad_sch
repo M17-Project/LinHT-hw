@@ -1251,16 +1251,6 @@
 				(justify left)
 			)
 		)
-		(pin "ON{slash}OFF" input
-			(at 163.83 82.55 0)
-			(uuid "41445be6-d33e-4ceb-8568-6658613ea39c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RF_RST" output
 			(at 163.83 72.39 0)
 			(uuid "63b77381-0859-4cf2-9c0a-dfd8750f1ea8")
@@ -1511,16 +1501,6 @@
 				(justify left)
 			)
 		)
-		(pin "ON{slash}OFF_SW" input
-			(at 163.83 85.09 0)
-			(uuid "e7511da3-4c45-4edc-a4cb-145c9c49b7df")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VOL_POT" input
 			(at 163.83 121.92 0)
 			(uuid "e9a7b272-a8ec-4f17-8d38-db57bf792a77")
@@ -1571,6 +1551,26 @@
 				(justify right)
 			)
 		)
+		(pin "ON{slash}OFF" output
+			(at 163.83 82.55 0)
+			(uuid "34bbfeae-83ed-4212-bd34-f98ba651f666")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ON{slash}OFF_SW" input
+			(at 163.83 85.09 0)
+			(uuid "41b9452d-0748-43f7-b12c-cfd5fe3ee433")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"
@@ -1613,26 +1613,6 @@
 				(justify left top)
 			)
 		)
-		(pin "U_BATT_MON" output
-			(at 212.09 80.01 180)
-			(uuid "29a882d5-a40e-476d-8dde-7afc50b15d76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ON{slash}OFF" output
-			(at 212.09 82.55 180)
-			(uuid "0441f964-f817-4afe-bef5-93b5a038f52c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PWR_SW" output
 			(at 212.09 85.09 180)
 			(uuid "e16d1f08-7032-433d-abf1-5028bde84d98")
@@ -1646,6 +1626,66 @@
 		(pin "SWITCH_ON_OFF" input
 			(at 212.09 87.63 180)
 			(uuid "68ba3aca-b26e-4906-9bbb-3a1d0b7c7e26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 228.6 76.2 90)
+			(uuid "7a2af53d-4345-43bf-84fc-df9a034d8264")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 231.14 76.2 90)
+			(uuid "3fbb9bbb-4140-47c5-b7a7-2bb106879355")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{INT}" output
+			(at 233.68 76.2 90)
+			(uuid "c5d1eba3-eb9e-4924-adb4-7089a0470056")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{QON}" input
+			(at 237.49 83.82 0)
+			(uuid "9598ecc7-bdac-4a7e-a5de-037ed4f3e48b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_BATT_MON" output
+			(at 212.09 80.01 180)
+			(uuid "1eaec990-5609-4f22-90be-545a598d65aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ON{slash}OFF" input
+			(at 212.09 82.55 180)
+			(uuid "dee6cbe7-0b0a-43b1-956c-db7fb6160221")
 			(effects
 				(font
 					(size 1.27 1.27)

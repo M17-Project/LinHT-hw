@@ -5848,7 +5848,7 @@
 		(uuid "e91aa458-3494-4327-a920-11d7631fb165")
 	)
 	(hierarchical_label "ON{slash}OFF"
-		(shape input)
+		(shape output)
 		(at 36.83 67.31 180)
 		(effects
 			(font
