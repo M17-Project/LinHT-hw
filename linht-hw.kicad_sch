@@ -1653,6 +1653,46 @@
 				(justify left)
 			)
 		)
+		(pin "SCL" input
+			(at 237.49 80.01 0)
+			(uuid "d410a988-7e51-456b-ab1b-c4a69b91ac98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 237.49 82.55 0)
+			(uuid "35205a2d-99af-4713-94d9-2f1794b81c01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{INT}" output
+			(at 237.49 85.09 0)
+			(uuid "99aa049a-2da3-408d-a06b-0a550cc40d52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{QON}" input
+			(at 237.49 87.63 0)
+			(uuid "187bd01c-6d14-4bd8-a9cb-937b32f276fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e"

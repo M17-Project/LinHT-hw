@@ -7730,7 +7730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 95.25 154.94 0)
 			(effects
 				(font
@@ -7853,7 +7853,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 89.535 26.67 0)
 			(effects
 				(font
@@ -7864,6 +7864,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 89.535 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 89.535 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,6 +7960,15 @@
 			)
 		)
 		(property "MP" "GJM1555C1H330FB01D"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GJM1555C1H330FB01D"
 			(at 162.56 82.55 0)
 			(effects
 				(font
@@ -8258,7 +8276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 151.13 123.19 0)
 			(effects
 				(font
@@ -8372,7 +8390,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C237279"
+		(property "LCSC" "C15525"
 			(at 176.53 52.07 0)
 			(effects
 				(font
@@ -8382,6 +8400,24 @@
 			)
 		)
 		(property "MP" "GRM155C80J106ME11D"
+			(at 176.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A106MQ5NUNC"
+			(at 176.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 187-CL05A106MQ5NUNC "
 			(at 176.53 52.07 0)
 			(effects
 				(font
@@ -8620,6 +8656,15 @@
 			)
 		)
 		(property "MP" "GRM1555C1H101JA01D"
+			(at 196.85 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1H101JA01D"
 			(at 196.85 67.31 90)
 			(effects
 				(font
@@ -8906,7 +8951,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -8916,6 +8961,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -8983,7 +9037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 146.05 102.87 0)
 			(effects
 				(font
@@ -9097,7 +9151,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C913614"
+		(property "LCSC" "C1525"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -9107,6 +9161,24 @@
 			)
 		)
 		(property "MP" "GRM155C71H104KE19D"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 187-CL05B104KO5NNNC "
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -9412,7 +9484,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 208.28 58.42 0)
 			(effects
 				(font
@@ -9422,6 +9494,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 208.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
 			(at 208.28 58.42 0)
 			(effects
 				(font
@@ -9614,7 +9695,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 89.535 92.71 0)
 			(effects
 				(font
@@ -9625,6 +9706,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 89.535 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 89.535 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 77.47 154.94 0)
 			(effects
 				(font
@@ -9976,7 +10066,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 152.4 143.51 0)
 			(effects
 				(font
@@ -9985,7 +10075,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 152.4 143.51 0)
 			(effects
 				(font
@@ -10071,7 +10161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -10241,7 +10331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 186.69 130.81 0)
 			(effects
 				(font
@@ -10356,7 +10446,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C161523"
+		(property "LCSC" "C113780"
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -10366,6 +10456,24 @@
 			)
 		)
 		(property "MP" "GRM1555C1H102FA01D"
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN102"
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 603-CC402JRNPO9BN102 "
 			(at 171.45 52.07 0)
 			(effects
 				(font
@@ -10729,7 +10837,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C161523"
+		(property "LCSC" "C113780"
 			(at 120.65 52.07 0)
 			(effects
 				(font
@@ -10739,6 +10847,24 @@
 			)
 		)
 		(property "MP" "GRM1555C1H102FA01D"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN102"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 603-CC402JRNPO9BN102 "
 			(at 120.65 52.07 0)
 			(effects
 				(font
@@ -10825,7 +10951,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 89.535 30.48 0)
 			(effects
 				(font
@@ -10836,6 +10962,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 89.535 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 89.535 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +11045,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 152.4 158.75 0)
 			(effects
 				(font
@@ -10919,7 +11054,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 152.4 158.75 0)
 			(effects
 				(font
@@ -11024,7 +11159,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 89.535 116.84 0)
 			(effects
 				(font
@@ -11035,6 +11170,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 89.535 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 89.535 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11306,7 +11450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C782046"
+		(property "LCSC" "C464434"
 			(at 107.95 77.47 90)
 			(effects
 				(font
@@ -11316,6 +11460,15 @@
 			)
 		)
 		(property "MP" "GJM1555C1H100FB01D"
+			(at 107.95 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GJM1555C1H330FB01D"
 			(at 107.95 77.47 90)
 			(effects
 				(font
@@ -11611,7 +11764,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -11620,7 +11773,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -11714,7 +11867,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 134.62 180.34 0)
 			(effects
 				(font
@@ -11723,7 +11876,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 134.62 180.34 0)
 			(effects
 				(font
@@ -11884,7 +12037,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 45.72 111.76 0)
 			(effects
 				(font
@@ -11893,7 +12046,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 45.72 111.76 0)
 			(effects
 				(font
@@ -12093,7 +12246,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -12102,7 +12255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -12214,6 +12367,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GJM1555C1H330FB01D"
+			(at 118.11 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b8cb941b-d747-4974-b8ff-e223c94c44e5")
 		)
@@ -12283,7 +12445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C161523"
+		(property "LCSC" "C113780"
 			(at 115.57 52.07 0)
 			(effects
 				(font
@@ -12293,6 +12455,24 @@
 			)
 		)
 		(property "MP" "GRM1555C1H102FA01D"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN102"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 603-CC402JRNPO9BN102 "
 			(at 115.57 52.07 0)
 			(effects
 				(font
@@ -12379,7 +12559,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 89.535 96.52 0)
 			(effects
 				(font
@@ -12390,6 +12570,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 89.535 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 89.535 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12550,7 +12739,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF2202TCE"
+		(property "PN" ""
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -12559,7 +12748,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF2202TCE"
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -12653,7 +12842,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 152.4 153.67 0)
 			(effects
 				(font
@@ -12662,7 +12851,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 152.4 153.67 0)
 			(effects
 				(font
@@ -12835,7 +13024,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 129.54 180.34 0)
 			(effects
 				(font
@@ -12844,7 +13033,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 129.54 180.34 0)
 			(effects
 				(font
@@ -13407,6 +13596,15 @@
 			)
 		)
 		(property "MP" "GRM1555C1H101JA01D"
+			(at 196.85 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1H101JA01D"
 			(at 196.85 77.47 90)
 			(effects
 				(font
@@ -14006,6 +14204,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2654715"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SKY13330-397LF"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "432990c1-1e1f-4c43-953e-2c38d1903ec9")
 		)
@@ -14527,7 +14743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
 			(at 204.47 151.13 0)
 			(effects
 				(font
@@ -14536,7 +14752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
 			(at 188.595 139.065 0)
 			(effects
 				(font
@@ -14545,7 +14761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
 			(at 193.04 142.24 0)
 			(effects
 				(font
@@ -14744,7 +14960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 86.36 154.94 0)
 			(effects
 				(font
@@ -14991,7 +15207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C88883"
+		(property "LCSC" "C107002"
 			(at 182.88 82.55 0)
 			(effects
 				(font
@@ -15001,6 +15217,24 @@
 			)
 		)
 		(property "MP" "GJM1555C1H270FB01D"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN270"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 603-CC402JRNPO9BN270 "
 			(at 182.88 82.55 0)
 			(effects
 				(font
@@ -15200,7 +15434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 140.97 107.95 0)
 			(effects
 				(font
@@ -15749,7 +15983,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 45.72 45.72 0)
 			(effects
 				(font
@@ -15758,7 +15992,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 45.72 45.72 0)
 			(effects
 				(font
@@ -16017,7 +16251,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 89.535 50.8 0)
 			(effects
 				(font
@@ -16028,6 +16262,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 89.535 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 89.535 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16447,7 +16690,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 121.92 180.34 0)
 			(effects
 				(font
@@ -16456,7 +16699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 121.92 180.34 0)
 			(effects
 				(font
@@ -16808,7 +17051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Parts:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
+		(property "Footprint" "parts:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
 			(at 151.892 90.932 0)
 			(effects
 				(font
@@ -16835,7 +17078,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "GRF5604"
 			(at 147.32 77.47 0)
 			(effects
 				(font
@@ -17049,7 +17292,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 152.4 156.21 0)
 			(effects
 				(font
@@ -17058,7 +17301,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 152.4 156.21 0)
 			(effects
 				(font

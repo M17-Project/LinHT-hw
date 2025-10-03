@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.8,
-          "width": 0.9
+          "height": 0.6,
+          "width": 0.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -602,6 +602,10 @@
       {
         "netclass": "Narrow",
         "pattern": "/Keyboard/D."
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "GND"
       }
     ]
   },

@@ -4085,15 +4085,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 250.19 64.77 0)
 			(effects
 				(font
@@ -4224,7 +4225,16 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF2001TCE"
+		(property "PN" ""
+			(at 185.42 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF2001TCE"
 			(at 185.42 119.38 90)
 			(effects
 				(font
@@ -4669,15 +4679,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 232.41 64.77 0)
 			(effects
 				(font
@@ -4858,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -4867,7 +4878,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1003TCE"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -5158,7 +5169,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF4702TCE"
+		(property "PN" ""
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -5167,7 +5178,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF4702TCE"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -5442,15 +5453,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 151.13 71.12 0)
 			(effects
 				(font
@@ -5546,15 +5558,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 223.52 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 223.52 64.77 0)
 			(effects
 				(font
@@ -5650,15 +5663,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 160.02 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -6181,7 +6195,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF4702TCE"
+		(property "PN" ""
 			(at 105.41 87.63 0)
 			(effects
 				(font
@@ -6190,7 +6204,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF4702TCE"
 			(at 105.41 87.63 0)
 			(effects
 				(font
@@ -6640,7 +6654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 83.82 116.84 0)
 			(effects
 				(font
@@ -6900,7 +6914,16 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF2001TCE"
+		(property "PN" ""
+			(at 185.42 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF2001TCE"
 			(at 185.42 115.57 90)
 			(effects
 				(font
@@ -7902,15 +7925,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 241.3 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 241.3 64.77 0)
 			(effects
 				(font
@@ -7995,7 +8019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts:Oscillator_SMD_4Pin_2.0x1.6mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
 			(at 107.95 121.92 0)
 			(effects
 				(font
@@ -8004,7 +8028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
 			(at 92.075 109.855 0)
 			(effects
 				(font
@@ -8013,7 +8037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OT3EL4C4JI-111OLP-12.288M"
+		(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
 			(at 96.52 113.03 0)
 			(effects
 				(font
@@ -8191,7 +8215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 210.82 64.77 0)
 			(effects
 				(font
@@ -8372,7 +8396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 190.5 64.77 0)
 			(effects
 				(font
