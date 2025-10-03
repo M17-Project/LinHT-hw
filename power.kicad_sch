@@ -10663,7 +10663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "parts:L_TDK_SPM6530"
+		(property "Footprint" "parts:SLO0520H1R0MTT"
 			(at 48.26 72.39 0)
 			(effects
 				(font
@@ -10690,7 +10690,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C87572"
+		(property "LCSC" "C325980"
 			(at 48.26 72.39 0)
 			(effects
 				(font
@@ -10699,7 +10699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SPM6530T-1R0M120"
+		(property "MPN" "SLO0520H1R0MTT"
 			(at 48.26 72.39 0)
 			(effects
 				(font
