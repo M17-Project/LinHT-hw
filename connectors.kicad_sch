@@ -3294,16 +3294,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 160.02) (xy 81.28 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d74032e-d808-4e85-bbed-176e6a2ad568")
-	)
-	(wire
-		(pts
 			(xy 45.72 72.39) (xy 45.72 73.66)
 		)
 		(stroke
@@ -3344,23 +3334,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 158.75) (xy 83.82 160.02)
+			(xy 73.66 154.94) (xy 73.66 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15757234-1cac-4228-ab34-0b793152f786")
-	)
-	(wire
-		(pts
-			(xy 81.28 148.59) (xy 81.28 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d7c79c9-cb66-4df0-8a3b-3e54913af732")
+		(uuid "1e60532e-3eab-4923-bd3c-45b898e800f6")
 	)
 	(wire
 		(pts
@@ -3414,13 +3394,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 153.67) (xy 90.17 153.67)
+			(xy 80.01 147.32) (xy 80.01 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3924ce5f-8047-4dc3-83e6-6b95a2989f64")
+	)
+	(wire
+		(pts
+			(xy 74.93 154.94) (xy 73.66 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a6b7ef-30a9-4567-b3d3-3ed8501a77ad")
 	)
 	(wire
 		(pts
@@ -3484,6 +3474,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 152.4) (xy 73.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501bc8d1-0691-4bb8-a436-3459f976134d")
+	)
+	(wire
+		(pts
 			(xy 105.41 113.03) (xy 105.41 114.3)
 		)
 		(stroke
@@ -3511,16 +3511,6 @@
 			(type default)
 		)
 		(uuid "56f121b3-69d8-47c9-9487-0edb4d758666")
-	)
-	(wire
-		(pts
-			(xy 83.82 148.59) (xy 83.82 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5795cab5-e1af-488d-9015-d641fff94b31")
 	)
 	(wire
 		(pts
@@ -3574,7 +3564,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 160.02) (xy 91.44 160.02)
+			(xy 85.09 154.94) (xy 92.71 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3704,7 +3694,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 153.67) (xy 76.2 153.67)
+			(xy 80.01 161.29) (xy 80.01 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3804,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 147.32) (xy 91.44 147.32)
+			(xy 85.09 152.4) (xy 92.71 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3881,16 +3871,6 @@
 			(type solid)
 		)
 		(uuid "c1895116-cfb8-42e1-9123-41151b7e9bbe")
-	)
-	(wire
-		(pts
-			(xy 81.28 158.75) (xy 81.28 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c292adeb-b91e-4921-b435-f26b0221d08c")
 	)
 	(wire
 		(pts
@@ -3974,16 +3954,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 156.21) (xy 73.66 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe6cd4c-b822-4c6f-95f6-e4fda06f750f")
-	)
-	(wire
-		(pts
 			(xy 129.54 62.23) (xy 129.54 64.77)
 		)
 		(stroke
@@ -4024,16 +3994,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 147.32) (xy 73.66 151.13)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "e5d99fb1-5c68-4ff3-a03f-37a625409247")
-	)
-	(wire
-		(pts
 			(xy 39.37 175.26) (xy 39.37 176.53)
 		)
 		(stroke
@@ -4054,6 +4014,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 152.4) (xy 73.66 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed574fae-870b-4e74-a5bd-4ab393b915ed")
+	)
+	(wire
+		(pts
 			(xy 166.37 109.22) (xy 168.91 109.22)
 		)
 		(stroke
@@ -4061,16 +4031,6 @@
 			(type default)
 		)
 		(uuid "f4a5a827-9378-4092-af46-be282eb9d43c")
-	)
-	(wire
-		(pts
-			(xy 73.66 147.32) (xy 81.28 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61d6e1b-b7ad-4aa8-9704-6e4934c9f6f5")
 	)
 	(wire
 		(pts
@@ -4221,7 +4181,7 @@
 	)
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
-		(at 91.44 147.32 0)
+		(at 92.71 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4243,7 +4203,7 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
-		(at 91.44 160.02 0)
+		(at 92.71 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4297,7 +4257,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 87.63 160.02 180)
+		(at 88.9 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4306,7 +4266,7 @@
 		)
 		(uuid "2b858ee5-3f67-46c3-a407-33914a64b965")
 		(property "Netclass" "USB"
-			(at 88.9 162.56 0)
+			(at 90.17 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4275,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 39.37 13.97 0)
+			(at 40.64 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4317,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 87.63 147.32 0)
+		(at 88.9 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4367,7 +4327,7 @@
 		)
 		(uuid "513db099-d473-4954-a9c4-733b9593894e")
 		(property "Netclass" "USB"
-			(at 88.3285 144.78 0)
+			(at 89.5985 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4336,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 39.37 1.27 0)
+			(at 40.64 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +4974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 153.67 270)
+		(at 80.01 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5022,7 +4982,7 @@
 		(dnp no)
 		(uuid "36f67dfa-3f7c-4519-b764-0de588a45e25")
 		(property "Reference" "#PWR098"
-			(at 68.58 153.67 0)
+			(at 80.01 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +4991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 70.5358 153.797 0)
+			(at 80.137 165.6842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +4999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 153.67 0)
+			(at 80.01 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,7 +5008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 153.67 0)
+			(at 80.01 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5017,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 153.67 0)
+			(at 80.01 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,16 +6255,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 90.17 153.67 270)
+		(at 80.01 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abdcbbc3-cedc-4012-a0a5-4bb9e1ac06f9")
 		(property "Reference" "#PWR099"
-			(at 86.36 153.67 0)
+			(at 80.01 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6272,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 93.98 153.6699 90)
+			(at 77.724 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 153.67 0)
+			(at 80.01 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 153.67 0)
+			(at 80.01 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 90.17 153.67 0)
+			(at 80.01 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,8 +6614,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 83.82 153.67 270)
-		(mirror x)
+		(at 80.01 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6664,7 +6622,7 @@
 		(dnp no)
 		(uuid "b9277d96-a76b-4c2e-8048-ef213fbb0d8e")
 		(property "Reference" "U8"
-			(at 81.788 140.335 90)
+			(at 84.074 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +6630,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 81.788 142.24 90)
+			(at 87.376 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +6638,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 71.12 153.67 0)
+			(at 80.01 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +6647,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 92.71 148.59 0)
+			(at 85.09 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6656,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 83.82 153.67 0)
+			(at 80.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6665,7 @@
 			)
 		)
 		(property "MPN" "USBLC6-2-SC6"
-			(at 83.82 153.67 90)
+			(at 80.01 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +6674,7 @@
 			)
 		)
 		(property "PN" "511-USBLC6-2SC6 "
-			(at 83.82 153.67 90)
+			(at 80.01 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6683,7 @@
 			)
 		)
 		(property "LCSC" "C7519"
-			(at 83.82 153.67 90)
+			(at 80.01 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,7 +6692,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 83.82 153.67 90)
+			(at 80.01 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
