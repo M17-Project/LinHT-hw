@@ -2288,7 +2288,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF4702TCE"
+		(property "PN" ""
 			(at 165.1 101.6 0)
 			(effects
 				(font
@@ -2298,6 +2298,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4702TCE"
 			(at 165.1 101.6 0)
 			(effects
 				(font
@@ -2600,7 +2609,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "ERJPA2F1500X"
+		(property "PN" ""
 			(at 154.94 83.82 0)
 			(effects
 				(font
@@ -2610,6 +2619,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJPA2F1500X"
 			(at 154.94 83.82 0)
 			(effects
 				(font
@@ -2897,7 +2915,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 171.45 95.25 90)
 			(effects
 				(font
@@ -2907,6 +2925,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 171.45 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
 			(at 171.45 95.25 90)
 			(effects
 				(font

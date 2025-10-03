@@ -7410,7 +7410,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 43.18 87.63 0)
 			(effects
 				(font
@@ -7420,6 +7420,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
 			(at 43.18 87.63 0)
 			(effects
 				(font
@@ -7573,7 +7582,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF3002TCE"
+		(property "PN" ""
 			(at 231.14 107.95 0)
 			(effects
 				(font
@@ -7583,6 +7592,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 231.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF3002TCE"
 			(at 231.14 107.95 0)
 			(effects
 				(font
@@ -7934,7 +7952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 74.6252 30.48 0)
 			(effects
 				(font
@@ -7961,7 +7979,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 73.66 26.67 0)
 			(effects
 				(font
@@ -7970,7 +7988,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 73.66 26.67 0)
 			(effects
 				(font
@@ -7979,7 +7997,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 73.66 26.67 0)
 			(effects
 				(font
@@ -8074,7 +8092,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 93.98 165.1 90)
 			(effects
 				(font
@@ -8084,6 +8102,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 93.98 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
 			(at 93.98 165.1 90)
 			(effects
 				(font
@@ -8629,7 +8656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 93.472 90)
 			(effects
 				(font
@@ -8649,6 +8676,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25751"
+			(at 127 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1273TCE"
+			(at 127 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8866,7 @@
 				)
 			)
 		)
-		(property "Value" "30k31"
+		(property "Value" "30k1"
 			(at 112.522 104.14 90)
 			(effects
 				(font
@@ -8829,7 +8874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 105.41 107.188 90)
 			(effects
 				(font
@@ -8849,6 +8894,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C29402"
+			(at 105.41 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF3012TCE"
+			(at 105.41 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,7 +8998,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "FRC0402F1333TS"
+		(property "PN" ""
 			(at 231.14 95.25 0)
 			(effects
 				(font
@@ -8945,6 +9008,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 231.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0402F1333TS"
 			(at 231.14 95.25 0)
 			(effects
 				(font
@@ -8995,7 +9067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 143.2052 30.48 0)
 			(effects
 				(font
@@ -9022,7 +9094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 142.24 26.67 0)
 			(effects
 				(font
@@ -9031,7 +9103,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 142.24 26.67 0)
 			(effects
 				(font
@@ -9040,7 +9112,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 142.24 26.67 0)
 			(effects
 				(font
@@ -9101,7 +9173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 53.6448 57.15 0)
 			(effects
 				(font
@@ -9128,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 54.61 53.34 0)
 			(effects
 				(font
@@ -9137,7 +9209,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 54.61 53.34 0)
 			(effects
 				(font
@@ -9146,7 +9218,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 54.61 53.34 0)
 			(effects
 				(font
@@ -9648,7 +9720,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF3902TCE"
+		(property "PN" ""
 			(at 172.72 123.19 0)
 			(effects
 				(font
@@ -9658,6 +9730,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 172.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF3902TCE"
 			(at 172.72 123.19 0)
 			(effects
 				(font
@@ -10068,7 +10149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.0552 30.48 0)
 			(effects
 				(font
@@ -10095,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 85.09 26.67 0)
 			(effects
 				(font
@@ -10104,7 +10185,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 85.09 26.67 0)
 			(effects
 				(font
@@ -10113,7 +10194,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 85.09 26.67 0)
 			(effects
 				(font
@@ -10879,7 +10960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 40.3352 30.48 0)
 			(effects
 				(font
@@ -10906,7 +10987,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 39.37 26.67 0)
 			(effects
 				(font
@@ -10915,7 +10996,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 39.37 26.67 0)
 			(effects
 				(font
@@ -10924,7 +11005,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 39.37 26.67 0)
 			(effects
 				(font
@@ -11383,7 +11464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.2352 73.66 0)
 			(effects
 				(font
@@ -11410,7 +11491,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -11419,7 +11500,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -11428,7 +11509,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -11554,7 +11635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 184.15 0)
 			(effects
 				(font
@@ -11581,7 +11662,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 109.22 180.34 0)
 			(effects
 				(font
@@ -11590,7 +11671,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 109.22 180.34 0)
 			(effects
 				(font
@@ -11599,7 +11680,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 109.22 180.34 0)
 			(effects
 				(font
@@ -11989,7 +12070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 156.5148 58.42 0)
 			(effects
 				(font
@@ -12016,7 +12097,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 157.48 54.61 0)
 			(effects
 				(font
@@ -12025,7 +12106,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 157.48 54.61 0)
 			(effects
 				(font
@@ -12034,7 +12115,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 157.48 54.61 0)
 			(effects
 				(font
@@ -12085,7 +12166,7 @@
 				)
 			)
 		)
-		(property "Value" "5k24"
+		(property "Value" "5k23"
 			(at 111.76 101.6 90)
 			(effects
 				(font
@@ -12093,7 +12174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 105.41 104.648 90)
 			(effects
 				(font
@@ -12113,6 +12194,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 105.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25907"
+			(at 105.41 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF5231TCE"
+			(at 105.41 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12314,7 +12413,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 93.98 173.99 90)
 			(effects
 				(font
@@ -12324,6 +12423,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 93.98 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
 			(at 93.98 173.99 90)
 			(effects
 				(font
@@ -12499,7 +12607,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF5102TCE"
+		(property "PN" ""
 			(at 80.01 158.75 0)
 			(effects
 				(font
@@ -12509,6 +12617,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 80.01 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF5102TCE"
 			(at 80.01 158.75 0)
 			(effects
 				(font
@@ -12881,7 +12998,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 177.8 54.61 0)
 			(effects
 				(font
@@ -12891,6 +13008,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
 			(at 177.8 54.61 0)
 			(effects
 				(font
@@ -13287,7 +13413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 43.4848 57.15 0)
 			(effects
 				(font
@@ -13314,7 +13440,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 44.45 53.34 0)
 			(effects
 				(font
@@ -13323,7 +13449,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 44.45 53.34 0)
 			(effects
 				(font
@@ -13332,7 +13458,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 44.45 53.34 0)
 			(effects
 				(font
@@ -13560,7 +13686,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 177.8 95.25 0)
 			(effects
 				(font
@@ -13570,6 +13696,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 177.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
 			(at 177.8 95.25 0)
 			(effects
 				(font
@@ -13621,7 +13756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 156.5148 99.06 0)
 			(effects
 				(font
@@ -13648,7 +13783,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -13657,7 +13792,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -13666,7 +13801,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -13760,7 +13895,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1002TCE"
+		(property "PN" ""
 			(at 105.41 107.95 0)
 			(effects
 				(font
@@ -13771,6 +13906,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 105.41 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,7 +14593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 131.7752 30.48 0)
 			(effects
 				(font
@@ -14476,7 +14620,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 130.81 26.67 0)
 			(effects
 				(font
@@ -14485,7 +14629,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 130.81 26.67 0)
 			(effects
 				(font
@@ -14494,7 +14638,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 130.81 26.67 0)
 			(effects
 				(font
@@ -14554,7 +14698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 73.66 0)
 			(effects
 				(font
@@ -14581,7 +14725,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 116.84 69.85 0)
 			(effects
 				(font
@@ -14590,7 +14734,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 116.84 69.85 0)
 			(effects
 				(font
@@ -14599,7 +14743,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 116.84 69.85 0)
 			(effects
 				(font
@@ -14696,7 +14840,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF3002TCE"
+		(property "PN" ""
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -14706,6 +14850,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF3002TCE"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -14793,7 +14946,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 50.8 151.13 0)
 			(effects
 				(font
@@ -14803,6 +14956,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 50.8 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
 			(at 50.8 151.13 0)
 			(effects
 				(font
@@ -14889,7 +15051,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1000TCE"
+		(property "PN" ""
 			(at 100.33 80.01 90)
 			(effects
 				(font
@@ -14899,6 +15061,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 100.33 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
 			(at 100.33 80.01 90)
 			(effects
 				(font
@@ -15260,7 +15431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 98.552 90)
 			(effects
 				(font
@@ -15280,6 +15451,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25913"
+			(at 127 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF6041TCE"
+			(at 127 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15394,7 +15583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 63.1952 30.48 0)
 			(effects
 				(font
@@ -15421,7 +15610,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 62.23 26.67 0)
 			(effects
 				(font
@@ -15430,7 +15619,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 62.23 26.67 0)
 			(effects
 				(font
@@ -15439,7 +15628,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 62.23 26.67 0)
 			(effects
 				(font
@@ -15499,7 +15688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 51.7652 30.48 0)
 			(effects
 				(font
@@ -15526,7 +15715,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 50.8 26.67 0)
 			(effects
 				(font
@@ -15535,7 +15724,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 50.8 26.67 0)
 			(effects
 				(font
@@ -15544,7 +15733,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 50.8 26.67 0)
 			(effects
 				(font
@@ -15641,7 +15830,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1002TCE"
+		(property "PN" ""
 			(at 172.72 133.35 0)
 			(effects
 				(font
@@ -15651,6 +15840,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 172.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
 			(at 172.72 133.35 0)
 			(effects
 				(font
@@ -15873,7 +16071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.4852 30.48 0)
 			(effects
 				(font
@@ -15900,7 +16098,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -15909,7 +16107,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -15918,7 +16116,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -16015,7 +16213,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF2203TCE"
+		(property "PN" ""
 			(at 231.14 54.61 0)
 			(effects
 				(font
@@ -16025,6 +16223,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 231.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF2203TCE"
 			(at 231.14 54.61 0)
 			(effects
 				(font
@@ -16744,7 +16951,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1003TCE"
+		(property "PN" ""
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -16755,6 +16962,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 127 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17016,7 +17232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 120.3452 30.48 0)
 			(effects
 				(font
@@ -17043,7 +17259,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C89632"
+		(property "LCSC" "C2932476"
 			(at 119.38 26.67 0)
 			(effects
 				(font
@@ -17052,7 +17268,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNNE "
+		(property "MPN" "CL21A106KBYQNNE"
 			(at 119.38 26.67 0)
 			(effects
 				(font
@@ -17061,7 +17277,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "187-CL31B106KBHNNNE "
+		(property "PN" "187-CL21A106KBYQNNE"
 			(at 119.38 26.67 0)
 			(effects
 				(font

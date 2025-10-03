@@ -6822,7 +6822,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF2202TCE"
+		(property "PN" ""
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -6831,7 +6831,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF2202TCE"
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -7228,7 +7228,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "0402WGF1202TCE"
+		(property "PN" ""
 			(at 38.1 36.83 0)
 			(effects
 				(font
@@ -7237,7 +7237,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1202TCE"
 			(at 38.1 36.83 0)
 			(effects
 				(font
