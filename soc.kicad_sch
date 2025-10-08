@@ -4023,10 +4023,6 @@
 		(uuid "f7239e86-b65b-41fd-a957-9dbeb5aec351")
 	)
 	(no_connect
-		(at 143.51 67.31)
-		(uuid "f82ccaa6-3c78-4347-bea6-c95f3b97a649")
-	)
-	(no_connect
 		(at 44.45 133.35)
 		(uuid "f87c10d8-3031-46f5-96ee-6d8214f0ddf3")
 	)
@@ -4604,6 +4600,16 @@
 			(type default)
 		)
 		(uuid "7ebdbbb8-73e7-420c-b52d-d75dd6acefb0")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2f7d6d-c0ee-4acd-8077-03e454f3e6d1")
 	)
 	(wire
 		(pts
@@ -5637,6 +5643,17 @@
 			(justify left)
 		)
 		(uuid "75880d1c-0ce8-4505-8fb8-1ca5f1620287")
+	)
+	(hierarchical_label "3V3_ON_REQ"
+		(shape output)
+		(at 148.59 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c631f43-bd90-482c-9843-e02f592742f7")
 	)
 	(hierarchical_label "SPI_CS_RF"
 		(shape output)
