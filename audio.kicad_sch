@@ -7715,7 +7715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+		(property "Footprint" "parts:Oscillator_SMD_4Pin_2.0x1.6mm"
 			(at 107.95 121.92 0)
 			(effects
 				(font
