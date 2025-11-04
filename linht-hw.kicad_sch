@@ -715,16 +715,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 80.01) (xy 212.09 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b66e3d7b-5528-4c7d-9c98-05ee7c18070d")
-	)
-	(wire
-		(pts
 			(xy 163.83 97.79) (xy 176.53 97.79)
 		)
 		(stroke
@@ -2265,16 +2255,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "U_BATT_MON" output
-			(at 212.09 80.01 180)
-			(uuid "29a882d5-a40e-476d-8dde-7afc50b15d76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "SCL" input
