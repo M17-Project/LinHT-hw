@@ -498,12 +498,12 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.1,
+        "clearance": 0.17,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(132, 0, 132)",
-        "track_width": 0.234,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -606,6 +606,10 @@
       {
         "netclass": "Narrow",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },
