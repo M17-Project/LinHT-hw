@@ -2411,6 +2411,199 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "parts:TPS565242"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS565242"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps565242.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "A 5A synchronous step-down converter in SOT-563 package with an input voltage range of 3V to 16V."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "step-down dcdc buck"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?563*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS565242_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS565242_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -7.62 90)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "VFB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -3483,7 +3676,7 @@
 		)
 		(uuid "353aa2d9-1b09-429e-a636-2cba5f455213")
 	)
-	(text_box "Inductor FNR6028S4R7MT\n  I_{SAT} = 3.0 A\n  R_{DC} = 39 mOhm\n  f_{res} = 35 MHz\n  η = 95.8 %\n\nInductor SRN6028-4R7M\n  I_{SAT} = 2.8 A\n  R_{DC} = 38 mOhm\n  f_{res} = 34 MHz\n  η = 95.7 %"
+	(text_box "Inductor SPM6530T-2R2M\n  I_{SAT} = 8.4 A\n  R_{DC} = 17.3 mOhm\n  f_{res} > 10 MHz\n\nInductor SRN6028-4R7M\n  I_{SAT} = 2.8 A\n  R_{DC} = 38 mOhm\n  f_{res} = 34 MHz\n  η = 95.7 %"
 		(exclude_from_sim no)
 		(at 224.79 15.24 0)
 		(size 27.94 25.4)
@@ -3563,7 +3756,7 @@
 		)
 		(uuid "d490f7f7-45fe-4b80-a337-dd8e88d8d574")
 	)
-	(text_box "Expected Parameters:\n  V_{in} = 6.0 - 8.4 V\n  V_{out} = 5 V ± 3.3%\n  I_{out} = 2 A\n  η = 93.7 %\n  Duty = 62 %\n  f_{SW} = 547 kHz"
+	(text_box "Expected Parameters:\n  V_{in} = 6.0 - 8.4 V\n  V_{out} = 5 V ± 3.6 %\n  I_{out} = 4 A\n  η = 94.8 %\n  Duty = 61 %\n  f_{SW} = 519 kHz"
 		(exclude_from_sim no)
 		(at 255.27 24.13 0)
 		(size 26.67 16.51)
@@ -3780,12 +3973,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "690ea7aa-386c-4d6f-be63-54b9c7668910")
-	)
-	(junction
-		(at 220.98 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69a8ff52-1e06-4ce2-8147-ba8ffdc4e26d")
 	)
 	(junction
 		(at 130.81 33.02)
@@ -4008,6 +4195,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd7a134c-566f-43df-873f-ea6efa178f5a")
+	)
+	(junction
+		(at 196.85 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1bb0288-9a18-4a39-a84e-6a8ebc02ba54")
 	)
 	(junction
 		(at 264.16 153.67)
@@ -4289,6 +4482,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 59.69) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a1f8ec-adf0-426d-9c13-02fb917e94ce")
+	)
+	(wire
+		(pts
 			(xy 147.32 48.26) (xy 172.72 48.26)
 		)
 		(stroke
@@ -4566,6 +4769,16 @@
 			(type default)
 		)
 		(uuid "30266237-a7d7-4549-9a5e-19fd85bfeaa2")
+	)
+	(wire
+		(pts
+			(xy 195.58 59.69) (xy 195.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30567aea-7e01-451e-a321-09ff66099daa")
 	)
 	(wire
 		(pts
@@ -4859,16 +5072,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 50.8) (xy 207.01 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47bd0194-1f94-4ba8-9d34-4e2f235bc042")
-	)
-	(wire
-		(pts
 			(xy 62.23 19.05) (xy 73.66 19.05)
 		)
 		(stroke
@@ -5139,6 +5342,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 59.69) (xy 196.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed73403-b40e-40bc-b5c0-81662a97001b")
+	)
+	(wire
+		(pts
 			(xy 207.01 53.34) (xy 208.28 53.34)
 		)
 		(stroke
@@ -5176,6 +5389,16 @@
 			(type default)
 		)
 		(uuid "6167dda2-a44b-47ca-acb7-901c3368b9c6")
+	)
+	(wire
+		(pts
+			(xy 198.12 58.42) (xy 198.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654e1e34-1a74-4dcd-81b0-37c4b6e80c21")
 	)
 	(wire
 		(pts
@@ -5279,16 +5502,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 48.26) (xy 222.25 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cdd5ee8-f06d-4f3b-b145-4e76df5ac607")
-	)
-	(wire
-		(pts
 			(xy 128.27 74.93) (xy 128.27 73.66)
 		)
 		(stroke
@@ -5366,16 +5579,6 @@
 			(type default)
 		)
 		(uuid "72938ed2-8105-4a4c-a5b8-217f1de215fe")
-	)
-	(wire
-		(pts
-			(xy 220.98 48.26) (xy 220.98 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7307f008-4543-446d-b806-1c296055e7ea")
 	)
 	(wire
 		(pts
@@ -5506,16 +5709,6 @@
 			(type default)
 		)
 		(uuid "7ebc9e97-72d3-42cb-9c3c-49c40d0dd52e")
-	)
-	(wire
-		(pts
-			(xy 209.55 52.07) (xy 209.55 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f67b458-e3e3-4012-8b0d-2521938b28ed")
 	)
 	(wire
 		(pts
@@ -5689,7 +5882,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 58.42) (xy 196.85 59.69)
+			(xy 196.85 59.69) (xy 196.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6139,16 +6332,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 52.07) (xy 210.82 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9ea59ad-e77b-44ce-824b-640f665f352d")
-	)
-	(wire
-		(pts
 			(xy 275.59 88.9) (xy 275.59 91.44)
 		)
 		(stroke
@@ -6376,16 +6559,6 @@
 			(type default)
 		)
 		(uuid "d027fee9-bf71-4dc3-9810-3c6d09156151")
-	)
-	(wire
-		(pts
-			(xy 220.98 52.07) (xy 218.44 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c81868-779a-47fd-951d-c8178eca861f")
 	)
 	(wire
 		(pts
@@ -6919,7 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 48.26) (xy 220.98 48.26)
+			(xy 207.01 48.26) (xy 222.25 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9950,109 +10123,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 214.63 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "404a0ed6-c09a-4eae-8d6d-32a240b7db9f")
-		(property "Reference" "C23"
-			(at 214.63 56.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 214.63 58.928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 218.44 51.1048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 214.63 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 214.63 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KO5NNNC"
-			(at 214.63 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" " 187-CL05B104KO5NNNC "
-			(at 214.63 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 214.63 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21deb021-1784-4331-8a06-9a164912ea33")
-		)
-		(pin "2"
-			(uuid "34bdb348-9099-4822-aa81-4379b3933543")
-		)
-		(instances
-			(project ""
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 85.09 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11520,7 +11590,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 59.69 0)
+		(at 196.85 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11529,7 +11599,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d69ebc1-1b70-4d18-90c4-c3f9a0dd85c7")
 		(property "Reference" "#PWR040"
-			(at 196.85 66.04 0)
+			(at 196.85 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11538,7 +11608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 63.8231 0)
+			(at 196.85 65.0931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11546,7 +11616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 59.69 0)
+			(at 196.85 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,7 +11625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 59.69 0)
+			(at 196.85 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11564,7 +11634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 59.69 0)
+			(at 196.85 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11908,7 +11978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TPS562203")
+		(lib_id "parts:TPS565242")
 		(at 196.85 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11925,7 +11995,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS562203"
+		(property "Value" "TPS565242"
 			(at 196.85 43.18 0)
 			(effects
 				(font
@@ -11943,7 +12013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps562203.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps565242.pdf"
 			(at 196.85 50.8 0)
 			(effects
 				(font
@@ -11952,7 +12022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2A Synchronous Step-Down Voltage Regulator 600kHz, Adjustable Output Voltage, 4.5-17V Input Voltage, 0.6V-7V Output Voltage, SOT-563"
+		(property "Description" "A 5A synchronous step-down converter in SOT-563 package with an input voltage range of 3V to 16V."
 			(at 196.85 50.8 0)
 			(effects
 				(font
@@ -11961,7 +12031,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22445511"
+		(property "LCSC" "C5219270"
 			(at 196.85 50.8 0)
 			(effects
 				(font
@@ -11970,7 +12040,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TPS562203DRLR "
+		(property "MPN" "TPS565242DRLR"
 			(at 196.85 50.8 0)
 			(effects
 				(font
@@ -11979,7 +12049,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "595-TPS562203DRLR "
+		(property "PN" "595-TPS565242DRLR"
 			(at 196.85 50.8 0)
 			(effects
 				(font
@@ -13788,7 +13858,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 uH"
+		(property "Value" "2.2 uH"
 			(at 226.06 45.72 90)
 			(effects
 				(font
@@ -13796,7 +13866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRN6028"
+		(property "Footprint" "parts:L_TDK_SPM6530"
 			(at 226.06 48.26 0)
 			(effects
 				(font
@@ -13823,7 +13893,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3221249"
+		(property "LCSC" "C76855"
 			(at 226.06 48.26 90)
 			(effects
 				(font
@@ -13832,7 +13902,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " SRN6028-4R7M "
+		(property "MPN" "SPM6530T-2R2M"
 			(at 226.06 48.26 90)
 			(effects
 				(font
@@ -13841,7 +13911,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "652-SRN6028-4R7M "
+		(property "PN" "652-SPM6530T-2R2M"
 			(at 226.06 48.26 90)
 			(effects
 				(font
