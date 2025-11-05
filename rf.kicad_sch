@@ -4539,27 +4539,6 @@
 		)
 		(uuid "71a3b7a6-7449-4103-a701-c2d9f42fd3ae")
 	)
-	(text_box "TODO\nDo we need impedance matching for RF IN at SX1255?\nAttenuator output and SX1255  input are both 50  Ohm."
-		(exclude_from_sim no)
-		(at 156.845 105.41 0)
-		(size 33.655 12.065)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 194 194 194 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "bc2f60be-911c-4b4e-af3e-4d8b591b2b4d")
-	)
 	(junction
 		(at 83.82 96.52)
 		(diameter 0)
