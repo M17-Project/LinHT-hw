@@ -6332,7 +6332,6 @@
 	(symbol
 		(lib_id "MCM-iMX93-SOM:MCM-iMX93-SOM")
 		(at 93.98 105.41 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
