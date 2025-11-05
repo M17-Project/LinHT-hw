@@ -3167,12 +3167,6 @@
 		(uuid "040da9d5-3847-4ff8-a0e2-9fc60cf62cc4")
 	)
 	(junction
-		(at 96.52 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a1b59f6-c4b2-49ba-a261-f1bf8d578154")
-	)
-	(junction
 		(at 72.39 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3207,6 +3201,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91b9e5c2-869c-4881-9865-e28e6c9673bc")
+	)
+	(junction
+		(at 96.52 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97bdd64b-3d14-4f62-bc51-f1f8d48db679")
 	)
 	(junction
 		(at 184.15 109.22)
@@ -3391,16 +3391,6 @@
 			(type default)
 		)
 		(uuid "23a8c6e8-df78-43a9-8e3e-915f581a3da3")
-	)
-	(wire
-		(pts
-			(xy 96.52 99.06) (xy 96.52 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "294f45dd-f214-41d8-8857-4c8c6916e05c")
 	)
 	(wire
 		(pts
@@ -3604,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 99.06) (xy 88.9 99.06)
+			(xy 96.52 107.95) (xy 88.9 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3664,7 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 97.79) (xy 96.52 99.06)
+			(xy 96.52 97.79) (xy 96.52 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3844,7 +3834,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 99.06) (xy 88.9 100.33)
+			(xy 88.9 107.95) (xy 88.9 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5298,7 +5288,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 105.41 0)
+		(at 88.9 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5307,7 +5297,7 @@
 		(dnp no)
 		(uuid "4d141d8f-e6f0-42b5-ad6b-18a387dabbc8")
 		(property "Reference" "#PWR0105"
-			(at 88.9 111.76 0)
+			(at 88.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 110.49 0)
+			(at 88.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 105.41 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +5323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 105.41 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 105.41 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7178,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 88.9 102.87 0)
+		(at 88.9 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7196,7 +7186,7 @@
 		(dnp no)
 		(uuid "d16116cb-89f1-4076-8aff-ac24bd95e45a")
 		(property "Reference" "C60"
-			(at 82.804 101.854 0)
+			(at 82.804 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7195,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 81.788 104.1654 0)
+			(at 81.788 113.0554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +7204,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 88.9 102.87 0)
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7223,7 +7213,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.168 144.526 0)
+			(at 74.168 153.416 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7232,7 +7222,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 88.9 102.87 0)
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,7 +7231,7 @@
 			)
 		)
 		(property "PN" " 187-CL05B104KO5NNNC "
-			(at 88.9 102.87 0)
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,7 +7240,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 88.9 102.87 0)
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,7 +7249,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 88.9 102.87 0)
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7268,7 +7258,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 88.9 102.87 0)
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
