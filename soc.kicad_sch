@@ -12,6 +12,114 @@
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3759,7 +3867,7 @@
 	)
 	(text "USB_ID NC"
 		(exclude_from_sim no)
-		(at 31.75 62.23 0)
+		(at 27.94 62.484 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3768,7 +3876,7 @@
 		(uuid "992568aa-4dfd-4a00-9c17-9f3e971b7f89")
 	)
 	(junction
-		(at 38.1 40.64)
+		(at 30.48 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11195358-af52-44b2-9742-d1a1453645b4")
@@ -4130,10 +4238,6 @@
 		(uuid "d4e34f54-ed93-4e6b-b51d-36659e46dd8c")
 	)
 	(no_connect
-		(at 44.45 62.23)
-		(uuid "d54e3d22-da36-4e02-8979-11f0f462ac63")
-	)
-	(no_connect
 		(at 58.42 171.45)
 		(uuid "dae92bf0-e7b2-494f-a26c-8c984c0d8a17")
 	)
@@ -4302,7 +4406,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 46.99) (xy 38.1 48.26)
+			(xy 30.48 46.99) (xy 30.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4342,7 +4446,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 64.77) (xy 41.91 40.64)
+			(xy 34.29 64.77) (xy 34.29 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4432,7 +4536,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 38.1 40.64)
+			(xy 30.48 39.37) (xy 30.48 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4642,6 +4746,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 62.23) (xy 44.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56bc6053-b1f9-43bc-98d6-30b61814687c")
+	)
+	(wire
+		(pts
 			(xy 109.22 40.64) (xy 109.22 45.72)
 		)
 		(stroke
@@ -4722,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 33.02) (xy 38.1 33.02)
+			(xy 26.67 33.02) (xy 30.48 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4842,7 +4956,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 40.64) (xy 38.1 41.91)
+			(xy 30.48 40.64) (xy 30.48 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4862,7 +4976,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 33.02) (xy 38.1 34.29)
+			(xy 30.48 33.02) (xy 30.48 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4872,7 +4986,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.77) (xy 41.91 64.77)
+			(xy 44.45 64.77) (xy 34.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4942,7 +5056,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 40.64) (xy 38.1 40.64)
+			(xy 34.29 40.64) (xy 30.48 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5608,7 +5722,7 @@
 	)
 	(hierarchical_label "USB_VSENSE"
 		(shape input)
-		(at 34.29 33.02 180)
+		(at 26.67 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6970,6 +7084,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 41.91 62.23 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "63c681ba-0964-4fa7-955d-4129855fdadd")
+		(property "Reference" "TP12"
+			(at 41.656 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_ID"
+			(at 42.418 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 41.91 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62dec77d-c3be-4be1-9656-ca40d0143168")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/9e50fe40-00b4-48a0-8ec6-ce79209e6a2d"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 36.83 78.74 0)
 		(unit 1)
@@ -7037,7 +7227,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 44.45 180)
+		(at 30.48 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7045,7 +7235,7 @@
 		(dnp no)
 		(uuid "68490357-8b8c-46a6-be5d-374bb0f725e3")
 		(property "Reference" "R2"
-			(at 35.56 44.45 90)
+			(at 27.94 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7243,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 40.64 44.45 90)
+			(at 33.02 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7251,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7269,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7088,7 +7278,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 38.1 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7097,7 +7287,7 @@
 			)
 		)
 		(property "MPN" "0402WGF2202TCE"
-			(at 38.1 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7106,7 +7296,7 @@
 			)
 		)
 		(property "LCSC" "C25768"
-			(at 38.1 44.45 90)
+			(at 30.48 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7115,7 +7305,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 38.1 44.45 90)
+			(at 30.48 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7395,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 48.26 0)
+		(at 30.48 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7214,7 +7404,7 @@
 		(fields_autoplaced yes)
 		(uuid "7376653b-8dea-41bd-bcb9-6f4d276e33c8")
 		(property "Reference" "#PWR02"
-			(at 38.1 54.61 0)
+			(at 30.48 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +7413,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 52.3931 0)
+			(at 30.48 52.3931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +7421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 48.26 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,7 +7430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 48.26 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7249,7 +7439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 48.26 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +7739,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 36.83 180)
+		(at 30.48 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7557,7 +7747,7 @@
 		(dnp no)
 		(uuid "e9d80f24-3890-41d9-822c-53dbfcedf308")
 		(property "Reference" "R1"
-			(at 35.56 36.83 90)
+			(at 27.94 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7755,7 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 40.64 36.83 90)
+			(at 33.02 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,7 +7763,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 36.83 0)
+			(at 30.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +7772,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 36.83 0)
+			(at 30.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7781,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 36.83 0)
+			(at 30.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7790,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 38.1 36.83 0)
+			(at 30.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7799,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1202TCE"
-			(at 38.1 36.83 0)
+			(at 30.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7808,7 @@
 			)
 		)
 		(property "LCSC" "C25752"
-			(at 38.1 36.83 90)
+			(at 30.48 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7817,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 38.1 36.83 90)
+			(at 30.48 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
