@@ -565,7 +565,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 77.47) (xy 212.09 77.47)
+			(xy 203.2 74.93) (xy 212.09 74.93)
 		)
 		(stroke
 			(width 0)
@@ -825,6 +825,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 77.47) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed290bab-eaa6-48e6-92b1-987c8389bd13")
+	)
+	(wire
+		(pts
 			(xy 248.92 72.39) (xy 248.92 69.85)
 		)
 		(stroke
@@ -844,7 +854,7 @@
 		(uuid "fc087734-3735-4de9-90de-c63f393b7213")
 	)
 	(label "SIDE_BTN"
-		(at 200.66 77.47 0)
+		(at 203.2 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2194,8 +2204,8 @@
 		)
 	)
 	(sheet
-		(at 212.09 74.93)
-		(size 25.4 26.035)
+		(at 212.09 72.39)
+		(size 25.4 28.575)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2210,7 +2220,7 @@
 		)
 		(uuid "be402a1e-34f3-489f-9745-963b98ced0ff")
 		(property "Sheetname" "Power"
-			(at 212.09 74.2184 0)
+			(at 212.09 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,8 +2318,18 @@
 			)
 		)
 		(pin "SIDE_BTN" input
-			(at 212.09 77.47 180)
+			(at 212.09 74.93 180)
 			(uuid "00990b3c-974b-416c-b8a8-5bec5a80ca90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOM_RST" output
+			(at 212.09 77.47 180)
+			(uuid "7d29f9b3-2144-42f7-a059-72556a1cb084")
 			(effects
 				(font
 					(size 1.27 1.27)

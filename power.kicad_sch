@@ -3614,7 +3614,7 @@
 	)
 	(text "ON/OFF Switch"
 		(exclude_from_sim no)
-		(at 119.634 161.544 0)
+		(at 119.634 153.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3625,7 +3625,7 @@
 	)
 	(text "ON/OFF SoM"
 		(exclude_from_sim no)
-		(at 119.634 153.924 0)
+		(at 119.634 161.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4231,10 +4231,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff741407-ec37-435b-a350-bf9ee8201bc0")
-	)
-	(no_connect
-		(at 93.98 158.75)
-		(uuid "3efffb7f-c380-451e-aed7-21f1a40bcabc")
 	)
 	(no_connect
 		(at 63.5 179.07)
@@ -5509,6 +5505,16 @@
 			(type default)
 		)
 		(uuid "6d4e7fb9-7fd3-4cbc-a9c4-c61d64cbd2f5")
+	)
+	(wire
+		(pts
+			(xy 93.98 158.75) (xy 105.41 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb58dc2-8c19-4a27-a343-aace5ee4787d")
 	)
 	(wire
 		(pts
@@ -7292,7 +7298,7 @@
 	)
 	(hierarchical_label "~{5V_ON_OUT}"
 		(shape output)
-		(at 105.41 153.67 0)
+		(at 105.41 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7389,9 +7395,20 @@
 		)
 		(uuid "ebc38762-e147-4382-94d4-025fd03ef11c")
 	)
+	(hierarchical_label "SOM_RST"
+		(shape output)
+		(at 105.41 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee83fd9c-0ccd-4e83-970d-a40661104b93")
+	)
 	(hierarchical_label "~{5V_ON_REQ}"
 		(shape input)
-		(at 105.41 161.29 0)
+		(at 105.41 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
