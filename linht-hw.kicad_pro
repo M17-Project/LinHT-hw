@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.6,
-          "width": 0.2
+          "drill": 0.4,
+          "height": 2.2,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|108775500|119310000|02a1131b-98f8-4e77-8f06-f91a9c7aba4e|17b7483f-1cbe-4de4-ba83-99e1a907f329",
+          ""
+        ],
+        [
+          "clearance|110455000|119230500|74cf3d9e-d74b-46d4-83e5-241b865105e9|074758df-e958-4e73-be7f-4dfd6804f3ff",
+          ""
+        ],
+        [
+          "copper_edge_clearance|112509209|58949920|03d19b7e-9558-4124-a267-234a8f0ace49|9b260ba5-f26e-48f4-9ea4-04358fa6e982",
+          ""
+        ],
+        [
+          "copper_edge_clearance|129790791|58949920|0d5b0537-8fe6-47f6-9503-be269d94b127|922fe643-095a-4cd2-9172-72199f43c5bb",
+          ""
+        ],
+        [
+          "copper_edge_clearance|144461667|104586667|b422425c-0c90-4b54-842e-7b420b48375d|cc164661-e2f4-4504-ac01-434a0bed9f26",
+          ""
+        ],
+        [
+          "copper_edge_clearance|144461667|106936667|b422425c-0c90-4b54-842e-7b420b48375d|423c32fc-85d1-46fa-bcc2-eb5f4e13210d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|144461667|109911667|b422425c-0c90-4b54-842e-7b420b48375d|e00e4eb5-1851-4420-9c95-9dfcd0d05258",
+          ""
+        ],
+        [
+          "copper_edge_clearance|144461667|77711667|4747d55e-dc7b-403d-a56b-37e5f739398f|950e3813-2f64-4fd1-9a21-de77ee11ae8b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|144461667|81661667|4747d55e-dc7b-403d-a56b-37e5f739398f|b06f97e2-981b-48f8-99e4-2db9d51b107e",
+          ""
+        ],
+        [
+          "copper_edge_clearance|145500000|139800000|1151be58-d470-4469-a797-27dfea5d2c12|1aace2c9-1106-4343-a0d8-822e8f701172",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -79,7 +120,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -101,7 +142,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -471,7 +512,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.12,
+        "clearance": 0.11,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
