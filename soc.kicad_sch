@@ -4022,10 +4022,6 @@
 		(uuid "3940ae88-4e80-4f10-b976-1daa88a9ed11")
 	)
 	(no_connect
-		(at 83.82 171.45)
-		(uuid "3abc90b5-571d-41f5-ab6e-14182a2e70a1")
-	)
-	(no_connect
 		(at 81.28 171.45)
 		(uuid "3cfadf5f-21ca-45be-b7b6-563e2ae511e2")
 	)
@@ -4072,6 +4068,10 @@
 	(no_connect
 		(at 143.51 148.59)
 		(uuid "5e81cb00-0135-4ab2-9fe1-3298fa07b749")
+	)
+	(no_connect
+		(at 129.54 171.45)
+		(uuid "62590035-10a7-45d9-bfc7-815d6f957b16")
 	)
 	(no_connect
 		(at 143.51 95.25)
@@ -5106,7 +5106,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 171.45) (xy 129.54 177.8)
+			(xy 83.82 171.45) (xy 83.82 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6074,7 +6074,7 @@
 	)
 	(hierarchical_label "JACK_DETECT"
 		(shape input)
-		(at 129.54 177.8 270)
+		(at 83.82 177.8 270)
 		(effects
 			(font
 				(size 1.27 1.27)
