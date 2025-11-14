@@ -5019,7 +5019,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 114.3) (xy 36.83 114.3)
+			(xy 46.99 114.3) (xy 50.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5769,16 +5769,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 111.76) (xy 48.26 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63393976-a474-4e74-a624-3bb634d523c3")
-	)
-	(wire
-		(pts
 			(xy 171.45 57.15) (xy 176.53 57.15)
 		)
 		(stroke
@@ -5889,7 +5879,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 45.72) (xy 36.83 45.72)
+			(xy 45.72 45.72) (xy 50.8 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6379,16 +6369,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 114.3) (xy 48.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a28aa254-4d79-4464-9e0e-030e48ef2793")
-	)
-	(wire
-		(pts
 			(xy 147.32 151.13) (xy 157.48 151.13)
 		)
 		(stroke
@@ -6669,7 +6649,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 36.83 50.8)
+			(xy 50.8 50.8) (xy 45.72 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6789,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 48.26) (xy 36.83 48.26)
+			(xy 45.72 48.26) (xy 50.8 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6826,16 +6806,6 @@
 			(type default)
 		)
 		(uuid "ca16d6df-9165-425e-a25b-bbd6efc1f93c")
-	)
-	(wire
-		(pts
-			(xy 50.8 45.72) (xy 48.26 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb028af0-3315-4c55-9d5d-369e51c2179c")
 	)
 	(wire
 		(pts
@@ -6939,7 +6909,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 111.76) (xy 36.83 111.76)
+			(xy 46.99 111.76) (xy 50.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7029,16 +6999,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 48.26 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daf14617-7222-4fcf-be36-b57c72d2e3f0")
-	)
-	(wire
-		(pts
 			(xy 133.35 46.99) (xy 133.35 60.96)
 		)
 		(stroke
@@ -7069,7 +7029,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 116.84) (xy 36.83 116.84)
+			(xy 50.8 116.84) (xy 46.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7599,7 +7559,7 @@
 	)
 	(hierarchical_label "RF_ATT_LE1"
 		(shape input)
-		(at 36.83 50.8 180)
+		(at 45.72 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7643,7 +7603,7 @@
 	)
 	(hierarchical_label "RF_ATT_CLK"
 		(shape input)
-		(at 36.83 48.26 180)
+		(at 45.72 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7665,7 +7625,7 @@
 	)
 	(hierarchical_label "RF_ATT_DATA"
 		(shape input)
-		(at 36.83 111.76 180)
+		(at 46.99 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7687,7 +7647,7 @@
 	)
 	(hierarchical_label "RF_ATT_CLK"
 		(shape input)
-		(at 36.83 114.3 180)
+		(at 46.99 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7742,7 +7702,7 @@
 	)
 	(hierarchical_label "RF_ATT_DATA"
 		(shape input)
-		(at 36.83 45.72 180)
+		(at 45.72 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7764,7 +7724,7 @@
 	)
 	(hierarchical_label "RF_ATT_LE2"
 		(shape input)
-		(at 36.83 116.84 180)
+		(at 46.99 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12270,110 +12230,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 45.72 114.3 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "791c2fbb-d95c-44d9-b110-eb0bb64e59f8")
-		(property "Reference" "R61"
-			(at 49.784 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 40.894 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.72 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 45.72 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 45.72 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1000TCE"
-			(at 45.72 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 45.72 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 45.72 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02de6979-a833-4a46-a4bf-c30e15e8e0e8")
-		)
-		(pin "2"
-			(uuid "ad3acf83-7bf4-4eba-abb8-fb7281853b67")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 134.62 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12542,110 +12398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 45.72 111.76 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7aadea4a-a089-42a2-890d-3cece8240847")
-		(property "Reference" "R60"
-			(at 49.784 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 40.894 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 45.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 45.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1000TCE"
-			(at 45.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 45.72 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 45.72 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92908b1b-46f0-42b0-9d3b-12e41320534d")
-		)
-		(pin "2"
-			(uuid "498ce360-80e8-456c-8fd0-cccc2b5be395")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 240.03 142.24 0)
 		(unit 1)
@@ -12745,110 +12497,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 45.72 48.26 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d82e270-f7de-4bff-8dad-875d49df5112")
-		(property "Reference" "R57"
-			(at 49.784 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 40.894 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 45.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 45.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1000TCE"
-			(at 45.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 45.72 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 45.72 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6d1bf39-b36c-4747-8158-27b884c04f67")
-		)
-		(pin "2"
-			(uuid "40b09109-0426-4cc4-b9fd-30be07874518")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -16549,110 +16197,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 45.72 45.72 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce6b8bb1-89ba-4990-9cf5-a5d084ed7018")
-		(property "Reference" "R32"
-			(at 49.784 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 40.894 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1000TCE"
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 45.72 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 45.72 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcd93bcd-f82d-4603-a11a-cd1765f6c20c")
-		)
-		(pin "2"
-			(uuid "e60b088c-58eb-422b-8ee6-b8c79969f1f1")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
-					(reference "R32")
 					(unit 1)
 				)
 			)
