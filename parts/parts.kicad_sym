@@ -1525,7 +1525,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1544,7 +1544,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1563,7 +1563,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1582,7 +1582,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1601,7 +1601,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1620,7 +1620,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1639,7 +1639,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1658,7 +1658,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1677,7 +1677,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1696,7 +1696,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1715,7 +1715,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1734,7 +1734,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1753,7 +1753,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1772,7 +1772,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1791,7 +1791,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1810,7 +1810,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1829,7 +1829,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)
@@ -1848,7 +1848,7 @@
 					)
 				)
 			)
-			(pin free line
+			(pin no_connect line
 				(at 11.43 -15.24 180)
 				(length 2.54)
 				(hide yes)

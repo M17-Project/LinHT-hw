@@ -3978,20 +3978,12 @@
 		(uuid "1633c224-604e-4b61-b0cf-c4a69ecb6e8a")
 	)
 	(no_connect
-		(at 143.51 107.95)
-		(uuid "18c4cc2e-51ac-4eb2-837d-c3f3f99ca0be")
-	)
-	(no_connect
 		(at 134.62 171.45)
 		(uuid "18ee4db2-77fc-4990-a006-c3b8c59d1d9d")
 	)
 	(no_connect
 		(at 143.51 123.19)
 		(uuid "20eae9f1-31bf-45b4-8218-4d37dd141b8e")
-	)
-	(no_connect
-		(at 143.51 113.03)
-		(uuid "2170633f-5037-4cba-87e7-d0190eb1cda7")
 	)
 	(no_connect
 		(at 111.76 171.45)
@@ -4056,10 +4048,6 @@
 	(no_connect
 		(at 143.51 146.05)
 		(uuid "55ce45f1-f3ff-4422-9601-2f638be9d409")
-	)
-	(no_connect
-		(at 143.51 115.57)
-		(uuid "5c7adedf-3dc7-4fce-af79-e94142431e47")
 	)
 	(no_connect
 		(at 143.51 148.59)
@@ -4162,10 +4150,6 @@
 		(uuid "9dff3739-75d1-46b4-83d0-619696d7cd92")
 	)
 	(no_connect
-		(at 143.51 118.11)
-		(uuid "9f2f92bf-0a57-48e5-94fd-96e25db5a1d3")
-	)
-	(no_connect
 		(at 44.45 128.27)
 		(uuid "9f91e857-dfc0-43ec-ac9b-989dbd004aa9")
 	)
@@ -4200,10 +4184,6 @@
 	(no_connect
 		(at 143.51 102.87)
 		(uuid "c9643079-79b6-480d-80ae-99b830d33068")
-	)
-	(no_connect
-		(at 143.51 105.41)
-		(uuid "ca9a70bb-001e-4ca6-b523-522d7d2b1f16")
 	)
 	(no_connect
 		(at 44.45 120.65)
@@ -4530,6 +4510,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 118.11) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d29186-718b-42e8-8d20-6474c598d638")
+	)
+	(wire
+		(pts
 			(xy 30.48 39.37) (xy 30.48 40.64)
 		)
 		(stroke
@@ -4770,6 +4760,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 115.57) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e809fe7-3452-464e-b0e0-137889e5b36f")
+	)
+	(wire
+		(pts
 			(xy 83.82 29.21) (xy 83.82 45.72)
 		)
 		(stroke
@@ -4847,6 +4847,16 @@
 			(type default)
 		)
 		(uuid "746f313b-22a1-4594-ae0c-9a2f4f79cbed")
+	)
+	(wire
+		(pts
+			(xy 143.51 105.41) (xy 148.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748c785c-b3d8-428f-aad9-a7aacca6f676")
 	)
 	(wire
 		(pts
@@ -5160,6 +5170,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 113.03) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44d1c96-caae-41b8-9f76-63984188cc7c")
+	)
+	(wire
+		(pts
 			(xy 143.51 74.93) (xy 148.59 74.93)
 		)
 		(stroke
@@ -5390,6 +5410,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 107.95) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f978db80-de5f-4800-9d02-3467c2425167")
+	)
+	(wire
+		(pts
 			(xy 78.74 40.64) (xy 78.74 45.72)
 		)
 		(stroke
@@ -5437,7 +5467,7 @@
 			)
 		)
 		(column_widths 24.13 24.13)
-		(row_heights 2.54 2.54 2.54 2.54)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
 		(cells
 			(table_cell "I2S0"
 				(exclude_from_sim no)
@@ -5574,6 +5604,108 @@
 					(justify left top)
 				)
 				(uuid "4ea1fbe8-af73-4302-8f35-10df1926679a")
+			)
+			(table_cell "SPI7"
+				(exclude_from_sim no)
+				(at 203.2 125.73 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b25ae9fd-6b27-46aa-82c3-9f8b38031508")
+			)
+			(table_cell "PE4312 attenuators"
+				(exclude_from_sim no)
+				(at 227.33 125.73 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0ec25afd-1d35-41f5-861d-af57e28868b9")
+			)
+			(table_cell "UART1"
+				(exclude_from_sim no)
+				(at 203.2 128.27 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2cec21b8-7e3e-4018-b149-b8dcfabf05de")
+			)
+			(table_cell "DEBUG on Kenwood"
+				(exclude_from_sim no)
+				(at 227.33 128.27 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4064f80d-20d2-4567-8fde-1544e44f81d2")
+			)
+			(table_cell "UART3"
+				(exclude_from_sim no)
+				(at 203.2 130.81 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c473677a-0c72-43e2-bb99-9b9ee16a8e1d")
+			)
+			(table_cell "GNSS module"
+				(exclude_from_sim no)
+				(at 227.33 130.81 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "757aff91-2bb0-452d-b3d2-684c65157697")
 			)
 		)
 	)
@@ -5722,6 +5854,17 @@
 		)
 		(uuid "199a4d49-b27f-488d-8af4-2f298547c1b3")
 	)
+	(hierarchical_label "GNSS_TX"
+		(shape output)
+		(at 148.59 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ef5cffc-d6df-42dd-bca4-5a56af91535b")
+	)
 	(hierarchical_label "I2S1_CLK"
 		(shape output)
 		(at 148.59 72.39 0)
@@ -5765,6 +5908,17 @@
 			(justify left)
 		)
 		(uuid "31187a44-2c2c-44c2-bc88-6ddc3637e6a0")
+	)
+	(hierarchical_label "GNSS_PPS"
+		(shape input)
+		(at 148.59 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3205363a-0f59-4e77-b9ff-a56e4671679c")
 	)
 	(hierarchical_label "{KBD}"
 		(shape bidirectional)
@@ -5864,6 +6018,17 @@
 			(justify left)
 		)
 		(uuid "4a9dd1a8-500e-449d-96e1-e521c17f3fce")
+	)
+	(hierarchical_label "GNSS_RX"
+		(shape input)
+		(at 148.59 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5523f532-1892-4a15-9d9c-cbbc0682f37e")
 	)
 	(hierarchical_label "STBY"
 		(shape output)
@@ -5986,6 +6151,17 @@
 		)
 		(uuid "951b66c1-82f2-4a00-b430-b86fc1f77761")
 	)
+	(hierarchical_label "GNSS_RST"
+		(shape output)
+		(at 148.59 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "959db304-aa02-4e8f-974b-34ce485152e3")
+	)
 	(hierarchical_label "LED_B"
 		(shape output)
 		(at 88.9 40.64 90)
@@ -6051,6 +6227,17 @@
 			(justify left)
 		)
 		(uuid "b6d18697-77db-42e9-86ab-f1644db40d2a")
+	)
+	(hierarchical_label "GNSS_WAKEUP"
+		(shape output)
+		(at 148.59 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfe77126-f14c-48f8-bea6-0272e92f08ca")
 	)
 	(hierarchical_label "I2S0_DOUT"
 		(shape output)

@@ -84,11 +84,11 @@
 | GPIO3_IO[31]    | JTAG_TDO        | Pin 80  |               | 1.8V      | MX93_PAD_DAP_TDO_TRACESWO__GPIO3_IO31 |
 | GPIO4_IO[6]     | ENET1_TX_CTL    | Pin 81  |               | 1.8V      | MX93_PAD_ENET1_TX_CTL__GPIO4_IO06     |
 | GPIO4_IO[4]     | ENET1_TD1       | Pin 82  |               | 1.8V      | MX93_PAD_ENET1_TD1__GPIO4_IO04        |
-| GPIO4_IO[3]     | ENET1_TD2       | Pin 83  |               | 1.8V      | MX93_PAD_ENET1_TD2__GPIO4_IO03        |
+| GPIO4_IO[3]     | ENET1_TD2       | Pin 83  | GNSS_RST      | 1.8V      | MX93_PAD_ENET1_TD2__GPIO4_IO03        |
 | GPIO4_IO[5]     | ENET1_TD0       | Pin 84  | GNSS_RX       | 1.8V      | MX93_PAD_ENET1_TD0__GPIO4_IO05        |
-| GPIO4_IO[2]     | ENET1_TD3       | Pin 85  |               | 1.8V      | MX93_PAD_ENET1_TD3__GPIO4_IO02        |
+| GPIO4_IO[2]     | ENET1_TD3       | Pin 85  | GNSS_WAKEUP   | 1.8V      | MX93_PAD_ENET1_TD3__GPIO4_IO02        |
 | GPIO4_IO[7]     | ENET1_TXC       | Pin 86  |               | 1.8V      | MX93_PAD_ENET1_TXC__GPIO4_IO07        |
-| GPIO4_IO[8]     | ENET1_RX_CTL    | Pin 87  |               | 1.8V      | MX93_PAD_ENET1_RX_CTL__GPIO4_IO08     |
+| GPIO4_IO[8]     | ENET1_RX_CTL    | Pin 87  | GNSS_PPS      | 1.8V      | MX93_PAD_ENET1_RX_CTL__GPIO4_IO08     |
 | GPIO4_IO[10]    | ENET1_RD0       | Pin 88  | GNSS_TX       | 1.8V      | MX93_PAD_ENET1_RD0__GPIO4_IO10        |
 | GPIO4_IO[9]     | ENET1_RXC       | Pin 89  |               | 1.8V      | MX93_PAD_ENET1_RXC__GPIO4_IO09        |
 | GPIO4_IO[11]    | ENET1_RD1       | Pin 90  |               | 1.8V      | MX93_PAD_ENET1_RD1__GPIO4_IO11        |
