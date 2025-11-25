@@ -3656,10 +3656,10 @@
 		)
 		(uuid "f3298115-e9a6-41bd-8bf1-353a50bb9ff9")
 	)
-	(text_box "Place close to the U3"
+	(text_box "Place 100nF capacitors as close to the U3 as possible"
 		(exclude_from_sim no)
-		(at 177.165 15.875 0)
-		(size 14.605 5.715)
+		(at 152.4 18.415 0)
+		(size 19.05 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3672,7 +3672,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left)
 		)
 		(uuid "353aa2d9-1b09-429e-a636-2cba5f455213")
 	)
@@ -3841,12 +3841,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2da51306-f862-4a57-a584-95a3fdcb14d8")
-	)
-	(junction
-		(at 161.29 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ebd99df-6d31-4fa1-9f1e-378cac33e65d")
 	)
 	(junction
 		(at 44.45 58.42)
@@ -5158,16 +5152,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 19.05) (xy 173.99 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c65e20b-ad06-4388-9f34-ffa50a31b778")
-	)
-	(wire
-		(pts
 			(xy 264.16 87.63) (xy 264.16 88.9)
 		)
 		(stroke
@@ -5355,16 +5339,6 @@
 			(type default)
 		)
 		(uuid "604647ca-10e7-4fa7-ae9a-50470abb751f")
-	)
-	(wire
-		(pts
-			(xy 161.29 33.02) (xy 161.29 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60549e28-c7f7-4c0a-a51c-2297895fa666")
 	)
 	(wire
 		(pts
@@ -6168,16 +6142,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 30.48) (xy 161.29 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9abe81c-4c57-4869-8fee-5cf0d1a6a0ba")
-	)
-	(wire
-		(pts
 			(xy 59.69 53.34) (xy 62.23 53.34)
 		)
 		(stroke
@@ -6498,16 +6462,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 33.02) (xy 173.99 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6d2e51-be82-4a7c-bdec-d358dfeb3e2f")
-	)
-	(wire
-		(pts
 			(xy 275.59 100.33) (xy 275.59 99.06)
 		)
 		(stroke
@@ -6625,16 +6579,6 @@
 			(type default)
 		)
 		(uuid "d6dfc043-ef0e-4f89-975d-27e89f3b3be0")
-	)
-	(wire
-		(pts
-			(xy 173.99 30.48) (xy 173.99 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7e16408-d416-495c-968c-c940a18e7ea7")
 	)
 	(wire
 		(pts
@@ -6795,16 +6739,6 @@
 			(type default)
 		)
 		(uuid "e3a68eee-0df7-4c6c-b9e2-9f200ce316c0")
-	)
-	(wire
-		(pts
-			(xy 173.99 19.05) (xy 173.99 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3af6798-cbbb-406f-8420-03d5a81f119c")
 	)
 	(wire
 		(pts
@@ -7008,16 +6942,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 19.05) (xy 161.29 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62f8866-2bf0-4cc2-a3b5-9d3b9f3c9943")
-	)
-	(wire
-		(pts
 			(xy 50.8 19.05) (xy 50.8 22.86)
 		)
 		(stroke
@@ -7195,16 +7119,6 @@
 			(justify left bottom)
 		)
 		(uuid "1c385a40-e237-4419-8a63-bef8f9db1ccc")
-	)
-	(label "SYS"
-		(at 166.37 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4603641b-5f3a-4bed-bce0-6e4153cf8dbb")
 	)
 	(label "PMID"
 		(at 107.95 19.05 0)
@@ -9604,72 +9518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 161.29 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35396838-5c0c-4679-bf9c-9e6d20745c14")
-		(property "Reference" "#PWR037"
-			(at 161.29 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 38.4231 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd982398-4120-44aa-94ad-a9c5783e6695")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 252.73 54.61 0)
 		(unit 1)
@@ -11797,112 +11645,6 @@
 			(project ""
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 26.67 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "778dd0a3-38a4-403c-9446-f37a72bcb5de")
-		(property "Reference" "C17"
-			(at 156.972 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 156.972 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 160.3248 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2932476"
-			(at 161.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A106KBYQNNE"
-			(at 161.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "187-CL21A106KBYQNNE"
-			(at 161.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 161.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf18f883-f8be-4d8a-95a9-13e3e1de7c08")
-		)
-		(pin "2"
-			(uuid "da749b7e-5a42-4e04-9522-9cb92ca32969")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -14691,112 +14433,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 173.99 26.67 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4ecc435-f57d-4ee6-81a8-3d5248cb6282")
-		(property "Reference" "C20"
-			(at 170.18 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 170.18 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 173.0248 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 173.99 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 173.99 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KO5NNNC"
-			(at 173.99 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" " 187-CL05B104KO5NNNC "
-			(at 173.99 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 173.99 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed509089-fe73-4dae-8a26-0203d9686934")
-		)
-		(pin "2"
-			(uuid "a95ade7f-f7db-49c8-be9f-1dd475fb20ef")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
-					(reference "C20")
 					(unit 1)
 				)
 			)
