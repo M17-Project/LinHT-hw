@@ -10,7 +10,7 @@
 |                 | V_SOM           | Pin 6   | 5V            |           |                                       |
 |                 | ADC_IN3         | Pin 7   |               |           |                                       |
 |                 | ADC_IN2         | Pin 8   |               |           |                                       |
-|                 | ADC_IN1         | Pin 9   | U_BATT_MON    |           |                                       |
+|                 | ADC_IN1         | Pin 9   |               |           |                                       |
 |                 | ADC_IN0         | Pin 10  | VOL_ADC       |           |                                       |
 |                 | V_SOM           | Pin 11  | 5V            |           |                                       |
 |                 | TAMPER0         | Pin 12  |               |           |                                       |
@@ -50,7 +50,7 @@
 |                 | POR_B_3P3       | Pin 46  |               |           |                                       |
 | SAI3_TX_SYNC    | GPIO2_IO[26]    | Pin 47  | I2S1_WS       | 3.3V      | MX93_PAD_GPIO_IO26__SAI3_TX_SYNC      |
 | GPIO2_IO[27]    | GPIO2_IO[27]    | Pin 48  |               | 3.3V      | MX93_PAD_GPIO_IO27__GPIO2_IO27        |
-| GPIO4_IO[15]    | ENET2_MDIO      | Pin 49  |               | 1.8V      | MX93_PAD_ENET2_MDIO__GPIO4_IO15       |
+| GPIO4_IO[15]    | ENET2_MDIO      | Pin 49  | JACK_DETECT   | 1.8V      | MX93_PAD_ENET2_MDIO__GPIO4_IO15       |
 | GPIO4_IO[14]    | ENET2_MDC       | Pin 50  |               | 1.8V      | MX93_PAD_ENET2_MDC__GPIO4_IO14        |
 | GPIO4_IO[16]    | ENET2_TD3       | Pin 51  | KBD_D1        | 1.8V      | MX93_PAD_ENET2_TD3__GPIO4_IO16        |
 | GPIO4_IO[19]    | ENET2_TD0       | Pin 52  | KBD_D2        | 1.8V      | MX93_PAD_ENET2_TD0__GPIO4_IO19        |
@@ -68,8 +68,8 @@
 | UART1_RX        | UART1_RX        | Pin 64  | UART_RX       |           |                                       |
 | GPIO3_IO[7]     | SDIO2_RESET_B   | Pin 65  |               | 3.3V/1.8V | MX93_PAD_SD2_RESET_B__GPIO3_IO07      |
 | SAI1_TX_DATA[0] | SAI1_TX_DATA[0] | Pin 66  | I2S0_DOUT     |           | MX93_PAD_SAI1_TXD0__SAI1_TX_DATA00    |
-| GPIO3_IO[6]     | SDIO2_DATA3     | Pin 67  | MIC_GAIN      | 3.3V/1.8V | MX93_PAD_SD2_DATA3__GPIO3_IO06        |
-| GPIO3_IO[5]     | SDIO2_DATA2     | Pin 68  | /MIC_MUTE     | 3.3V/1.8V | MX93_PAD_SD2_DATA2__GPIO3_IO05        |
+| GPIO3_IO[6]     | SDIO2_DATA3     | Pin 67  |               | 3.3V/1.8V | MX93_PAD_SD2_DATA3__GPIO3_IO06        |
+| GPIO3_IO[5]     | SDIO2_DATA2     | Pin 68  |               | 3.3V/1.8V | MX93_PAD_SD2_DATA2__GPIO3_IO05        |
 | GPIO3_IO[2]     | SDIO2_CMD       | Pin 69  |               | 3.3V/1.8V | MX93_PAD_SD2_CMD__GPIO3_IO02          |
 | GPIO3_IO[1]     | SDIO2_CLK       | Pin 70  |               | 3.3V/1.8V | MX93_PAD_SD2_CLK__GPIO3_IO01          |
 |                 | RESERVED        | Pin 71  |               |           |                                       |
@@ -85,30 +85,30 @@
 | GPIO4_IO[6]     | ENET1_TX_CTL    | Pin 81  |               | 1.8V      | MX93_PAD_ENET1_TX_CTL__GPIO4_IO06     |
 | GPIO4_IO[4]     | ENET1_TD1       | Pin 82  |               | 1.8V      | MX93_PAD_ENET1_TD1__GPIO4_IO04        |
 | GPIO4_IO[3]     | ENET1_TD2       | Pin 83  |               | 1.8V      | MX93_PAD_ENET1_TD2__GPIO4_IO03        |
-| GPIO4_IO[5]     | ENET1_TD0       | Pin 84  |               | 1.8V      | MX93_PAD_ENET1_TD0__GPIO4_IO05        |
+| GPIO4_IO[5]     | ENET1_TD0       | Pin 84  | GNSS_RX       | 1.8V      | MX93_PAD_ENET1_TD0__GPIO4_IO05        |
 | GPIO4_IO[2]     | ENET1_TD3       | Pin 85  |               | 1.8V      | MX93_PAD_ENET1_TD3__GPIO4_IO02        |
 | GPIO4_IO[7]     | ENET1_TXC       | Pin 86  |               | 1.8V      | MX93_PAD_ENET1_TXC__GPIO4_IO07        |
 | GPIO4_IO[8]     | ENET1_RX_CTL    | Pin 87  |               | 1.8V      | MX93_PAD_ENET1_RX_CTL__GPIO4_IO08     |
-| GPIO4_IO[10]    | ENET1_RD0       | Pin 88  |               | 1.8V      | MX93_PAD_ENET1_RD0__GPIO4_IO10        |
+| GPIO4_IO[10]    | ENET1_RD0       | Pin 88  | GNSS_TX       | 1.8V      | MX93_PAD_ENET1_RD0__GPIO4_IO10        |
 | GPIO4_IO[9]     | ENET1_RXC       | Pin 89  |               | 1.8V      | MX93_PAD_ENET1_RXC__GPIO4_IO09        |
 | GPIO4_IO[11]    | ENET1_RD1       | Pin 90  |               | 1.8V      | MX93_PAD_ENET1_RD1__GPIO4_IO11        |
 | GPIO4_IO[12]    | ENET1_RD2       | Pin 91  |               | 1.8V      | MX93_PAD_ENET1_RD2__GPIO4_IO12        |
 | GPIO4_IO[13]    | ENET1_RD3       | Pin 92  |               | 1.8V      | MX93_PAD_ENET1_RD3__GPIO4_IO13        |
 | GPIO4_IO[1]     | ENET1_MDIO      | Pin 93  |               | 1.8V      | MX93_PAD_ENET1_MDIO__GPIO4_IO01       |
 | GPIO4_IO[0]     | ENET1_MDC       | Pin 94  |               | 1.8V      | MX93_PAD_ENET1_MDC__GPIO4_IO00        |
-| GPIO2_IO[25]    | GPIO2_IO[25]    | Pin 95  |               | 3.3V      | MX93_PAD_GPIO_IO25__GPIO2_IO25        |
+| GPIO2_IO[25]    | GPIO2_IO[25]    | Pin 95  | KBD_PWM       | 3.3V      | MX93_PAD_GPIO_IO25__GPIO2_IO25        |
 | GPIO2_IO[23]    | GPIO2_IO[23]    | Pin 96  |               | 3.3V      | MX93_PAD_GPIO_IO23__GPIO2_IO23        |
 | I2C3_SCL        | GPIO2_IO[29]    | Pin 97  | I2C_SCL       | 3.3V      | MX93_PAD_GPIO_IO29__LPI2C3_SCL        |
 | I2C3_SDA        | GPIO2_IO[28]    | Pin 98  | I2C_SDA       | 3.3V      | MX93_PAD_GPIO_IO28__LPI2C3_SDA        |
 | TPM3_CH3        | GPIO2_IO[24]    | Pin 99  | LCD_PWM       | 3.3V      | MX93_PAD_GPIO_IO24__TPM3_CH3          |
 | SAI3_MCLK       | GPIO2_IO[17]    | Pin 100 | SPI1_MCLK     | 3.3V      | MX93_PAD_GPIO_IO17__SAI3_MCLK         |
 | SAI3_TX_BCLK    | GPIO2_IO[16]    | Pin 101 | I2S1_CLK      | 3.3V      | MX93_PAD_GPIO_IO16__SAI3_TX_BCLK      |
-| GPIO2_IO[14]    | GPIO2_IO[14]    | Pin 102 | ON/OFF_SW     | 3.3V      | MX93_PAD_GPIO_IO14__GPIO2_IO14        |
-| GPIO2_IO[15]    | GPIO2_IO[15]    | Pin 103 |               | 3.3V      | MX93_PAD_GPIO_IO15__GPIO2_IO15        |
-| GPIO2_IO[13]    | GPIO2_IO[13]    | Pin 104 | RF_SW_CTRL    | 3.3V      | MX93_PAD_GPIO_IO13__GPIO2_IO13        |
-| TPM3_CH2        | GPIO2_IO[12]    | Pin 105 | KBD_PWM       | 3.3V      | MX93_PAD_GPIO_IO12__TPM3_CH2          |
-| GPIO2_IO[7]     | GPIO2_IO[7]     | Pin 106 |               | 3.3V      | MX93_PAD_GPIO_IO07__GPIO2_IO07        |
-| GPIO2_IO[6]     | GPIO2_IO[6]     | Pin 107 |               | 3.3V      | MX93_PAD_GPIO_IO06__GPIO2_IO06        |
+| GPIO2_IO[14]    | GPIO2_IO[14]    | Pin 102 |               | 3.3V      | MX93_PAD_GPIO_IO14__GPIO2_IO14        |
+| GPIO2_IO[15]    | GPIO2_IO[15]    | Pin 103 | RF_SW_CTRL    | 3.3V      | MX93_PAD_GPIO_IO15__GPIO2_IO15        |
+| GPIO2_IO[13]    | GPIO2_IO[13]    | Pin 104 | RF_ATT_LE2    | 3.3V      | MX93_PAD_GPIO_IO13__GPIO2_IO13        |
+| TPM3_CH2        | GPIO2_IO[12]    | Pin 105 | RF_ATT_LE1    | 3.3V      | MX93_PAD_GPIO_IO12__TPM3_CH2          |
+| GPIO2_IO[7]     | GPIO2_IO[7]     | Pin 106 | RF_ATT_CLK    | 3.3V      | MX93_PAD_GPIO_IO07__GPIO2_IO07        |
+| GPIO2_IO[6]     | GPIO2_IO[6]     | Pin 107 | RF_ATT_DATA   | 3.3V      | MX93_PAD_GPIO_IO06__GPIO2_IO06        |
 | SPI6_SCK        | GPIO2_IO[3]     | Pin 108 | SPI1_SCK      | 3.3V      | MX93_PAD_GPIO_IO03__LPSPI6_SCK        |
 | GPIO3_IO[20]    | SDIO3_CLK       | Pin 109 |               | 1.8V      | MX93_PAD_SD3_CLK__GPIO3_IO20          |
 | GPIO3_IO[24]    | SDIO3_DATA2     | Pin 110 |               | 1.8V      | MX93_PAD_SD3_DATA2__GPIO3_IO24        |
