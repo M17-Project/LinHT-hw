@@ -3550,6 +3550,17 @@
 		(layer "F.Paste")
 		(uuid "def6af63-afc9-4db6-8566-ea920cccef75")
 	)
+	(fp_rect
+		(start -15.4 -15.4)
+		(end 15.4 15.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "14c2b528-efe8-4e89-bcf1-4731300788e5")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 19.8 -16 0)
 		(unlocked yes)
