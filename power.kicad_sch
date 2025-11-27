@@ -592,6 +592,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4077,12 +4226,6 @@
 		(uuid "a0498dfc-f6e8-458d-a25f-cd1fdd61a723")
 	)
 	(junction
-		(at 111.76 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa25550e-2719-4390-8fe3-34784685a52c")
-	)
-	(junction
 		(at 60.96 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4209,6 +4352,12 @@
 		(uuid "e83d0222-5032-46e3-922e-e592b33a87af")
 	)
 	(junction
+		(at 111.76 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eac80463-b3b5-4a34-a6d5-fcb7e6c10296")
+	)
+	(junction
 		(at 78.74 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4239,7 +4388,7 @@
 		(uuid "96bfdae2-c8a4-45f0-958c-a5ee2f657978")
 	)
 	(no_connect
-		(at 120.65 82.55)
+		(at 127 82.55)
 		(uuid "a8f22f2f-cf92-4405-abcc-35bc66baa7f1")
 	)
 	(no_connect
@@ -4802,7 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 118.11 85.09)
+			(xy 127 85.09) (xy 118.11 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5252,16 +5401,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 80.01) (xy 120.65 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57c40f02-a1f3-4270-b68f-6304b702dda2")
-	)
-	(wire
-		(pts
 			(xy 59.69 55.88) (xy 59.69 58.42)
 		)
 		(stroke
@@ -5359,6 +5498,16 @@
 			(type default)
 		)
 		(uuid "6167dda2-a44b-47ca-acb7-901c3368b9c6")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f3f87a-e3d5-44d7-ae12-10d58fa264f5")
 	)
 	(wire
 		(pts
@@ -6059,6 +6208,16 @@
 			(type default)
 		)
 		(uuid "a0b3cc22-7e10-4a73-9fff-6b892a046b20")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c36fed-7fea-440a-9e04-353c077f506a")
 	)
 	(wire
 		(pts
@@ -8368,6 +8527,92 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 120.65 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "188090fe-9878-4260-9cb4-dcef2f2508d5")
+		(property "Reference" "F1"
+			(at 120.65 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1812L200/16GR"
+			(at 120.65 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "parts:Fuse_1812L200"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18198340"
+			(at 120.65 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1812L200/16GR"
+			(at 120.65 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9de1792-cd0a-4a4e-b344-b9e0d62ff75e")
+		)
+		(pin "1"
+			(uuid "bc9379c3-82d6-444f-b9ff-3324f5a8ebfa")
+		)
+		(instances
+			(project ""
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -11961,7 +12206,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 125.73 82.55 0)
+		(at 132.08 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11969,7 +12214,7 @@
 		(dnp no)
 		(uuid "83fd448d-8442-4c09-82f3-889b7b41f2c4")
 		(property "Reference" "J2"
-			(at 125.73 77.216 0)
+			(at 132.08 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11977,7 +12222,7 @@
 			)
 		)
 		(property "Value" "2S Battery"
-			(at 128.016 87.884 0)
+			(at 134.366 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11985,7 +12230,7 @@
 			)
 		)
 		(property "Footprint" "parts:Connector_01x03_BT-003E"
-			(at 125.73 82.55 0)
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11994,7 +12239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 82.55 0)
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12003,7 +12248,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 125.73 82.55 0)
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12012,7 +12257,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 125.73 82.55 0)
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12021,7 +12266,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 125.73 82.55 0)
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
