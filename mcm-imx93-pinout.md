@@ -112,7 +112,7 @@
 | SPI6_SCK        | GPIO2_IO[3]     | Pin 108 | SPI1_SCK      | 3.3V      | MX93_PAD_GPIO_IO03__LPSPI6_SCK        |
 | GPIO3_IO[20]    | SDIO3_CLK       | Pin 109 |               | 1.8V      | MX93_PAD_SD3_CLK__GPIO3_IO20          |
 | GPIO3_IO[24]    | SDIO3_DATA2     | Pin 110 |               | 1.8V      | MX93_PAD_SD3_DATA2__GPIO3_IO24        |
-| GPIO3_IO[25]    | SDIO3_DATA3     | Pin 111 |               | 1.8V      | MX93_PAD_SD3_DATA3__GPIO3_IO25        |
+| GPIO3_IO[25]    | SDIO3_DATA3     | Pin 111 | RF_PA_ENABLE  | 1.8V      | MX93_PAD_SD3_DATA3__GPIO3_IO25        |
 | GPIO3_IO[23]    | SDIO3_DATA1     | Pin 112 | EXT_PTT       | 1.8V      | MX93_PAD_SD3_DATA1__GPIO3_IO23        |
 | GPIO3_IO[21]    | SDIO3_CMD       | Pin 113 | INT_PTT       | 1.8V      | MX93_PAD_SD3_CMD__GPIO3_IO21          |
 | GPIO3_IO[22]    | SDIO3_DATA0     | Pin 114 | SIDE_BTN      | 1.8V      | MX93_PAD_SD3_DATA0__GPIO3_IO22        |
