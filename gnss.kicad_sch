@@ -3003,6 +3003,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LG77LICMD "
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " 277-LG77LICMD"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "2fde8f43-4e1d-4ef9-9caf-0fd1a4ce0983")
 		)
