@@ -807,6 +807,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 54.61) (xy 176.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca3b76b-e32a-4a4f-91c1-d21add4fe8b9")
+	)
+	(wire
+		(pts
 			(xy 113.03 50.8) (xy 127 50.8)
 		)
 		(stroke
@@ -1937,16 +1947,6 @@
 				(justify left)
 			)
 		)
-		(pin "RF_PA_SHUTDOWN" input
-			(at 176.53 54.61 180)
-			(uuid "12415f57-17c8-44b2-b74c-e1f75d28801a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RF_ATT_CLK" input
 			(at 201.93 64.77 0)
 			(uuid "69fc6a75-4555-46d0-adb2-31e7dd894a22")
@@ -1985,6 +1985,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "RF_PA_ENABLE" input
+			(at 176.53 54.61 180)
+			(uuid "ec932343-921c-40e5-b6bc-ca62ee0bd79e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2810,6 +2820,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RF_PA_ENABLE" output
+			(at 163.83 54.61 0)
+			(uuid "64d9d0f5-e64e-4461-bdf4-5151d0f28268")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

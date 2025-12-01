@@ -4166,10 +4166,6 @@
 		(uuid "b3df3e30-b76a-4805-b822-ad6bebf8dd25")
 	)
 	(no_connect
-		(at 124.46 45.72)
-		(uuid "b550ec0c-5793-48eb-941d-45e489a90d25")
-	)
-	(no_connect
 		(at 132.08 171.45)
 		(uuid "b65f3129-3cfb-4704-bfe3-c4b84ca8bbf0")
 	)
@@ -5420,6 +5416,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 40.64) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc40023-d836-4ac8-a248-ec45bbaa148b")
+	)
+	(wire
+		(pts
 			(xy 78.74 40.64) (xy 78.74 45.72)
 		)
 		(stroke
@@ -5820,6 +5826,17 @@
 			(justify left)
 		)
 		(uuid "128ed98e-dd8f-414e-9aff-34b02a07e9f4")
+	)
+	(hierarchical_label "RF_PA_ENABLE"
+		(shape output)
+		(at 124.46 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13b9d93e-d3f2-4bf5-8155-1cfc7ebb4ba0")
 	)
 	(hierarchical_label "I2S0_DIN"
 		(shape input)
