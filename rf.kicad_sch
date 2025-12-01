@@ -17497,7 +17497,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ca1bebdb-16c9-4a2b-bec2-c48837b3892c")
 		(property "Reference" "#PWR0146"
 			(at 82.55 91.44 0)
@@ -18705,7 +18704,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "GRF5604"
+		(property "LCSC" ""
 			(at 147.32 77.47 0)
 			(effects
 				(font
