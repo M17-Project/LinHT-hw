@@ -13642,7 +13642,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a1fd2c5d-6b2e-47e0-b45e-c41d69f674e8")
 		(property "Reference" "R70"
 			(at 100.584 106.68 90)
