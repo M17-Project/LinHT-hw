@@ -4221,7 +4221,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "CL05A105KA5NQNC"
+		(property "LCSC" "C52923"
 			(at 171.45 115.57 90)
 			(effects
 				(font
@@ -5659,7 +5659,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "CL05A105KA5NQNC"
+		(property "LCSC" "C52923"
 			(at 214.63 100.33 90)
 			(effects
 				(font
@@ -6068,7 +6068,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "CL05A105KA5NQNC"
+		(property "LCSC" "C52923"
 			(at 214.63 104.14 90)
 			(effects
 				(font
@@ -7036,7 +7036,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "CL05A105KA5NQNC"
+		(property "LCSC" "C52923"
 			(at 171.45 119.38 90)
 			(effects
 				(font
