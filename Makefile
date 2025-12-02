@@ -21,6 +21,8 @@ COPIED_J2 := $(patsubst $(TEMPLATE_SRC_DIR)/%, $(TEMPLATE_BUILD_DIR)/%, $(TEMPLA
 COPIED_JSON := $(patsubst $(TEMPLATE_SRC_DIR)/%, $(TEMPLATE_BUILD_DIR)/%, $(TEMPLATE_JSON))
 RENDERED_HTML := $(patsubst build/%.html.j2, build/web/%.html, $(COPIED_J2))
 
+RENDER_ARGS := --preset follow_pcb_editor --background transparent --quality high -w 1440 -h 1080
+
 STATIC_DIRS := $(shell find present/template -mindepth 1 -maxdepth 1 -type d)
 
 GERBER_ZIPS = $(foreach fab,$(FABHOUSES),$(TEMPLATE_FAB_DIR)/gerbers_$(fab).zip)
@@ -48,9 +50,9 @@ fabrication: $(BOARD).kicad_pcb $(BOARD).kicad_sch $(GERBER_ZIPS)
 
 render: $(BOARD).kicad_pcb
 	@mkdir -p $(TEMPLATE_RENDER_DIR)
-	kicad-cli pcb render -w 1440 -h 1080 --side top -o $(TEMPLATE_RENDER_DIR)/$(BOARD)-front.png $^
-	kicad-cli pcb render -w 1440 -h 1080 --side bottom -o $(TEMPLATE_RENDER_DIR)/$(BOARD)-back.png $^
-	kicad-cli pcb render -w 1440 -h 1080 --side top --rotate "315,0,315" -o $(TEMPLATE_RENDER_DIR)/$(BOARD)-preview.png $^
+	kicad-cli pcb render $(RENDER_ARGS) --side top -o $(TEMPLATE_RENDER_DIR)/$(BOARD)-front.png $^
+	kicad-cli pcb render $(RENDER_ARGS) --side bottom -o $(TEMPLATE_RENDER_DIR)/$(BOARD)-back.png $^
+	kicad-cli pcb render $(RENDER_ARGS) --side top --rotate "315,0,315" -o $(TEMPLATE_RENDER_DIR)/$(BOARD)-preview.png $^
 
 
 $(TEMPLATE_FAB_DIR)/gerbers_%.zip: $(BOARD).kicad_pcb
