@@ -47,7 +47,7 @@
 
         <!-- main part -->
     <xsl:template match="/export">
-        <xsl:text>Comment,Designator,Footprint,PN,LCSC</xsl:text>
+        <xsl:text>Comment,Designator,Footprint,Quantity,PN,LCSC</xsl:text>
         <!-- all table entries -->
         <xsl:apply-templates select="components"/>
     </xsl:template>
@@ -68,6 +68,7 @@
         <xsl:text>","</xsl:text>
 
         <xsl:value-of select="footprint"/><xsl:text>","</xsl:text>
+        <xsl:value-of select="count(key('partTypeByValueAndFootprint', concat(footprint, '-', value)))"/><xsl:text>","</xsl:text>
         <xsl:value-of select="fields/field[@name='PN']"/><xsl:text>","</xsl:text>
         <xsl:value-of select="fields/field[@name='LCSC']"/><xsl:text>"</xsl:text>
         </xsl:for-each>
