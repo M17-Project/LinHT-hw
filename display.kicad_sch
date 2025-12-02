@@ -3093,7 +3093,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 621-BSS138-7-F "
+		(property "PN" "621-BSS138-7-F"
 			(at 109.22 128.27 0)
 			(effects
 				(font
@@ -3527,7 +3527,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -3910,7 +3910,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 621-BSS138-7-F "
+		(property "PN" "621-BSS138-7-F"
 			(at 199.39 99.06 0)
 			(effects
 				(font

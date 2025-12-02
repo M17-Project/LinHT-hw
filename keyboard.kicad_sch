@@ -3470,7 +3470,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 621-BSS138-7-F "
+		(property "PN" "621-BSS138-7-F"
 			(at 157.48 95.25 0)
 			(effects
 				(font

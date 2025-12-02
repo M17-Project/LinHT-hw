@@ -7573,7 +7573,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 27.94 26.67 0)
 			(effects
 				(font
@@ -8267,7 +8267,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "595-BQ25792RQMR "
+		(property "PN" "595-BQ25792RQMR"
 			(at 78.74 66.04 0)
 			(effects
 				(font
@@ -8973,7 +8973,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 579-MCP1703AT3302ECB "
+		(property "PN" "579-MCP1703AT3302ECB"
 			(at 200.66 143.51 0)
 			(effects
 				(font
@@ -9558,7 +9558,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 214.63 92.71 90)
 			(effects
 				(font
@@ -9738,7 +9738,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 603-CC402JRNPO9BN102 "
+		(property "PN" "603-CC402JRNPO9BN102"
 			(at 138.43 69.85 0)
 			(effects
 				(font
@@ -9835,7 +9835,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL31B226KPHNNNE "
+		(property "PN" "187-CL31B226KPHNNNE"
 			(at 252.73 54.61 0)
 			(effects
 				(font
@@ -9923,7 +9923,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05A225KO5NQNC "
+		(property "PN" "187-CL05A225KO5NQNC"
 			(at 215.9 148.59 0)
 			(effects
 				(font
@@ -10047,7 +10047,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -10475,7 +10475,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "603-CC402JRNPO9BN180 "
+		(property "PN" "603-CC402JRNPO9BN180"
 			(at 241.3 54.61 0)
 			(effects
 				(font
@@ -10580,7 +10580,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 107.95 26.67 0)
 			(effects
 				(font
@@ -10839,7 +10839,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 275.59 54.61 0)
 			(effects
 				(font
@@ -12153,7 +12153,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05A225KO5NQNC "
+		(property "PN" "187-CL05A225KO5NQNC"
 			(at 186.69 148.59 0)
 			(effects
 				(font
@@ -12365,7 +12365,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 603-CC402JRNPO9BN220 "
+		(property "PN" "603-CC402JRNPO9BN220"
 			(at 241.3 95.25 0)
 			(effects
 				(font
@@ -12782,7 +12782,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL31B226KPHNNNE "
+		(property "PN" "187-CL31B226KPHNNNE"
 			(at 264.16 54.61 0)
 			(effects
 				(font
@@ -12955,7 +12955,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -13811,7 +13811,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 274.32 148.59 0)
 			(effects
 				(font
@@ -14021,7 +14021,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 275.59 95.25 0)
 			(effects
 				(font
@@ -15182,7 +15182,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 22.86 53.34 0)
 			(effects
 				(font
@@ -15753,7 +15753,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05A225KO5NQNC "
+		(property "PN" "187-CL05A225KO5NQNC"
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -15877,7 +15877,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 170.18 95.25 0)
 			(effects
 				(font
@@ -16088,7 +16088,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL31B226KPHNNNE "
+		(property "PN" "187-CL31B226KPHNNNE"
 			(at 252.73 95.25 0)
 			(effects
 				(font
@@ -16194,7 +16194,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL31B226KPHNNNE "
+		(property "PN" "187-CL31B226KPHNNNE"
 			(at 264.16 95.25 0)
 			(effects
 				(font
@@ -16616,7 +16616,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "595-TPS562203DRLR "
+		(property "PN" "595-TPS562203DRLR"
 			(at 196.85 91.44 0)
 			(effects
 				(font
@@ -17025,7 +17025,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05A225KO5NQNC "
+		(property "PN" "187-CL05A225KO5NQNC"
 			(at 229.87 148.59 0)
 			(effects
 				(font

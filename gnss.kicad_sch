@@ -3012,7 +3012,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 277-LG77LICMD"
+		(property "PN" "277-LG77LICMD"
 			(at 140.97 115.57 0)
 			(effects
 				(font
@@ -3687,7 +3687,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 175.26 69.85 0)
 			(effects
 				(font
@@ -4065,7 +4065,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 603-ANT8010LL05R1516 "
+		(property "PN" "603-ANT8010LL05R1516"
 			(at 181.61 99.06 0)
 			(effects
 				(font
@@ -4227,7 +4227,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 140.97 69.85 0)
 			(effects
 				(font
@@ -4638,7 +4638,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 116.84 69.85 0)
 			(effects
 				(font

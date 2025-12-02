@@ -4949,7 +4949,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 863-RB751S40T1G"
+		(property "PN" "863-RB751S40T1G"
 			(at 179.07 109.22 0)
 			(effects
 				(font
@@ -6505,7 +6505,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 81-BLM21P221SG "
+		(property "PN" "81-BLM21P221SG"
 			(at 71.12 135.89 0)
 			(effects
 				(font
@@ -6617,7 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "511-USBLC6-2SC6 "
+		(property "PN" "511-USBLC6-2SC6"
 			(at 80.01 152.4 90)
 			(effects
 				(font
@@ -7142,7 +7142,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 187-CL05B104KO5NNNC "
+		(property "PN" "187-CL05B104KO5NNNC"
 			(at 88.9 111.76 0)
 			(effects
 				(font
