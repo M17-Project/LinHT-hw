@@ -6720,7 +6720,7 @@
 		(at 93.98 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3216a3c1-3801-4d78-b78d-46bfd311e540")
@@ -6768,6 +6768,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCM-iMX93-C1700D-D2-N32"
 			(at 93.98 105.41 0)
 			(effects
 				(font
