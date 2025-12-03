@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "GNSS Module")
-		(date "2025-11-25")
+		(date "2025-12-03")
 		(rev "B")
 		(company "M17 Foundation")
 		(comment 1 "Author: Wojciech SP5WWP, Andy OE3ANC, Vlastimil OK5VAS")
