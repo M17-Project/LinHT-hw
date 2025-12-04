@@ -6785,6 +6785,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "MCM-iMX93-C1700D-D2-N32"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "891600ee-ceca-4d61-aa2f-5e0b394d4dc6")
 		)
