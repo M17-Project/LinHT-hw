@@ -2731,46 +2731,6 @@
 				(justify right)
 			)
 		)
-		(pin "RF_ATT_DATA" input
-			(at 163.83 77.47 0)
-			(uuid "5fd8651d-bf49-4509-b999-2843c0abce02")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RF_ATT_CLK" input
-			(at 163.83 80.01 0)
-			(uuid "487d8eb5-77e1-42d7-af4b-e7666c59c6e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RF_ATT_LE2" input
-			(at 163.83 82.55 0)
-			(uuid "1fc60154-d051-49f2-80ec-529fc886a70a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RF_ATT_LE1" input
-			(at 163.83 85.09 0)
-			(uuid "0f601a4d-3670-4920-869b-921dee75c250")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GNSS_RX" input
 			(at 127 67.31 180)
 			(uuid "b7ef4c7b-a6a6-45a9-a951-fcd7f5491830")
@@ -2824,6 +2784,46 @@
 		(pin "RF_PA_ENABLE" output
 			(at 163.83 54.61 0)
 			(uuid "64d9d0f5-e64e-4461-bdf4-5151d0f28268")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_ATT_CLK" output
+			(at 163.83 80.01 0)
+			(uuid "c05a22f2-f3ce-428f-ae5e-c797a66261b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_ATT_DATA" output
+			(at 163.83 77.47 0)
+			(uuid "2e254a98-20df-43a8-b0c2-ef6c1b318834")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_ATT_LE1" output
+			(at 163.83 85.09 0)
+			(uuid "25fc4599-61f6-4f82-a8da-9f2f6cd064aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_ATT_LE2" output
+			(at 163.83 82.55 0)
+			(uuid "24625d92-7c3b-4551-b0c8-b51160daf148")
 			(effects
 				(font
 					(size 1.27 1.27)

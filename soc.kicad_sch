@@ -5960,7 +5960,7 @@
 		(uuid "3344855d-930a-4192-9d04-c5d20884cab5")
 	)
 	(hierarchical_label "RF_ATT_LE2"
-		(shape input)
+		(shape output)
 		(at 148.59 64.77 0)
 		(effects
 			(font
@@ -5982,7 +5982,7 @@
 		(uuid "38cacf7b-a327-40fd-8075-f2f306acb826")
 	)
 	(hierarchical_label "RF_ATT_CLK"
-		(shape input)
+		(shape output)
 		(at 137.16 40.64 90)
 		(effects
 			(font
@@ -6136,7 +6136,7 @@
 		(uuid "87001f43-ca87-4599-a541-3bf0301a400b")
 	)
 	(hierarchical_label "RF_ATT_DATA"
-		(shape input)
+		(shape output)
 		(at 134.62 40.64 90)
 		(effects
 			(font
@@ -6356,7 +6356,7 @@
 		(uuid "e91aa458-3494-4327-a920-11d7631fb165")
 	)
 	(hierarchical_label "RF_ATT_LE1"
-		(shape input)
+		(shape output)
 		(at 148.59 62.23 0)
 		(effects
 			(font
