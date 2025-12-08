@@ -1653,156 +1653,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT60A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT60A"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT60A_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT60A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -3268,7 +3118,7 @@
 		(uuid "040da9d5-3847-4ff8-a0e2-9fc60cf62cc4")
 	)
 	(junction
-		(at 77.47 135.89)
+		(at 71.12 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18d0477f-0e9f-4da4-af6d-89495bcb2aea")
@@ -3431,7 +3281,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 135.89) (xy 86.36 133.35)
+			(xy 80.01 135.89) (xy 80.01 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3461,7 +3311,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 133.35) (xy 77.47 135.89)
+			(xy 71.12 133.35) (xy 71.12 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 135.89) (xy 77.47 135.89)
+			(xy 68.58 135.89) (xy 71.12 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +3721,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 135.89) (xy 86.36 135.89)
+			(xy 71.12 135.89) (xy 80.01 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4051,7 +3901,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 135.89) (xy 57.15 135.89)
+			(xy 55.88 135.89) (xy 60.96 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5527,110 +5377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT60A")
-		(at 60.96 135.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "622ad8d4-5255-47eb-9abc-47a2523394da")
-		(property "Reference" "D7"
-			(at 61.2775 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT60A"
-			(at 61.2775 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 60.96 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
-			(at 60.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
-			(at 60.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 60.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BAT60A"
-			(at 60.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5355496"
-			(at 60.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 60.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7d3fb4b-e9f0-4fe2-9333-fbae0af32bdf")
-		)
-		(pin "2"
-			(uuid "3ebb499b-337d-4339-b736-2e13659672dc")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/5f168690-b6ac-4b3d-aad0-4e97277dc85d"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 142.24 90)
 		(unit 1)
@@ -5955,7 +5701,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 77.47 133.35 0)
+		(at 71.12 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5964,7 +5710,7 @@
 		(fields_autoplaced yes)
 		(uuid "941ee8ef-ad73-4ddf-9f36-f7a3500fb369")
 		(property "Reference" "#PWR0127"
-			(at 77.47 137.16 0)
+			(at 71.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +5719,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 77.47 128.27 0)
+			(at 71.12 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +5727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 133.35 0)
+			(at 71.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +5736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 133.35 0)
+			(at 71.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +5745,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 77.47 133.35 0)
+			(at 71.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6327,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 71.12 135.89 90)
+		(at 64.77 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6590,7 +6336,7 @@
 		(fields_autoplaced yes)
 		(uuid "b82838b5-d5d9-4cfd-b177-1adceb671558")
 		(property "Reference" "FB3"
-			(at 71.0692 129.1039 90)
+			(at 64.7192 129.1039 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +6344,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 71.0692 131.5282 90)
+			(at 64.7192 131.5282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,7 +6352,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 71.12 137.668 90)
+			(at 64.77 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 135.89 0)
+			(at 64.77 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +6370,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 71.12 135.89 0)
+			(at 64.77 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +6379,7 @@
 			)
 		)
 		(property "PN" "81-BLM21P221SG"
-			(at 71.12 135.89 0)
+			(at 64.77 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6388,7 @@
 			)
 		)
 		(property "MPN" "BLM21PG221SN1D"
-			(at 71.12 135.89 0)
+			(at 64.77 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6397,7 @@
 			)
 		)
 		(property "LCSC" "C85840"
-			(at 71.12 135.89 90)
+			(at 64.77 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6406,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 71.12 135.89 90)
+			(at 64.77 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7068,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 86.36 133.35 0)
+		(at 80.01 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7331,7 +7077,7 @@
 		(fields_autoplaced yes)
 		(uuid "d16c66cf-e631-4d45-9821-eac2533ccb43")
 		(property "Reference" "#FLG09"
-			(at 86.36 131.445 0)
+			(at 80.01 131.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +7086,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 86.36 128.27 0)
+			(at 80.01 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +7094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 133.35 0)
+			(at 80.01 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +7103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 133.35 0)
+			(at 80.01 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7112,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 86.36 133.35 0)
+			(at 80.01 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
