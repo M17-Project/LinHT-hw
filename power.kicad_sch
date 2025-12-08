@@ -2142,24 +2142,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -16.51 2.54 0)
-					(length 2.54)
-					(name "BTST1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -16.51 -1.27 0)
 					(length 2.54)
@@ -2189,24 +2171,6 @@
 						)
 					)
 					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -16.51 -15.24 0)
-					(length 2.54)
-					(name "BTST2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2431,24 +2395,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 16.51 -13.97 180)
-					(length 2.54)
-					(name "BATP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 16.51 -21.59 180)
 					(length 2.54)
@@ -2550,6 +2496,62 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BQ25792RQMR_1_1"
+				(pin input line
+					(at -16.51 2.54 0)
+					(length 2.54)
+					(name "BTST1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -15.24 0)
+					(length 2.54)
+					(name "BTST2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -13.97 180)
+					(length 2.54)
+					(name "BATP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3938,12 +3940,6 @@
 		(uuid "0f26a3e6-f2be-4c02-963a-5f12f1a8b46c")
 	)
 	(junction
-		(at 274.32 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f59ce29-c293-4c67-851c-0b5cc38b93c8")
-	)
-	(junction
 		(at 275.59 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4316,12 +4312,6 @@
 		(uuid "d81cf5ee-7e2a-4ba1-abd8-1e877ac5fdc6")
 	)
 	(junction
-		(at 172.72 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daf6f4e8-67b1-4c25-afaa-2eacadafcce1")
-	)
-	(junction
 		(at 275.59 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4631,7 +4621,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 48.26) (xy 172.72 48.26)
+			(xy 147.32 48.26) (xy 186.69 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4878,16 +4868,6 @@
 			(type default)
 		)
 		(uuid "2b9632f9-dbbe-4563-b37e-5d8b490a70ed")
-	)
-	(wire
-		(pts
-			(xy 172.72 46.99) (xy 172.72 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f598893-516c-4ccd-b833-c1f9f0de8224")
 	)
 	(wire
 		(pts
@@ -5871,16 +5851,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 140.97) (xy 220.98 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84fa5c64-fc1d-4573-a4ad-70335bdd254a")
-	)
-	(wire
-		(pts
 			(xy 170.18 100.33) (xy 170.18 102.87)
 		)
 		(stroke
@@ -6201,16 +6171,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 140.97) (xy 274.32 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0b3cc22-7e10-4a73-9fff-6b892a046b20")
-	)
-	(wire
-		(pts
 			(xy 111.76 80.01) (xy 116.84 80.01)
 		)
 		(stroke
@@ -6378,16 +6338,6 @@
 			(type default)
 		)
 		(uuid "b265907b-db27-4230-aee3-68ffdd1193a8")
-	)
-	(wire
-		(pts
-			(xy 172.72 48.26) (xy 186.69 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b28b5a92-d603-488b-bf15-6aed98e49b64")
 	)
 	(wire
 		(pts
@@ -7058,16 +7008,6 @@
 			(type default)
 		)
 		(uuid "eff9bf5a-68f3-4159-8de8-3eb951dd8761")
-	)
-	(wire
-		(pts
-			(xy 220.98 143.51) (xy 215.9 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1ee802f-59c8-4f62-b88a-5b859affa23b")
 	)
 	(wire
 		(pts
@@ -7879,71 +7819,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 172.72 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09b1144e-cd37-4707-ad3b-7fdc60f54628")
-		(property "Reference" "#FLG01"
-			(at 172.72 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 172.72 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 172.72 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2314a178-f418-403a-9696-65df918f23db")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -13227,71 +13102,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 274.32 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "978bca7d-6719-42fa-94d6-6c18ef3310ab")
-		(property "Reference" "#FLG08"
-			(at 274.32 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 274.32 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 274.32 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14d74a42-65c0-4004-8ee5-6b7d860b178a")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 177.8 99.06 0)
 		(unit 1)
@@ -16900,71 +16710,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 220.98 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f61353fb-a7f2-44a6-9f5b-36f4f9429bbe")
-		(property "Reference" "#FLG04"
-			(at 220.98 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 220.98 132.842 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 220.98 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12635df8-fc95-42e1-9337-1ba4fb89614a")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)

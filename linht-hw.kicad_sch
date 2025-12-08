@@ -418,12 +418,20 @@
 		(uuid "8f45c9e2-039f-4ed0-a3d1-18f64fad463e")
 	)
 	(no_connect
+		(at 248.92 96.52)
+		(uuid "ace1101a-aadc-46e1-878b-bbf6a611e1e2")
+	)
+	(no_connect
 		(at 87.63 69.85)
 		(uuid "bb8ac45e-0c64-402e-90ff-c5a7d65e61bf")
 	)
 	(no_connect
 		(at 87.63 72.39)
 		(uuid "bd116605-ae41-49a5-afc8-6b3bcdb1652b")
+	)
+	(no_connect
+		(at 248.92 99.06)
+		(uuid "cf9a0cc8-0f45-4efb-a848-8df38fce4fcf")
 	)
 	(wire
 		(pts
@@ -2764,7 +2772,7 @@
 			)
 		)
 		(pin "GNSS_RX" input
-			(at 127 64.77 180)
+			(at 127 67.31 180)
 			(uuid "b7ef4c7b-a6a6-45a9-a951-fcd7f5491830")
 			(effects
 				(font
@@ -2774,7 +2782,7 @@
 			)
 		)
 		(pin "GNSS_TX" output
-			(at 127 67.31 180)
+			(at 127 64.77 180)
 			(uuid "93d56880-b656-469f-b692-8dd246376451")
 			(effects
 				(font

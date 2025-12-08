@@ -5873,7 +5873,7 @@
 	)
 	(hierarchical_label "GNSS_TX"
 		(shape output)
-		(at 148.59 105.41 0)
+		(at 148.59 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6038,7 +6038,7 @@
 	)
 	(hierarchical_label "GNSS_RX"
 		(shape input)
-		(at 148.59 115.57 0)
+		(at 148.59 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
