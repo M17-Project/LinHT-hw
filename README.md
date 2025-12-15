@@ -19,21 +19,21 @@ It is the **successor of the OpenHT project**, with focus on:
 * tight integration with Linux, GNU Radio, and modern SDR tooling,
 * long-term openness and hackability.
 
-LinHT is developed by members of the **M17 community** and is intended primarily
+LinHT is developed by members of the [**M17 community**](https://m17project.org) and is intended primarily
 for **radio amateurs, SDR experimenters, and developers**.
 
 This repository contains the **hardware design files** for LinHT.
 
-> ⚠️ **Important:** LinHT is **not a consumer product**.
+> ⚠️ **Important:** LinHT is **not a consumer product** yet.
 > It is an experimental, community-driven open hardware project.
 
 ## Key ideas behind LinHT
 
-* **True SDR**: IQ baseband access, not audio-only hacks
+* **True SDR**: IQ baseband access, not FM-only
 * **Linux-first**: no microcontroller firmware lock-in
-* **No FPGA**: easier development, lower barrier to entry
+* **No FPGA**: easier development, lower entry barrier
 * **Open everything**: hardware, software, toolchains
-* **Hackable handheld**: not just another black box HT
+* **Hackable handheld**: not just another black box walkie-talkie
 
 ## Hardware overview
 
@@ -65,7 +65,7 @@ LinHT is built around a Linux SoM and a wideband IQ transceiver.
 | RX features     | Programmable attenuation, gain control                        |
 | Modes           | FM, SSB, M17, experimental digital modes                      |
 
-> 📌 **UHF only**
+> 📌 **UHF only!**<br>
 > VHF support is frequently requested, but **is not planned for revision B**.
 > The current priority is **stability, manufacturability, and software maturity**.
 
@@ -97,10 +97,10 @@ Standard Linux tools (gcc, gdb, strace, etc.) are available directly on the devi
 
 LinHT is developed iteratively. Each revision serves a specific purpose.
 
-| Revision   | Status      | Purpose                                      |
-| ---------- | ----------- | -------------------------------------------- |
-| **Rev. A** | Completed   | Early prototype, architecture validation     |
-| **Rev. B** | In progress | Feature-complete, manufacturing-ready design |
+| Revision   | Status                                        | Purpose                                      |
+| ---------- | --------------------------------------------- | -------------------------------------------- |
+| **Rev. A** | <span style="color:green">Completed</span>    | Early prototype, architecture validation     |
+| **Rev. B** | <span style="color:orange">In progress</span> | Feature-complete, manufacturing-ready design |
 
 ### Revision A
 
@@ -198,7 +198,7 @@ Primary documentation lives on the **M17 Wiki**:
 ## Contributing
 
 LinHT is a **community project** and contributions are welcome. The best way to
-get involved is **joining the M17 Discord**, look for channel: **#linht**.
+get involved is [**joining the M17 Discord**](https://discord.gg/4brEP8wwVp), look for channel: **#linht**.
 
 This is the preferred place to:
 
@@ -301,7 +301,7 @@ Good ways to contribute:
 * RF/DSP experiments,
 * CI and automation improvements.
 
-If you’re unsure where to help -- just ask.
+If you’re unsure where to help - just ask.
 
 ## License
 
