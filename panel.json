@@ -1,0 +1,31 @@
+{
+    "tabs": {
+        "type": "full",
+        "patchcorners": "False"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "frame"
+    },
+    "tooling": {
+        "type": "3hole",
+        "hoffset": "3mm",
+        "voffset": "15mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "3mm",
+        "voffset": "10mm"
+    },
+    "text": {
+        "type": "simple",
+        "hoffset": "0mm",
+        "voffset": "3mm",
+        "width": "2.0mm",
+        "height": "2.0mm",
+        "hjustify": "center",
+        "text": "LinHT PCB"
+    }
+}
