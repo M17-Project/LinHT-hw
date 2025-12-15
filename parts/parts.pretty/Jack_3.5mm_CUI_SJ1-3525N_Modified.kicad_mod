@@ -216,7 +216,7 @@
 	)
 	(fp_line
 		(start -3.15 5.35)
-		(end -6.5 5.35)
+		(end -6 5.35)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -246,7 +246,7 @@
 	)
 	(fp_line
 		(start 3.15 5.35)
-		(end 6.5 5.35)
+		(end 6 5.35)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -513,35 +513,35 @@
 		(at -5 0)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "2a6783be-49b7-4a5e-8837-fde4f5b6b326")
 	)
 	(pad "" np_thru_hole circle
 		(at -5 2.5)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "43e28b64-3f22-4d06-a9d9-1a6cbaeb55e4")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 -5)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "c28e13f1-55b0-4023-8004-5c43f3cb0c59")
 	)
 	(pad "" np_thru_hole circle
 		(at 5 0)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "a43ddcff-5f56-4ac9-9af6-caeb3e1e6b3b")
 	)
 	(pad "" np_thru_hole circle
 		(at 5 2.5)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "0dcf70ee-cde7-482b-a3e5-44427c25dbc7")
 	)
 	(pad "R" thru_hole oval
