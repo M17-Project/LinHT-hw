@@ -5,10 +5,11 @@
   "files": [
     {"file": "gerbers_jlcpcb.zip", "description": "Gerber Files for JLCPCB (ZIP)"},
     {"file": "gerbers_pcbway.zip", "description": "Gerber Files for PCBWay (ZIP)"},
-    {"file": "linht-hw_top_pos.csv", "description": "Position File (CSV)"},
+    {"file": "linht-hw_pos.csv", "description": "Position File (CSV)"},
+    {"file": "linht-hw_pos.txt", "description": "Position File (ASCII)"},
     {"file": "linht-hw_pos_jlcpcb.csv", "description": "Position File for JLCPCB (CSV)"},
+    {"file": "linht-hw_bom.txt", "description": "Bill of Materials (ASCII)"},
     {"file": "linht-hw_bom.csv", "description": "Bill of Materials for JLCPCB (CSV)"},
-    {"file": "linht-hw_bom.xml", "description": "Bill of Materials (XML)"},
     {"file": "linht-hw_schematic.pdf", "description": "Schematic (PDF)"},
     {"file": "linht-hw_schematic_bw.pdf", "description": "Schematic without Colors (PDF)"},
     {"file": "linht-hw_model.step.xz", "description": "3D Model (STEP.XZ)"},

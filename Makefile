@@ -38,8 +38,9 @@ fabrication: $(BOARD).kicad_pcb $(BOARD).kicad_sch $(GERBER_ZIPS)
 	kicad-cli sch export python-bom $(word 2,$^) -o $(TEMPLATE_FAB_DIR)/$(BOARD)_bom.xml
 	xsltproc -o $(TEMPLATE_FAB_DIR)/$(BOARD)_bom.csv present/bom2grouped_csv_jlcpcb.xsl $(TEMPLATE_FAB_DIR)/$(BOARD)_bom.xml
 	#
-	kicad-cli pcb export pos $< --side front --format csv --units mm -o $(TEMPLATE_FAB_DIR)/$(BOARD)_top_pos.csv
-	sed -e '1 s/Ref/Designator/' -e '1 s/PosX/Mid X/' -e '1 s/PosY/Mid Y/' -e '1 s/Rot/Rotation/' -e '1 s/Side/Layer/' $(TEMPLATE_FAB_DIR)/$(BOARD)_top_pos.csv > $(TEMPLATE_FAB_DIR)/$(BOARD)_pos_jlcpcb.csv
+	kicad-cli pcb export pos $< --side both --format csv --units mm -o $(TEMPLATE_FAB_DIR)/$(BOARD)_pos.csv
+	kicad-cli pcb export pos $< --side both --format ascii --units mm -o $(TEMPLATE_FAB_DIR)/$(BOARD)_pos.txt
+	sed -e '1 s/Ref/Designator/' -e '1 s/PosX/Mid X/' -e '1 s/PosY/Mid Y/' -e '1 s/Rot/Rotation/' -e '1 s/Side/Layer/' $(TEMPLATE_FAB_DIR)/$(BOARD)_pos.csv > $(TEMPLATE_FAB_DIR)/$(BOARD)_pos_jlcpcb.csv
 	kicad-cli pcb export step --subst-models $< -o $(TEMPLATE_FAB_DIR)/$(BOARD)_model.step ; \
 		rc=$$?; if [ $$rc -ne 0 ] && [ $$rc -ne 2 ]; then exit $$rc; fi
 	kicad-cli pcb export vrml $< -o $(TEMPLATE_FAB_DIR)/$(BOARD)_model.vrml
