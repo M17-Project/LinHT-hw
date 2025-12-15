@@ -1,0 +1,217 @@
+.render-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.render-col {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.render-col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .render-col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.img-rounded {
+  border-radius:10% !important;
+}
+
+.card-body {
+  /* Better reading width & spacing */
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+/* Reading width only for text content */
+.card-body > p,
+.card-body > ul,
+.card-body > ol,
+.card-body > blockquote,
+.card-body > pre,
+.card-body > h1,
+.card-body > h2,
+.card-body > h3,
+.card-body > h4,
+.card-body > h5,
+.card-body > h6 {
+  max-width: 80ch;
+}
+
+/* Headings: better rhythm, slightly heavier, nicer spacing */
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body h4,
+.card-body h5,
+.card-body h6 {
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.25;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+}
+
+.card-body h1 { font-size: 2.0rem; margin-top: 0.4em; }
+.card-body h2 { font-size: 1.5rem; border-bottom: 1px solid var(--bs-border-color); padding-bottom: .35rem; }
+.card-body h3 { font-size: 1.25rem; }
+.card-body h4 { font-size: 1.1rem; }
+
+/* Paragraphs + lists: consistent spacing */
+.card-body p {
+  margin: 0 0 0.9rem 0;
+}
+
+.card-body ul,
+.card-body ol {
+  margin: 0 0 1rem 1.1rem;
+  padding: 0;
+}
+
+.card-body li {
+  margin-bottom: 0.25rem;
+}
+
+/* Make nested list indentation feel nicer */
+.card-body ul ul,
+.card-body ol ol,
+.card-body ul ol,
+.card-body ol ul {
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+/* Links: subtle, readable */
+.card-body a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(13,110,253,.35); /* bootstrap primary-ish */
+}
+.card-body a:hover {
+  border-bottom-color: rgba(13,110,253,.8);
+}
+
+/* Blockquotes: turn into a clean “note” box */
+.card-body blockquote {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--bs-border-color);
+  background: var(--bs-tertiary-bg);
+  border-radius: 0.5rem;
+}
+.card-body blockquote p:last-child { margin-bottom: 0; }
+
+/* Inline code: subtle pill */
+.card-body code {
+  padding: 0.15em 0.35em;
+  border-radius: 0.35rem;
+  background: rgba(0,0,0,.05);
+  font-size: 0.95em;
+}
+
+/* Code blocks (```): good spacing, background, scroll if needed */
+.card-body pre {
+  margin: 1rem 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.75rem;
+  background: var(--bs-tertiary-bg);
+  overflow: auto;
+}
+.card-body pre code {
+  padding: 0;
+  background: transparent;
+  font-size: 0.95em;
+  line-height: 1.5;
+  display: block;
+}
+
+/* Tables: readable borders + zebra stripes + padding */
+.card-body table {
+  width: 100%;
+  margin: 1rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.75rem;
+  overflow: hidden; /* makes rounded corners work */
+}
+
+.card-body thead th {
+  background: var(--bs-tertiary-bg);
+  font-weight: 650;
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+.card-body th,
+.card-body td {
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+  border-right: 1px solid var(--bs-border-color);
+}
+
+.card-body th:last-child,
+.card-body td:last-child {
+  border-right: none;
+}
+
+.card-body tbody tr:not(:last-child) td {
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+/* Zebra stripes */
+.card-body tbody tr:nth-child(2n) td {
+  background: rgba(0,0,0,.02);
+}
+
+/* If tables are wide, allow horizontal scrolling on small screens */
+.card-body table {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .card-body table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+/* Images inside markdown: look consistent */
+.card-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+/* Horizontal rule: subtle */
+.card-body hr {
+  margin: 2rem 0;
+  border-top: 1px solid var(--bs-border-color);
+  opacity: 1;
+}
+
+/* Optional: badge images should align nicely and not be huge */
+.card-body p img {
+  vertical-align: middle;
+}
+
+/* Fix your flashing code block: currently it's inside <p><code>... */
+.card-body p > code {
+  white-space: pre-wrap;
+}
+
+/* Improve the "card" reading feel a bit (optional) */
+.card .card-body {
+  padding: 1.75rem;
+}

@@ -179,9 +179,9 @@ Flashing is done using **NXP Universal Update Utility (uuu)**.
    (hold the secondary side button while powering on)
 2. Flash using:
 
-   ```bash
-   uuu -v -b emmc_all imx-boot-mcm-imx93-sd.bin-flash_singleboot linht-image-mcm-imx93.rootfs.wic.zst
-   ```
+```bash
+uuu -v -b emmc_all imx-boot-mcm-imx93-sd.bin-flash_singleboot linht-image-mcm-imx93.rootfs.wic.zst
+```
 
 Tool download: [mfgtools](https://github.com/nxp-imx/mfgtools/releases)
 

@@ -1,4 +1,4 @@
-.PHONY: all render models fabrication web clean
+.PHONY: all clean
 
 BOARD = linht-hw
 
@@ -7,6 +7,8 @@ FABHOUSES = jlcpcb pcbway
 # Markdown processing
 MARKDOWN_SRC := $(wildcard *.md)
 MARKDOWN_HTML := $(patsubst %.md, build/%.html, $(MARKDOWN_SRC))
+MARKDOWN_EXT  := tables fenced_code codehilite attr_list def_list admonition toc
+MARKDOWN_ARGS := $(foreach e,$(MARKDOWN_EXT),-x $(e))
 
 # Copy templates
 TEMPLATE_SRC_DIR := present/template
@@ -69,7 +71,7 @@ $(TEMPLATE_BUILD_DIR)/panel/$(BOARD)_panel.kicad_pcb: $(BOARD).kicad_pcb
 # Convert .md → build/.html using python-markdown
 build/%.html: %.md
 	@mkdir -p build
-	python3 -m markdown $< > $@
+	python3 -m markdown $(MARKDOWN_ARGS) $< > $@
 
 build/%.html.j2: present/template/%.html.j2
 	@mkdir -p build
