@@ -24,7 +24,8 @@ for **radio amateurs, SDR experimenters, and developers**.
 
 This repository contains the **hardware design files** for LinHT.
 
-> ⚠️ **Important:** LinHT is **not a consumer product** yet.
+> ⚠️ **Important**<br>
+> LinHT is **not a consumer product** yet.
 > It is an experimental, community-driven open hardware project.
 
 ## Key ideas behind LinHT
@@ -123,7 +124,7 @@ LinHT is developed iteratively. Each revision serves a specific purpose.
   * cleaner layout and grounding
 * **Not yet released for manufacturing**
 
-> 📅 **December 2025 status**
+> 📅 **December 2025 status**<br>
 > Revision B is currently being finalized, manufactured, and tested.
 > Please check this page later for updates.
 
