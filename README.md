@@ -124,8 +124,8 @@ LinHT is developed iteratively. Each revision serves a specific purpose.
   * cleaner layout and grounding
 * **Not yet released for manufacturing**
 
-> 📅 **December 2025 status**<br>
-> Revision B is currently being finalized, manufactured, and tested.
+> 📅 **February 2026 status**<br>
+> A test batch of Revision B PCBs is currently being assemblied.
 > Please check this page later for updates.
 
 ## Repository contents
