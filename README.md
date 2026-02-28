@@ -24,6 +24,10 @@ for **radio amateurs, SDR experimenters, and developers**.
 
 This repository contains the **hardware design files** for LinHT.
 
+> 📅 **February 2026 status**<br>
+> A test batch of Revision B PCBs is currently being assembled.<br>
+> Please check this page later for updates.
+
 > ⚠️ **Important**<br>
 > LinHT is **not a consumer product** yet.<br>
 > It is an experimental, community-driven open hardware project.
@@ -119,14 +123,13 @@ LinHT is developed iteratively. Each revision serves a specific purpose.
 * Incorporates lessons learned from Rev. A
 * Major improvements:
   * redesigned power supply
-  * internal PA (~5 W)
-  * improved RF path and attenuation for RX
+  * internal RF power amplifier (~5W at 435MHz, CW)
+  * improved RF receiver path (added variable attenuation)
+  * GNSS receiver
+  * battery charging through USB-C
   * cleaner layout and grounding
-* **Not yet released for manufacturing**
 
-> 📅 **February 2026 status**<br>
-> A test batch of Revision B PCBs is currently being assembled.<br>
-> Please check this page later for updates.
+* **Not yet released for manufacturing**
 
 ## Repository contents
 
