@@ -1,7 +1,7 @@
 {
-  "title": "LinHT Hardware",
+  "title": "LinHT Hardware Documentation",
   "name": "linht-hw",
-  "description": "This is the hardware project page for LINHT-HW board.",
+  "description": "Hardware documentation and design files for the LinHT main board.",
   "files": [
     {"file": "gerbers_jlcpcb.zip", "description": "Gerber Files for JLCPCB (ZIP)"},
     {"file": "gerbers_pcbway.zip", "description": "Gerber Files for PCBWay (ZIP)"},
