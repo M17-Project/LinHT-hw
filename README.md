@@ -24,8 +24,8 @@ for **radio amateurs, SDR experimenters, and developers**.
 
 This repository contains the **hardware design files** for LinHT.
 
-> 📅 **February 2026 status**<br>
-> A test batch of Revision B PCBs is currently being assembled.<br>
+> 📅 **March 2026 status**<br>
+> A test batch of Revision B PCBs is currently being tested.<br>
 > Please check this page later for updates.
 
 > ⚠️ **Important**<br>
