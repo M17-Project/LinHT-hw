@@ -24,8 +24,8 @@ for **radio amateurs, SDR experimenters, and developers**.
 
 This repository contains the **hardware design files** for LinHT.
 
-> 📅 **June 2026 status**<br>
-> Test results for Rev B will be published soon. Rev C is being prepared.<br>
+> 📅 **July 2026 status**<br>
+> Rev B test results are [here](https://m17project.org/2026/06/16/linht-rev-b-status-what-works-what-broke-and-why-rev-c-is-next/). Rev C is being prepared.<br>
 > Please check this page later for updates.
 
 > ⚠️ **Important**<br>
