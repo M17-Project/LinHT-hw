@@ -3796,6 +3796,17 @@
 		)
 		(uuid "dca3ea7b-dc19-440c-ba6a-89fe8e7ebd28")
 	)
+	(text "SIDE_BTN:\n  PB5 reads button.\n  PC0 to SoM 1.8 V GPIO.\n  PC0 open-drain only.\n  Hi-Z = released, LOW = pressed.\n  SoM enables pull-up.\n"
+		(exclude_from_sim no)
+		(at 22.86 179.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec8dd8ed-00ab-4e4b-b2d6-d5de655bf164")
+	)
 	(text "PMIC_STBY_REQ"
 		(exclude_from_sim no)
 		(at 119.634 151.384 0)
@@ -4380,10 +4391,6 @@
 	(no_connect
 		(at 127 82.55)
 		(uuid "a8f22f2f-cf92-4405-abcc-35bc66baa7f1")
-	)
-	(no_connect
-		(at 63.5 171.45)
-		(uuid "ad886e3d-992f-423f-8563-7dd203b6c7c3")
 	)
 	(no_connect
 		(at 63.5 173.99)
@@ -6441,6 +6448,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 171.45) (xy 63.5 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd94047c-f48e-4774-8e25-79a785420361")
+	)
+	(wire
+		(pts
 			(xy 132.08 100.33) (xy 132.08 102.87)
 		)
 		(stroke
@@ -7364,7 +7381,7 @@
 		)
 		(uuid "79e3e7e8-b1e5-4394-9511-54c608401185")
 	)
-	(hierarchical_label "SIDE_BTN"
+	(hierarchical_label "SIDE_BTN_{IN}"
 		(shape input)
 		(at 105.41 184.15 0)
 		(effects
@@ -7374,6 +7391,17 @@
 			(justify left)
 		)
 		(uuid "8946e0d2-46b6-4f4e-aed0-246ab3b9119d")
+	)
+	(hierarchical_label "SIDE_BTN_{OUT}"
+		(shape output)
+		(at 58.42 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c58365c0-df98-4466-90a2-73408611ca8d")
 	)
 	(hierarchical_label "~{QON}"
 		(shape input)
@@ -8239,7 +8267,7 @@
 			(uuid "cf1548e2-ab5c-46d0-819e-1f84d176c632")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "U12")
 					(unit 1)
@@ -8485,7 +8513,7 @@
 			(uuid "bc9379c3-82d6-444f-b9ff-3324f5a8ebfa")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "F1")
 					(unit 1)
@@ -8617,7 +8645,7 @@
 			(uuid "cf1b5224-db4d-471c-ac84-a6d35e43a3b9")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "#PWR031")
 					(unit 1)
@@ -8867,7 +8895,7 @@
 			(uuid "9b5b934e-fc78-45e7-b9f1-622297d06781")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "U5")
 					(unit 1)
@@ -9735,7 +9763,7 @@
 			(uuid "e7ea2d31-a020-4112-8cae-0c02e84b79b9")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "C28")
 					(unit 1)
@@ -10098,7 +10126,7 @@
 			(uuid "99518f13-43b9-4d74-8221-65f65a166d93")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "C68")
 					(unit 1)
@@ -10633,7 +10661,7 @@
 			(uuid "eae9c77a-7d8b-4249-9f81-741251a6c7a9")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "L9")
 					(unit 1)
@@ -11318,7 +11346,7 @@
 			(uuid "d30ead41-2bbf-4458-830f-8787ba8d71f9")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "U6")
 					(unit 1)
@@ -11762,7 +11790,7 @@
 			(uuid "87931e5b-ed9b-427d-8c73-f6209f2d9538")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "#FLG02")
 					(unit 1)
@@ -11848,7 +11876,7 @@
 			(uuid "987e0291-53b9-4eca-ac39-a92fa74fd1bf")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "R68")
 					(unit 1)
@@ -11965,7 +11993,7 @@
 			(uuid "f7b48b40-e010-4fa5-b50b-136246007f36")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "U3")
 					(unit 1)
@@ -12159,7 +12187,7 @@
 			(uuid "1b076fdd-bf81-43fd-891f-ca80beacc7e0")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "J2")
 					(unit 1)
@@ -12749,7 +12777,7 @@
 			(uuid "045c7216-96d1-4da7-a633-cbad18933ff9")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "#PWR032")
 					(unit 1)
@@ -13750,7 +13778,7 @@
 			(uuid "5a340d1d-4d39-4adc-a521-cf2b29cb2c8c")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "L3")
 					(unit 1)
@@ -14636,7 +14664,7 @@
 			(uuid "de46fc9b-95e7-43b3-bea3-a260b84b66f6")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "R64")
 					(unit 1)
@@ -15228,7 +15256,7 @@
 			(uuid "af98cb2f-a303-4768-beb7-f5282481465b")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "R21")
 					(unit 1)
@@ -16346,7 +16374,7 @@
 			(uuid "58ada01f-44a0-4acb-b40e-c9c712b2ba39")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "U14")
 					(unit 1)
@@ -16954,7 +16982,7 @@
 			(uuid "676887e4-6895-44b7-ae0b-7049d9e8fa74")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
 					(reference "#PWR058")
 					(unit 1)
