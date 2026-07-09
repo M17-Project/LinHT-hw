@@ -3151,7 +3151,7 @@
 			(uuid "5725ae54-3f5f-4579-8e0d-6960e9c237ec")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/0b7c638a-0bf4-4df2-9e8c-e9dd4f727b29"
 					(reference "U13")
 					(unit 1)
@@ -3221,7 +3221,7 @@
 			(uuid "682a8d42-f2ce-4c57-918d-3374ba0dc46e")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/0b7c638a-0bf4-4df2-9e8c-e9dd4f727b29"
 					(reference "C17")
 					(unit 1)
@@ -3542,7 +3542,7 @@
 			(uuid "1e221d6d-b415-400c-9514-479729feacfa")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/0b7c638a-0bf4-4df2-9e8c-e9dd4f727b29"
 					(reference "R17")
 					(unit 1)
@@ -3778,7 +3778,7 @@
 			(uuid "e06d9e79-e62a-4c0d-b1b3-a1da05889d25")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/0b7c638a-0bf4-4df2-9e8c-e9dd4f727b29"
 					(reference "#PWR037")
 					(unit 1)
@@ -4081,7 +4081,7 @@
 			(uuid "7da8f131-4c9c-4e80-aab2-b2844a8be1f8")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/0b7c638a-0bf4-4df2-9e8c-e9dd4f727b29"
 					(reference "AE1")
 					(unit 1)

@@ -4246,7 +4246,7 @@
 			(uuid "53bc8021-dc8f-4fd9-896b-693ba18702ed")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "C43")
 					(unit 1)
@@ -5763,7 +5763,7 @@
 			(uuid "4791c8d2-c1cd-4e92-b8aa-3d764cde275a")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "R53")
 					(unit 1)
@@ -6224,7 +6224,7 @@
 			(uuid "590b9145-a0f0-4d4e-abd3-ffba78155562")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "#PWR0119")
 					(unit 1)
@@ -6635,7 +6635,7 @@
 			(uuid "082bffc7-33f8-4aa9-b66a-83ff16bd2f36")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "R27")
 					(unit 1)
@@ -6900,7 +6900,7 @@
 			(uuid "937de2ac-d395-48af-8960-92d01eef2bb7")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "U10")
 					(unit 1)
@@ -7341,7 +7341,7 @@
 			(uuid "d8e5d7c7-bf59-4a9d-88aa-281e2a1b14a3")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "FB4")
 					(unit 1)
@@ -7782,7 +7782,7 @@
 			(uuid "afcc5b61-c86c-4bc0-8d29-adef30261db0")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "Y2")
 					(unit 1)
@@ -8239,7 +8239,7 @@
 			(uuid "30ca6dca-a0b1-400d-8d84-2f9ba2db09a2")
 		)
 		(instances
-			(project ""
+			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "C39")
 					(unit 1)
