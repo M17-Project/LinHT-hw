@@ -1,0 +1,223 @@
+(footprint "L_Bourns-SRN6028C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bourns SRN6028C series SMD inductor")
+	(tags "Bourns SRN6028C SMD inductor")
+	(property "Reference" "REF**"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "daf66178-eb6c-489b-8f5c-54e6dae2ece5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Bourns-SRN6028C"
+		(at 0 -4 0)
+		(layer "F.Fab")
+		(uuid "fdf7eba9-5d9e-4c07-9c35-e228587bb1b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN6028C.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3602562a-d2c9-46a6-9e31-bf5c62145923")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df08cf54-d174-4195-864e-3b7fd94c1b7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.4 -3.3)
+		(end -3.4 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6235addd-c628-4c74-b4ab-955f6f63de26")
+	)
+	(fp_line
+		(start -3.4 -3.3)
+		(end -2 -3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "faaf399b-65ca-4aae-8c57-8f3d3cff1c1c")
+	)
+	(fp_line
+		(start -3.4 3.3)
+		(end -3.4 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b796f7da-0fbc-4c1e-8818-532b99affdcb")
+	)
+	(fp_line
+		(start -3.4 3.3)
+		(end -2 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be3b2ff0-aaed-403b-9585-844e4ab1f158")
+	)
+	(fp_line
+		(start 3.4 -3.3)
+		(end 2 -3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb39bb84-edc5-4cb2-9e9b-c49adb1fc5ba")
+	)
+	(fp_line
+		(start 3.4 -3.3)
+		(end 3.4 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4faf4a2-be0b-4c05-abff-8b0ff4012b6b")
+	)
+	(fp_line
+		(start 3.4 3.3)
+		(end 2 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26cbf919-c62f-4868-bd8f-bccb3baba0ef")
+	)
+	(fp_line
+		(start 3.4 3.3)
+		(end 3.4 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01036a2c-d58f-49cc-a051-5c3412c0c3ca")
+	)
+	(fp_rect
+		(start -3.3 -3.2)
+		(end 3.3 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8cb8d1ee-2506-4247-86cb-af735e61694a")
+	)
+	(fp_line
+		(start -3.3 -3.1)
+		(end -3.3 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "283460c9-1cc6-4720-b7dd-830e93e881b3")
+	)
+	(fp_line
+		(start -3.3 -3.1)
+		(end 3.3 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fda4f066-e2af-4961-badb-84a07e200b91")
+	)
+	(fp_line
+		(start 3.3 -3.1)
+		(end 3.3 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f77e8f54-4421-4498-9683-1f2d2f52155d")
+	)
+	(fp_line
+		(start 3.3 3.1)
+		(end -3.3 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2aaf7b45-1223-471b-8fe3-7ac6f9ab528d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f406d73b-bddc-4b4a-9607-6ba061a0fe9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.25 0)
+		(size 2 6.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f20c743-9438-4143-a4fe-102d9d05d192")
+	)
+	(pad "2" smd rect
+		(at 2.25 0)
+		(size 2 6.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8ff0dd5-5951-4426-b8ed-919c5e7c35da")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/parts.3dshapes/SRN6028C.stp"
+		(offset
+			(xyz 0 0 1.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -90)
+		)
+	)
+)

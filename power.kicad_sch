@@ -6678,6 +6678,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 140.97) (xy 83.82 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d604be7c-fb95-40b2-9c22-3a7926f3d968")
+	)
+	(wire
+		(pts
 			(xy 59.69 81.28) (xy 62.23 81.28)
 		)
 		(stroke
@@ -6705,6 +6715,16 @@
 			(type default)
 		)
 		(uuid "d6dfc043-ef0e-4f89-975d-27e89f3b3be0")
+	)
+	(wire
+		(pts
+			(xy 78.74 140.97) (xy 83.82 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d62159-45b3-46c4-9bc3-c4bdd1b5530a")
 	)
 	(wire
 		(pts
@@ -7025,6 +7045,16 @@
 			(type default)
 		)
 		(uuid "eff9bf5a-68f3-4159-8de8-3eb951dd8761")
+	)
+	(wire
+		(pts
+			(xy 83.82 135.89) (xy 102.87 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f393e7f0-ee46-40ee-b9bb-4a0572812ae1")
 	)
 	(wire
 		(pts
@@ -12327,7 +12357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRN6028"
+		(property "Footprint" "parts:L_Bourns-SRN6028C"
 			(at 226.06 88.9 0)
 			(effects
 				(font
@@ -12354,7 +12384,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3221249"
+		(property "LCSC" "C19947654"
 			(at 226.06 88.9 90)
 			(effects
 				(font
@@ -12363,7 +12393,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " SRN6028-4R7M "
+		(property "MPN" " SRN6028C-4R7M "
 			(at 226.06 88.9 90)
 			(effects
 				(font
@@ -12372,7 +12402,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "652-SRN6028-4R7M "
+		(property "PN" "652-SRN6028C-4R7M"
 			(at 226.06 88.9 90)
 			(effects
 				(font
@@ -15159,6 +15189,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 102.87 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9b6db15-b418-4bc1-926c-a838fd9e109d")
+		(property "Reference" "TP16"
+			(at 107.95 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPDI_VCC"
+			(at 113.284 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 102.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 102.87 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f079a3bb-408f-4822-848f-5db45ffb49f7")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/be402a1e-34f3-489f-9745-963b98ced0ff"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 231.14 54.61 0)
 		(mirror y)
@@ -16244,10 +16349,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee1a63a5-f8a4-4d43-b3c9-f4fcca80880d")
 		(property "Reference" "U14"
-			(at 80.8833 140.97 0)
+			(at 84.328 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16256,7 +16360,7 @@
 			)
 		)
 		(property "Value" "ATtiny826"
-			(at 80.8833 143.51 0)
+			(at 84.328 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)

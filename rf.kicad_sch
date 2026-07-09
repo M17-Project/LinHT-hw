@@ -9244,7 +9244,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20623501"
+		(property "LCSC" "C40976557"
 			(at 140.97 52.07 0)
 			(effects
 				(font
@@ -9253,7 +9253,16 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "0402HP-20NXGLW"
+		(property "MP" " 0402HP-20NXGRW"
+			(at 140.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "994-0402HP-20NXGRW"
 			(at 140.97 52.07 0)
 			(effects
 				(font

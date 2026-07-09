@@ -2368,12 +2368,6 @@
 		(uuid "07c418ee-583f-49a1-ade4-e601290aad77")
 	)
 	(junction
-		(at 114.3 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "097aaff8-72d3-42e3-b8b1-b936fd2ee4a1")
-	)
-	(junction
 		(at 147.32 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2769,16 +2763,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 114.3 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db729d9-bd9b-4b7e-9c4b-d223a39c1857")
-	)
-	(wire
-		(pts
 			(xy 138.43 123.19) (xy 138.43 125.73)
 		)
 		(stroke
@@ -2849,16 +2833,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 130.81) (xy 111.76 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbda47d-c3da-4580-94fd-9289ed4214f0")
-	)
-	(wire
-		(pts
 			(xy 151.13 67.31) (xy 151.13 68.58)
 		)
 		(stroke
@@ -2906,16 +2880,6 @@
 			(type default)
 		)
 		(uuid "4ff35436-70c5-4723-9d19-847a8e327c7f")
-	)
-	(wire
-		(pts
-			(xy 114.3 128.27) (xy 114.3 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "501188e6-f75a-47a2-b23f-5bb8fa956361")
 	)
 	(wire
 		(pts
@@ -3096,16 +3060,6 @@
 			(type default)
 		)
 		(uuid "672bfa65-6d49-4818-aaa4-49762a218750")
-	)
-	(wire
-		(pts
-			(xy 106.68 113.03) (xy 114.3 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67990e88-f3f3-4cec-8d17-467f79fe9135")
 	)
 	(wire
 		(pts
@@ -3339,7 +3293,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 123.19 113.03)
+			(xy 106.68 113.03) (xy 123.19 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3922,17 +3876,6 @@
 			(justify right)
 		)
 		(uuid "93974a46-622c-4b57-9c86-1e76c2fba99a")
-	)
-	(hierarchical_label "I2S_MCLK_IN"
-		(shape input)
-		(at 111.76 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba34a123-86a1-436a-a76d-357152ae4a1f")
 	)
 	(hierarchical_label "I2S_DATA_OUT"
 		(shape output)
@@ -5714,85 +5657,6 @@
 			(project "linht-hw"
 				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 114.3 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "50d3f881-6271-4424-a008-de9df4bbc85b")
-		(property "Reference" "R53"
-			(at 116.84 124.4599 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 116.84 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "312b1ddc-9d5a-4398-af61-ba8e7c0c86c2")
-		)
-		(pin "1"
-			(uuid "4791c8d2-c1cd-4e92-b8aa-3d764cde275a")
-		)
-		(instances
-			(project "linht-hw"
-				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/c40b23ce-765e-4258-88c6-173a78d6d517"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -7727,22 +7591,22 @@
 		(dnp no)
 		(uuid "c7dccb06-a85c-404c-af92-325356c6f5ad")
 		(property "Reference" "Y2"
-			(at 109.474 114.808 0)
+			(at 102.362 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "12.288M"
-			(at 109.474 117.348 0)
+		(property "Value" "12.0M"
+			(at 102.362 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "parts:Oscillator_SMD_4Pin_2.0x1.6mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
 			(at 107.95 121.92 0)
 			(effects
 				(font
@@ -7769,7 +7633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5203555"
+		(property "LCSC" "C17241106"
 			(at 96.52 113.03 0)
 			(effects
 				(font
@@ -7778,16 +7642,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "OT3EL4C4JI-111OLP-12.288M"
-			(at 96.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
+		(property "MPN" "520-2520MV-120-BN-T"
 			(at 96.52 113.03 0)
 			(effects
 				(font

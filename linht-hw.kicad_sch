@@ -406,6 +406,10 @@
 		(uuid "ac97f258-32d6-4326-9c7d-70d0f9f944ff")
 	)
 	(no_connect
+		(at 127 119.38)
+		(uuid "3ba61283-46ab-4d61-922d-19048beedd10")
+	)
+	(no_connect
 		(at 127 35.56)
 		(uuid "694ff94e-0d28-4648-ac51-82340dc7e608")
 	)
@@ -802,16 +806,6 @@
 			(type default)
 		)
 		(uuid "58cc5eab-d63f-470a-a3ad-3272e22db80f")
-	)
-	(wire
-		(pts
-			(xy 113.03 119.38) (xy 127 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59aa64cf-fe4e-42c8-a7f8-7bbabafe73d6")
 	)
 	(wire
 		(pts
@@ -3117,16 +3111,6 @@
 		(pin "I2C_SDA" bidirectional
 			(at 113.03 114.3 0)
 			(uuid "c5aff53b-e2ee-4307-8b24-8c6de8aa8180")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2S_MCLK_IN" input
-			(at 113.03 119.38 0)
-			(uuid "5fa5bce4-062a-4bd6-b62d-95468db61785")
 			(effects
 				(font
 					(size 1.27 1.27)
