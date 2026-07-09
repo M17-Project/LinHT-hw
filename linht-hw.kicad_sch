@@ -445,7 +445,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 113.03) (xy 127 113.03)
+			(xy 113.03 114.3) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
@@ -945,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 110.49) (xy 127 110.49)
+			(xy 113.03 111.76) (xy 127 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1135,6 +1135,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc90d230-7e4f-4bee-b8ba-3c48366acf0f")
+	)
+	(wire
+		(pts
 			(xy 163.83 67.31) (xy 176.53 67.31)
 		)
 		(stroke
@@ -1234,7 +1244,7 @@
 		(uuid "be42dd87-15ee-4efd-87f2-97bdb1979727")
 	)
 	(label "I2C_SCL"
-		(at 116.84 110.49 0)
+		(at 116.84 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1254,7 +1264,7 @@
 		(uuid "daf683b8-ae8f-4e24-80d6-438b5fb0817e")
 	)
 	(label "I2C_SDA"
-		(at 116.84 113.03 0)
+		(at 116.84 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2642,7 +2652,7 @@
 			)
 		)
 		(pin "I2C_SCL" output
-			(at 127 110.49 180)
+			(at 127 111.76 180)
 			(uuid "94b273bd-4f52-4536-8d40-9be4b37e4f6d")
 			(effects
 				(font
@@ -2652,7 +2662,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 127 113.03 180)
+			(at 127 114.3 180)
 			(uuid "b4db390f-9ff1-4fe8-bf7c-6dd30f20a68b")
 			(effects
 				(font
@@ -2839,6 +2849,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CODEC_RST" output
+			(at 127 109.22 180)
+			(uuid "4b71fa5e-7747-4661-86f7-1d02e5390955")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3085,7 +3105,7 @@
 			)
 		)
 		(pin "I2C_SCL" input
-			(at 113.03 110.49 0)
+			(at 113.03 111.76 0)
 			(uuid "4fa76d9a-4690-4dca-a605-c4d706f1bd8b")
 			(effects
 				(font
@@ -3095,7 +3115,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 113.03 113.03 0)
+			(at 113.03 114.3 0)
 			(uuid "c5aff53b-e2ee-4307-8b24-8c6de8aa8180")
 			(effects
 				(font
@@ -3127,6 +3147,16 @@
 		(pin "MIC_EXT" input
 			(at 113.03 139.7 0)
 			(uuid "9d48db58-8a4a-4f07-924e-d8a06f6c750d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET" input
+			(at 113.03 109.22 0)
+			(uuid "3add6859-2616-49ef-952a-2ad375c44622")
 			(effects
 				(font
 					(size 1.27 1.27)

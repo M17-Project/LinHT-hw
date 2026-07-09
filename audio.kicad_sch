@@ -2464,6 +2464,12 @@
 		(uuid "c1b142e5-ed03-4d00-aa80-246751cde413")
 	)
 	(junction
+		(at 116.84 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf2e381b-de9c-47e3-a1ee-316ce590c532")
+	)
+	(junction
 		(at 241.3 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2690,6 +2696,16 @@
 			(type default)
 		)
 		(uuid "2389f150-bcfa-4a97-98aa-ebb7249dd104")
+	)
+	(wire
+		(pts
+			(xy 97.79 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2473b2b8-862c-4e04-a643-cc1943c8d30e")
 	)
 	(wire
 		(pts
@@ -3895,6 +3911,17 @@
 			(justify right)
 		)
 		(uuid "7bcc8d23-593c-4adb-9281-ebe0860f51fb")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 97.79 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93974a46-622c-4b57-9c86-1e76c2fba99a")
 	)
 	(hierarchical_label "I2S_MCLK_IN"
 		(shape input)

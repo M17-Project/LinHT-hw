@@ -4042,10 +4042,6 @@
 		(uuid "5205e7ff-d7b9-4de7-8d44-4262475ecf96")
 	)
 	(no_connect
-		(at 127 45.72)
-		(uuid "52a6f0b0-39c8-4eb3-9302-5b909aba66dd")
-	)
-	(no_connect
 		(at 143.51 146.05)
 		(uuid "55ce45f1-f3ff-4422-9601-2f638be9d409")
 	)
@@ -4673,6 +4669,16 @@
 			(type default)
 		)
 		(uuid "4334e8a2-77c7-48d4-bdf7-1363bb4cd785")
+	)
+	(wire
+		(pts
+			(xy 127 40.64) (xy 127 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ab961e-5c11-4457-a5c4-99c9cc119bca")
 	)
 	(wire
 		(pts
@@ -6200,6 +6206,17 @@
 			(justify left)
 		)
 		(uuid "9e83f590-b020-41ef-bf86-97cb65f3e5a5")
+	)
+	(hierarchical_label "CODEC_RST"
+		(shape output)
+		(at 127 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3b769a1-398e-4089-8229-75e8a1cf8640")
 	)
 	(hierarchical_label "I2S0_WS"
 		(shape input)
