@@ -25,8 +25,10 @@ for **radio amateurs, SDR experimenters, and developers**.
 This repository contains the **hardware design files** for LinHT.
 
 > 📅 **July 2026 status**<br>
-> Rev B test results are [here](https://m17project.org/2026/06/16/linht-rev-b-status-what-works-what-broke-and-why-rev-c-is-next/). Rev C is being prepared.<br>
-> Please check this page later for updates.
+> Rev B was manufactured and tested; the results are summarized in the
+> [Rev B status report](https://m17project.org/2026/06/16/linht-rev-b-status-what-works-what-broke-and-why-rev-c-is-next/).<br>
+> Rev C is the current development revision on `main`. It has not yet been
+> tagged, manufactured, or validated.
 
 > ⚠️ **Important**<br>
 > LinHT is **not a consumer product** yet.<br>
@@ -35,7 +37,8 @@ This repository contains the **hardware design files** for LinHT.
 ## Key ideas behind LinHT
 
 * **True SDR**: IQ baseband access, not FM-only
-* **Linux-first**: no microcontroller firmware lock-in
+* **Linux-first**: Linux runs the UI, DSP, and radio control; the ATtiny handles
+  power sequencing
 * **No FPGA**: easier development, lower entry barrier
 * **Open everything**: hardware, software, toolchains
 * **Hackable handheld**: not just another black box walkie-talkie
@@ -59,19 +62,38 @@ LinHT is built around a Linux SoM and a wideband IQ transceiver.
 * 2 GB LPDDR4
 * 32 GB eMMC
 
-### RF capabilities (revision B target)
+### Main components
+
+| Device | Role in LinHT | Main features |
+| ------ | ------------- | ------------- |
+| `MCM-iMX93-C1700D-D2-N32` | Linux System-on-Module | Dual Cortex-A55, Cortex-M33, 2 GB LPDDR4, 32 GB eMMC |
+| `SX1255IWLTRT` | Direct-IQ RF front-end | Programmable UHF RX/TX signal chain with separate I/Q baseband paths |
+| `GRF5604` | RF power amplifier | 100–600 MHz, 6 W class; about 4.5 W CW measured on Rev B |
+| 2× `PE4312C-Z` | Receive-path attenuation | 6-bit digital step attenuator, 0.5 dB steps, 31.5 dB range per device |
+| `SKY13330-397LF` | RF TX/RX switching | SPDT RF switch covering 0.1–6.0 GHz |
+| `TLV320AIC3100IRHBR` | Audio codec | Low-power codec with audio processing and mono Class-D speaker amplifier |
+| `LG77LICMD` | GNSS receiver | Single-band, multi-constellation GPS, GLONASS, Galileo, BDS, and QZSS |
+| `BQ25792RQMR` | USB-C battery charger and power path | Buck-boost charger for the 2S battery, I2C control and telemetry |
+| `ATtiny826-MU` | Always-on power-management controller | Rail sequencing, button handling, boot-mode control, and shutdown coordination |
+| `TPS565242DRLR` | Main 5 V supply | 5 A synchronous step-down converter |
+
+### RF capabilities
+
+The values below describe the tested Rev B hardware and the current Rev C
+design. Rev C retains the same main RF chain but must be measured again after
+manufacturing.
 
 | Parameter       | Value                                                         |
 | --------------- | ------------------------------------------------------------- |
 | Frequency range | **UHF band** (exact limits depend on PA/filter configuration) |
 | Bandwidth       | up to **500 kHz IQ**                                          |
 | Architecture    | Direct IQ (complex baseband)                                  |
-| TX power        | up to **~5 W** (revision B, internal PA)                      |
-| RX features     | Programmable attenuation, gain control                        |
+| TX power        | about **4.5 W CW** measured on Rev B; around 3.5 W during an M17 test |
+| RX features     | Two programmable step attenuators and gain control             |
 | Modes           | FM, SSB, M17, experimental digital modes                      |
 
 > 📌 **UHF only!**<br>
-> VHF support is frequently requested, but **is not planned for revision B**.
+> VHF is not supported by the current hardware revisions.
 > The current priority is **stability, manufacturability, and software maturity**.
 
 ## Software overview
@@ -89,7 +111,10 @@ embedded radio use.
 
 Standard Linux tools (gcc, gdb, strace, etc.) are available directly on the device.
 
-### Supported modes (current status)
+### Supported modes
+
+This list reflects software and hardware work demonstrated with Rev A and Rev B.
+Rev C hardware has not yet been tested.
 
 * ✅ FM (TX/RX) with pre-/de-emphasis and CTCSS
 * ✅ SSB (TX/RX)
@@ -104,32 +129,12 @@ LinHT is developed iteratively. Each revision serves a specific purpose.
 
 | Revision   | Status                                        | Purpose                                      |
 | ---------- | --------------------------------------------- | -------------------------------------------- |
-| **Rev. A** | <span style="color:green">Completed</span>    | Early prototype, architecture validation     |
-| **Rev. B** | <span style="color:orange">In progress</span> | Feature-complete, manufacturing-ready design |
+| **Rev. A** | Completed | Architecture proof of concept |
+| **Rev. B** | Prototype tested | Integrated feature prototype and system testing |
+| **Rev. C** | In development (`main`) | Targeted corrections based on Rev B testing |
 
-### Revision A
-
-* Manufactured earlier in 2025
-* **4 assembled prototype units**
-* Used to:
-  * validate the Linux + SDR architecture,
-  * bring up SX1255 under Linux,
-  * start software and DSP development,
-  * identify mechanical, RF, and power issues
-* Revision A was **never intended for production**.
-
-### Revision B (current focus)
-
-* Incorporates lessons learned from Rev. A
-* Major improvements:
-  * redesigned power supply
-  * internal RF power amplifier (~5W at 435MHz, CW)
-  * improved RF receiver path (added variable attenuation)
-  * GNSS receiver
-  * battery charging through USB-C
-  * cleaner layout and grounding
-
-* **Not yet released for manufacturing**
+See the [project changelog](CHANGELOG.md) for the changes introduced by each
+hardware revision.
 
 ## Repository contents
 
@@ -145,6 +150,10 @@ Gerbers, BOM, pick-and-place files, and schematics are:
 * generated automatically via **GitHub Actions**
 * published on [**GitHub Pages**](https://m17-project.github.io/LinHT-hw/)
 
+Generated outputs follow the current `main` branch and therefore currently
+represent the unvalidated Rev C design. Use the `revA` and `revB` Git tags for
+historical revision snapshots.
+
 ## Required hardware (donor radio)
 
 LinHT is designed as a **replacement mainboard** for the
@@ -152,11 +161,13 @@ LinHT is designed as a **replacement mainboard** for the
 
 * a Retevis C62 (donor device)
 * its:
-  * enclosure
-  * display
-  * keypad
-  * battery
-  * connectors
+    * enclosure
+    * display
+    * keypad
+    * battery
+    * side-button PCB
+    * SMA connector and audio jacks
+    * rotary encoder, springs, and mechanical hardware
 
 More details (Rev. A focused, older but useful): [LinHT Open SDR Handheld For Radio Amateurs](https://uart.cz/2811/linht-open-sdr-handheld-for-radio-amateurs/)
 
@@ -179,9 +190,19 @@ Yocto layers:
 
 Flashing is done using **NXP Universal Update Utility (uuu)**.
 
-1. Boot LinHT into flash mode
-   (hold the secondary side button while powering on)
-2. Flash using:
+The intended Rev C workflow is to hold the secondary side button while powering
+on. The ATtiny then requests USB boot from the SoM through the corrected
+level-domain interface. This Rev C workflow has not yet been validated on
+manufactured hardware.
+
+Rev B cannot use the side-button USB-boot function reliably. Its ATtiny firmware
+disables that behavior; development boards are flashed by interrupting U-Boot
+over the Kenwood connector and running `ums 0 mmc 0`, or by manually driving the
+SoM `USB_BOOT` input. See the
+[Rev B status report](https://m17project.org/2026/06/16/linht-rev-b-status-what-works-what-broke-and-why-rev-c-is-next/)
+for the hardware background.
+
+Once the board is in USB boot mode, flash it using:
 
 ```bash
 uuu -v -b emmc_all imx-boot-mcm-imx93-sd.bin-flash_singleboot linht-image-mcm-imx93.rootfs.wic.zst
@@ -215,10 +236,10 @@ Other ways to contribute:
 
 * Open issues in this repository (design notes, questions, suggestions)
 * Help on the **software side** (especially welcome):
-  * Yocto recipes
-  * device tree improvements
-  * CI / GitHub Actions
-  * build automation
+    * Yocto recipes
+    * device tree improvements
+    * CI / GitHub Actions
+    * build automation
 * Explore and extend [LinHT-utils](https://github.com/M17-Project/LinHT-utils)
 
 If you’re an experienced **embedded Linux or SDR developer**, we would love
@@ -233,12 +254,8 @@ You currently **cannot buy LinHT as a product**. To build LinHT, you need to:
 * manufacture the PCB yourself (using provided Gerbers),
 * source components,
 * assemble the board,
-* use a **Retevis C62** handheld radio as a donor for:
-  * enclosure,
-  * display,
-  * keypad,
-  * battery,
-  * connectors.
+* reuse the parts listed under [Required hardware](#required-hardware-donor-radio)
+  from a **Retevis C62** donor radio.
 
 This may change in the future.
 
@@ -262,22 +279,21 @@ You should **not** expect:
 
 ### ❓ Does LinHT support VHF?
 
-**No, not in revision B.**
+**No. The current LinHT hardware revisions are UHF-only.**
 
 VHF support is a **frequently requested feature**, but it is
-**not planned for revision B**, adding another band significantly increases:
+not currently planned. Adding another band significantly increases:
 
-  * RF complexity,
-  * filtering requirements,
-  * PCB area,
-  * development time.
+* RF complexity,
+* filtering requirements,
+* PCB area,
+* development time.
 
 Right now, the project is focused on:
 
-* stabilizing the hardware,
-* finishing revision B,
+* manufacturing and validating Rev C,
 * improving software and DSP,
-* validating the new power amplifier and RF chain.
+* validating the RF chain, power management, audio, and GNSS integration.
 
 VHF is **not ruled out** for future revisions, but it is
 **not a current priority**.
@@ -332,4 +348,3 @@ Thanks to everyone testing prototypes, reviewing schematics, writing software, a
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-
