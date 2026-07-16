@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.275,
-          "width": 0.64
+          "drill": 0.4,
+          "height": 2.2,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,7 +76,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|108775500|119310000|02a1131b-98f8-4e77-8f06-f91a9c7aba4e|17b7483f-1cbe-4de4-ba83-99e1a907f329",
+          ""
+        ],
+        [
+          "clearance|110455000|119230500|74cf3d9e-d74b-46d4-83e5-241b865105e9|074758df-e958-4e73-be7f-4dfd6804f3ff",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -253,7 +262,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "C"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -821,6 +830,12 @@
           "label": "MP",
           "name": "MP",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -830,19 +845,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {
-      "KBD": [
-        "D1",
-        "D2",
-        "D3",
-        "D4",
-        "D5",
-        "D6",
-        "D7",
-        "D8",
-        "D9"
-      ]
-    },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -871,7 +874,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -888,7 +891,7 @@
       {
         "filename": "linht-hw.kicad_sch",
         "name": "linht-hw",
-        "uuid": "73efc1fc-21f6-4aef-9f73-508fe18fa32e"
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
     "used_designators": "",
@@ -897,7 +900,7 @@
   "sheets": [
     [
       "73efc1fc-21f6-4aef-9f73-508fe18fa32e",
-      "linht-hw"
+      "Root"
     ],
     [
       "9e50fe40-00b4-48a0-8ec6-ce79209e6a2d",
