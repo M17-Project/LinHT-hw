@@ -11,6 +11,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check KiCad
+        run: |
+          kicad-cli --version
+          ls -lh linht-hw.kicad_pcb
+          head -5 linht-hw.kicad_pcb
+
       - name: Build Everything
         run: make
 
