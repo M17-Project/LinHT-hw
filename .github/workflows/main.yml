@@ -9,7 +9,7 @@ jobs:
       image: ghcr.io/slintak/kicad-builder:latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Check KiCad
         run: |
@@ -21,14 +21,14 @@ jobs:
         run: make
 
       - name: Upload Fabrication Files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: build-fabrication
           path: build/web/files/
           if-no-files-found: error
 
       - name: Upload Web Files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: build-web
           path: build/web/
@@ -53,16 +53,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get Web Files
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: build-web
           path: build/
 
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: build/
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
