@@ -1,6 +1,7 @@
-.PHONY: all clean
+.PHONY: all clean side-fabrication
 
 BOARD = linht-hw
+SIDE_BOARD = side-pcb/side-pcb
 
 FABHOUSES = jlcpcb pcbway
 
@@ -29,7 +30,14 @@ STATIC_DIRS := $(shell find present/template -mindepth 1 -maxdepth 1 -type d)
 
 GERBER_ZIPS = $(foreach fab,$(FABHOUSES),$(TEMPLATE_FAB_DIR)/gerbers_$(fab).zip)
 
-all: render models fabrication web
+all: render models fabrication side-fabrication web
+
+side-fabrication: $(TEMPLATE_FAB_DIR)/side-pcb_gerbers.zip
+
+$(TEMPLATE_FAB_DIR)/side-pcb_gerbers.zip: $(SIDE_BOARD).kicad_pcb
+	@mkdir -p $(TEMPLATE_FAB_DIR)
+	kikit fab jlcpcb --no-drc $< $(TEMPLATE_BUILD_DIR)/fab_side-pcb
+	@cp $(TEMPLATE_BUILD_DIR)/fab_side-pcb/gerbers.zip $@
 
 web: $(MARKDOWN_HTML) $(COPIED_J2) $(COPIED_JSON) $(RENDERED_HTML)
 

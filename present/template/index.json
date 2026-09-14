@@ -5,6 +5,7 @@
   "files": [
     {"file": "gerbers_jlcpcb.zip", "description": "Gerber Files for JLCPCB (ZIP)"},
     {"file": "gerbers_pcbway.zip", "description": "Gerber Files for PCBWay (ZIP)"},
+    {"file": "side-pcb_gerbers.zip", "description": "LinHT Side Buttons PCB - Gerber Files (ZIP)"},
     {"file": "linht-hw_pos.csv", "description": "Position File (CSV)"},
     {"file": "linht-hw_pos.txt", "description": "Position File (ASCII)"},
     {"file": "linht-hw_pos_jlcpcb.csv", "description": "Position File for JLCPCB (CSV)"},
