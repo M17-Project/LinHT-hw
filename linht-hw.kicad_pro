@@ -76,16 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|108775500|119310000|02a1131b-98f8-4e77-8f06-f91a9c7aba4e|17b7483f-1cbe-4de4-ba83-99e1a907f329",
-          ""
-        ],
-        [
-          "clearance|110455000|119230500|74cf3d9e-d74b-46d4-83e5-241b865105e9|074758df-e958-4e73-be7f-4dfd6804f3ff",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -262,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "C"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -845,7 +836,19 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "KBD": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -891,16 +894,16 @@
       {
         "filename": "linht-hw.kicad_sch",
         "name": "linht-hw",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "73efc1fc-21f6-4aef-9f73-508fe18fa32e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG4,TP17-22",
     "variants": []
   },
   "sheets": [
     [
       "73efc1fc-21f6-4aef-9f73-508fe18fa32e",
-      "Root"
+      "linht-hw"
     ],
     [
       "9e50fe40-00b4-48a0-8ec6-ce79209e6a2d",

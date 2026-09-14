@@ -411,7 +411,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -461,7 +461,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -4800,6 +4800,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "CTRL signal should be 1.8 V logic:\n  LOW = 0  - 0.4 V\n  HIGH = 1.65  - 2.7 V"
 		(exclude_from_sim no)
@@ -5010,6 +5125,12 @@
 		(uuid "9105419e-8124-400a-baa6-187a0df5d969")
 	)
 	(junction
+		(at 140.97 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d983393-ef0d-49aa-bce6-c84f9c9c484b")
+	)
+	(junction
 		(at 82.55 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5185,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 116.84) (xy 82.55 116.84)
+			(xy 85.09 116.84) (xy 82.55 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5415,7 +5536,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.885 24.13) (xy 95.885 26.67)
+			(xy 95.25 24.13) (xy 95.25 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5575,7 +5696,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 26.67) (xy 95.885 26.67)
+			(xy 92.71 26.67) (xy 95.25 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5775,7 +5896,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.885 90.17) (xy 95.885 92.71)
+			(xy 95.25 90.17) (xy 95.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5995,7 +6116,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 116.84) (xy 95.25 115.57)
+			(xy 93.98 116.84) (xy 93.98 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6085,13 +6206,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 92.71) (xy 85.725 92.71)
+			(xy 80.01 92.71) (xy 85.09 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "599a53cf-acee-4097-aebc-a10cce2f5405")
+	)
+	(wire
+		(pts
+			(xy 138.43 57.15) (xy 138.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5adcf303-117a-4985-b13b-3df0a4789af8")
 	)
 	(wire
 		(pts
@@ -6275,7 +6406,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 92.71) (xy 95.885 92.71)
+			(xy 92.71 92.71) (xy 95.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6905,7 +7036,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 30.48) (xy 95.25 30.48)
+			(xy 92.71 30.48) (xy 95.25 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7015,7 +7146,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 50.8) (xy 82.55 50.8)
+			(xy 85.09 50.8) (xy 82.55 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7025,7 +7156,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 96.52) (xy 83.82 96.52)
+			(xy 85.09 96.52) (xy 83.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7075,6 +7206,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 58.42) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6baeaaa-16dd-465c-b51b-4b4cecdc4985")
+	)
+	(wire
+		(pts
 			(xy 48.26 55.88) (xy 48.26 58.42)
 		)
 		(stroke
@@ -7115,7 +7256,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 50.8) (xy 95.25 50.8)
+			(xy 92.71 50.8) (xy 93.98 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7145,7 +7286,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 30.48) (xy 83.82 30.48)
+			(xy 85.09 30.48) (xy 83.82 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7225,7 +7366,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 96.52) (xy 95.25 96.52)
+			(xy 92.71 96.52) (xy 95.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7242,6 +7383,16 @@
 			(type default)
 		)
 		(uuid "c639c82b-ba8f-451f-8552-ec608de7bf0e")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64ca9ad-0b63-41ba-87f7-01fb047adc9d")
 	)
 	(wire
 		(pts
@@ -7315,7 +7466,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 116.84) (xy 95.25 116.84)
+			(xy 92.71 116.84) (xy 93.98 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7485,7 +7636,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 50.8) (xy 95.25 49.53)
+			(xy 93.98 50.8) (xy 93.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7715,7 +7866,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 55.88) (xy 140.97 60.96)
+			(xy 140.97 55.88) (xy 140.97 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7875,7 +8026,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 26.67) (xy 85.725 26.67)
+			(xy 80.01 26.67) (xy 85.09 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8915,7 +9066,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 89.535 26.67 270)
+		(at 88.9 26.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8925,7 +9076,7 @@
 		(dnp no)
 		(uuid "033bb7de-cc75-432c-bfa8-f5f119eadc4a")
 		(property "Reference" "R4"
-			(at 88.011 21.844 90)
+			(at 87.376 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8936,7 +9087,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 86.995 24.13 90)
+			(at 86.36 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8947,7 +9098,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 89.535 24.892 90)
+			(at 88.9 24.892 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,7 +9109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 89.535 26.67 0)
+			(at 88.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8969,7 +9120,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 89.535 26.67 0)
+			(at 88.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8980,7 +9131,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 89.535 26.67 0)
+			(at 88.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8991,7 +9142,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 89.535 26.67 0)
+			(at 88.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9002,7 +9153,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 89.535 26.67 0)
+			(at 88.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9013,7 +9164,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1003TCE"
-			(at 89.535 26.67 90)
+			(at 88.9 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9234,7 +9385,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 95.885 24.13 0)
+		(at 95.25 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9245,7 +9396,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d65052f-c725-4029-af03-a497ac030fbd")
 		(property "Reference" "#PWR0114"
-			(at 95.885 27.94 0)
+			(at 95.25 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9256,7 +9407,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 95.885 19.9969 0)
+			(at 95.25 19.9969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9266,7 +9417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.885 24.13 0)
+			(at 95.25 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9277,7 +9428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.885 24.13 0)
+			(at 95.25 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9288,7 +9439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 95.885 24.13 0)
+			(at 95.25 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9698,7 +9849,7 @@
 		(dnp no)
 		(uuid "19d1c953-bd0d-4e70-83f2-16733d87246d")
 		(property "Reference" "L5"
-			(at 137.668 50.8 0)
+			(at 137.668 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9709,7 +9860,7 @@
 			)
 		)
 		(property "Value" "20nH"
-			(at 135.128 53.34 0)
+			(at 135.128 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11102,7 +11253,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 89.535 92.71 270)
+		(at 88.9 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11112,7 +11263,7 @@
 		(dnp no)
 		(uuid "43f4f5e3-698c-4cd9-8f79-e1454a859b4d")
 		(property "Reference" "R58"
-			(at 88.011 87.884 90)
+			(at 87.376 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11123,7 +11274,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 86.995 90.17 90)
+			(at 86.36 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11134,7 +11285,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 89.535 90.932 90)
+			(at 88.9 90.932 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11145,7 +11296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 89.535 92.71 0)
+			(at 88.9 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11156,7 +11307,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 89.535 92.71 0)
+			(at 88.9 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11167,7 +11318,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 89.535 92.71 0)
+			(at 88.9 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11178,7 +11329,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 89.535 92.71 0)
+			(at 88.9 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11189,7 +11340,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 89.535 92.71 0)
+			(at 88.9 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11200,7 +11351,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1003TCE"
-			(at 89.535 92.71 90)
+			(at 88.9 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12594,7 +12745,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 89.535 30.48 270)
+		(at 88.9 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12604,7 +12755,7 @@
 		(dnp no)
 		(uuid "631a44fc-7cef-42a3-80c1-016fa9362bed")
 		(property "Reference" "R56"
-			(at 87.503 33.02 90)
+			(at 86.868 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12615,7 +12766,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 87.0528 35.306 90)
+			(at 86.4178 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12626,7 +12777,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 89.535 28.702 90)
+			(at 88.9 28.702 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12637,7 +12788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 89.535 30.48 0)
+			(at 88.9 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12648,7 +12799,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 89.535 30.48 0)
+			(at 88.9 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12659,7 +12810,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 89.535 30.48 0)
+			(at 88.9 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12670,7 +12821,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 89.535 30.48 0)
+			(at 88.9 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12681,7 +12832,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 89.535 30.48 0)
+			(at 88.9 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12692,7 +12843,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1003TCE"
-			(at 89.535 30.48 90)
+			(at 88.9 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12842,7 +12993,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 89.535 116.84 270)
+		(at 88.9 116.84 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12852,7 +13003,7 @@
 		(dnp no)
 		(uuid "66107e05-1f6f-46be-be0b-f6a1f958b5bb")
 		(property "Reference" "R62"
-			(at 87.503 119.38 90)
+			(at 86.868 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12863,7 +13014,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 87.0528 121.666 90)
+			(at 86.4178 121.666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12874,7 +13025,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 89.535 115.062 90)
+			(at 88.9 115.062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12885,7 +13036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 89.535 116.84 0)
+			(at 88.9 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12896,7 +13047,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 89.535 116.84 0)
+			(at 88.9 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12907,7 +13058,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 89.535 116.84 0)
+			(at 88.9 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12918,7 +13069,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 89.535 116.84 0)
+			(at 88.9 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12929,7 +13080,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 89.535 116.84 0)
+			(at 88.9 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12940,7 +13091,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1003TCE"
-			(at 89.535 116.84 90)
+			(at 88.9 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13952,7 +14103,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 95.885 90.17 0)
+		(at 95.25 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13963,7 +14114,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aa82ac2-efe5-4fb4-88be-642fbbe8c068")
 		(property "Reference" "#PWR0118"
-			(at 95.885 93.98 0)
+			(at 95.25 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13974,7 +14125,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 95.885 86.0369 0)
+			(at 95.25 86.0369 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13984,7 +14135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.885 90.17 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13995,7 +14146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.885 90.17 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14006,7 +14157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 95.885 90.17 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14392,7 +14543,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 89.535 96.52 270)
+		(at 88.9 96.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14402,7 +14553,7 @@
 		(dnp no)
 		(uuid "82482863-8b7b-4911-9ecd-83031f5b3d61")
 		(property "Reference" "R59"
-			(at 87.503 99.06 90)
+			(at 86.868 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14413,7 +14564,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 87.0528 101.346 90)
+			(at 86.4178 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14424,7 +14575,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 89.535 94.742 90)
+			(at 88.9 94.742 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14435,7 +14586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 89.535 96.52 0)
+			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14446,7 +14597,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 89.535 96.52 0)
+			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14457,7 +14608,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 89.535 96.52 0)
+			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14468,7 +14619,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 89.535 96.52 0)
+			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14479,7 +14630,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 89.535 96.52 0)
+			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14490,7 +14641,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1003TCE"
-			(at 89.535 96.52 90)
+			(at 88.9 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15503,6 +15654,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 138.43 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93f5b623-f57a-4ae1-b26c-25a0b11e7f0a")
+		(property "Reference" "#FLG04"
+			(at 138.43 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 136.144 58.166 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 138.43 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bf420da-084f-4937-bf3b-9adbdb546666")
+		)
+		(instances
+			(project "linht-hw"
+				(path "/73efc1fc-21f6-4aef-9f73-508fe18fa32e/396f7379-aa29-4457-8ed7-53dec5fceba4"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 151.13 0)
 		(unit 1)
@@ -16181,7 +16409,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 95.25 115.57 0)
+		(at 93.98 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16192,7 +16420,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fd026ca-8706-4d60-bcae-120e3ffc2c2e")
 		(property "Reference" "#PWR0124"
-			(at 95.25 119.38 0)
+			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16203,7 +16431,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 95.25 111.4369 0)
+			(at 93.98 111.4369 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16213,7 +16441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 115.57 0)
+			(at 93.98 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16224,7 +16452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 115.57 0)
+			(at 93.98 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16235,7 +16463,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 95.25 115.57 0)
+			(at 93.98 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16259,7 +16487,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 95.25 49.53 0)
+		(at 93.98 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16270,7 +16498,7 @@
 		(fields_autoplaced yes)
 		(uuid "a02ad1e9-ec82-4e16-99c8-25c29d70ba20")
 		(property "Reference" "#PWR0115"
-			(at 95.25 53.34 0)
+			(at 93.98 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16281,7 +16509,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 95.25 45.3969 0)
+			(at 93.98 45.3969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16291,7 +16519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 49.53 0)
+			(at 93.98 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16302,7 +16530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 49.53 0)
+			(at 93.98 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16313,7 +16541,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 95.25 49.53 0)
+			(at 93.98 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19084,7 +19312,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 89.535 50.8 270)
+		(at 88.9 50.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19094,7 +19322,7 @@
 		(dnp no)
 		(uuid "d44fa444-91cb-4ef3-9b0c-095fe60b6a55")
 		(property "Reference" "R55"
-			(at 87.503 53.34 90)
+			(at 86.868 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19105,7 +19333,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 87.0528 55.626 90)
+			(at 86.4178 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19116,7 +19344,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 89.535 49.022 90)
+			(at 88.9 49.022 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19127,7 +19355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 89.535 50.8 0)
+			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19138,7 +19366,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 89.535 50.8 0)
+			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19149,7 +19377,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 89.535 50.8 0)
+			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19160,7 +19388,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 89.535 50.8 0)
+			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19171,7 +19399,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 89.535 50.8 0)
+			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19182,7 +19410,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1003TCE"
-			(at 89.535 50.8 90)
+			(at 88.9 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
