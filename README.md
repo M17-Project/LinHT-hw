@@ -142,7 +142,7 @@ hardware revision.
 
 This repository contains:
 
-* KiCad 9.0 project files
+* KiCad 10.0 project files
 * Schematics
 * PCB layout
 * Manufacturing outputs (generated automatically)
