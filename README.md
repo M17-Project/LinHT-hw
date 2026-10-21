@@ -132,8 +132,8 @@ LinHT is developed iteratively. Each revision serves a specific purpose.
 | Revision   | Status                                        | Purpose                                      |
 | ---------- | --------------------------------------------- | -------------------------------------------- |
 | **Rev. A** | Completed | Architecture proof of concept |
-| **Rev. B** | Prototype tested | Integrated feature prototype and system testing |
-| **Rev. C** | In development (`main`) | Targeted corrections based on Rev B testing |
+| **Rev. B** | Completed | Integrated feature prototype and system testing |
+| **Rev. C** | In development (`main`), being tested | Targeted corrections based on Rev B testing |
 
 See the [project changelog](CHANGELOG.md) for the changes introduced by each
 hardware revision.
