@@ -39,7 +39,7 @@ $(TEMPLATE_FAB_DIR)/side-pcb_gerbers.zip: $(SIDE_BOARD).kicad_pcb
 	kikit fab jlcpcb --no-drc $< $(TEMPLATE_BUILD_DIR)/fab_side-pcb
 	@cp $(TEMPLATE_BUILD_DIR)/fab_side-pcb/gerbers.zip $@
 
-web: $(MARKDOWN_HTML) $(COPIED_J2) $(COPIED_JSON) $(RENDERED_HTML)
+web: $(MARKDOWN_HTML) $(COPIED_J2) $(COPIED_JSON) $(RENDERED_HTML) build/web/CHANGELOG.html
 
 fabrication: $(TEMPLATE_BUILD_DIR)/panel/$(BOARD)_panel.kicad_pcb $(BOARD).kicad_sch $(GERBER_ZIPS)
 	@mkdir -p $(TEMPLATE_FAB_DIR)
@@ -76,10 +76,21 @@ $(TEMPLATE_BUILD_DIR)/panel/$(BOARD)_panel.kicad_pcb: $(BOARD).kicad_pcb
 	@mkdir -p $(TEMPLATE_BUILD_DIR)/panel
 	kikit panelize -p ./panel.json $< $@
 
-# Convert .md → build/.html using python-markdown
+# Build the README for the website, linking to the rendered changelog.
+build/README.html: README.md
+	@mkdir -p build
+	python3 -m markdown $(MARKDOWN_ARGS) $< \
+		| sed 's/href="CHANGELOG\.md"/href="CHANGELOG.html"/' > $@
+
+# Convert Markdown files to HTML using python-markdown.
 build/%.html: %.md
 	@mkdir -p build
 	python3 -m markdown $(MARKDOWN_ARGS) $< > $@
+
+# Publish the generated changelog with the website.
+build/web/CHANGELOG.html: build/CHANGELOG.html
+	@mkdir -p $(dir $@)
+	cp $< $@
 
 build/%.html.j2: present/template/%.html.j2
 	@mkdir -p build
