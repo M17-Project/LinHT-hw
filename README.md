@@ -16,10 +16,9 @@ It is the successor of the OpenHT project, developed by the
 [**M17 community**](https://m17project.org) for radio amateurs, SDR experimenters
 and developers. This repository contains the **hardware design files**.
 
-> 📅 **October 2026 status**<br>
-> Rev C boards are being tested. Rev C is the current revision on `main` and is
-> not yet tagged or validated. Rev B results are in the
-> [Rev B status report](https://m17project.org/2026/06/16/linht-rev-b-status-what-works-what-broke-and-why-rev-c-is-next/).
+> 📅 **November 2026 status**<br>
+> Rev C is the current revision on `main`.<br>
+> Please see the [Rev C status report](https://m17project.org/2026/11/08/linht-rev-c-is-alive-what-works-and-what-comes-next/).
 
 > ⚠️ **Important**<br>
 > LinHT is an experimental, community-driven project, **not a consumer product**.
